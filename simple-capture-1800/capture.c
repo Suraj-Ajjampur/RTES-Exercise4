@@ -96,30 +96,32 @@ char ppm_dumpname[]="frames/test0000.ppm";
 
 static void dump_ppm(const void *p, int size, unsigned int tag, struct timespec *time)
 {
-    int written, i, total, dumpfd;
-   
-    snprintf(&ppm_dumpname[11], 9, "%04d", tag);
-    strncat(&ppm_dumpname[15], ".ppm", 5);
+    struct timespec start_time, end_time;
+    double duration;
+    int written, total, dumpfd;
+
+    openlog("dump_ppm", LOG_PID | LOG_CONS, LOG_USER);
+
     dumpfd = open(ppm_dumpname, O_WRONLY | O_NONBLOCK | O_CREAT, 00666);
 
-    snprintf(&ppm_header[4], 11, "%010d", (int)time->tv_sec);
-    strncat(&ppm_header[14], " sec ", 5);
-    snprintf(&ppm_header[19], 11, "%010d", (int)((time->tv_nsec)/1000000));
-    strncat(&ppm_header[29], " msec \n"HRES_STR" "VRES_STR"\n255\n", 19);
-    written=write(dumpfd, ppm_header, sizeof(ppm_header));
+    clock_gettime(CLOCK_MONOTONIC, &start_time); // Start timing
 
-    total=0;
+    // Existing header write operation
+    written = write(dumpfd, ppm_header, sizeof(ppm_header));
 
-    do
-    {
-        written=write(dumpfd, p, size);
-        total+=written;
+    total = 0;
+    do {
+        written = write(dumpfd, p, size);
+        total += written;
     } while(total < size);
 
-    syslog(LOG_INFO, "wrote %d bytes\n", total);
+    clock_gettime(CLOCK_MONOTONIC, &end_time); // End timing
+
+    duration = (end_time.tv_sec - start_time.tv_sec) + (end_time.tv_nsec - start_time.tv_nsec) / 1e9;
+    syslog(LOG_INFO, "PPM write duration: %f seconds", duration);
 
     close(dumpfd);
-    
+    closelog();
 }
 
 
@@ -128,8 +130,12 @@ char pgm_dumpname[]="frames/test0000.pgm";
 
 static void dump_pgm(const void *p, int size, unsigned int tag, struct timespec *time)
 {
+    struct timespec start_time, end_time;
+    double duration;
     int written, i, total, dumpfd;
-   
+    
+    openlog("dump_pgm", LOG_PID | LOG_CONS, LOG_USER);
+
     snprintf(&pgm_dumpname[11], 9, "%04d", tag);
     strncat(&pgm_dumpname[15], ".pgm", 5);
     dumpfd = open(pgm_dumpname, O_WRONLY | O_NONBLOCK | O_CREAT, 00666);
@@ -138,6 +144,7 @@ static void dump_pgm(const void *p, int size, unsigned int tag, struct timespec 
     strncat(&pgm_header[14], " sec ", 5);
     snprintf(&pgm_header[19], 11, "%010d", (int)((time->tv_nsec)/1000000));
     strncat(&pgm_header[29], " msec \n"HRES_STR" "VRES_STR"\n255\n", 19);
+    clock_gettime(CLOCK_MONOTONIC, &start_time); // Start timing
     written=write(dumpfd, pgm_header, sizeof(pgm_header));
 
     total=0;
@@ -147,6 +154,10 @@ static void dump_pgm(const void *p, int size, unsigned int tag, struct timespec 
         written=write(dumpfd, p, size);
         total+=written;
     } while(total < size);
+    clock_gettime(CLOCK_MONOTONIC, &end_time); // End timing
+
+    duration = (end_time.tv_sec - start_time.tv_sec) + (end_time.tv_nsec - start_time.tv_nsec) / 1e9;
+    syslog(LOG_INFO, "PPM write duration: %f seconds", duration);
 
     syslog(LOG_INFO, "wrote %d bytes\n", total);
 
@@ -280,7 +291,7 @@ static void process_image(const void *p, int size)
         {
             dump_pgm(bigbuffer, (size/2), framecnt, &frame_time);
             syslog(LOG_INFO, "Dump YUYV converted to YY size %d\n", size);
-            //printf("Dump YUYV converted to YY size %d\n", size);
+            printf("Dump YUYV converted to YY size %d\n", size);
         }
 #endif
 
@@ -407,22 +418,20 @@ static int read_frame(void)
     return 1;
 }
 
+
 static void mainloop(void)
 {
     unsigned int count;
-    struct timespec read_delay, time_error, iteration_start, iteration_end;
-    double iteration_duration;
-
-    // Initialize syslog
-    openlog("frame_capture", LOG_CONS | LOG_PID | LOG_NDELAY, LOG_LOCAL1);
+    struct timespec read_delay;
+    struct timespec time_error;
 
     // Replace this with a sequencer DELAY
     //
     // 250 million nsec is a 250 msec delay, for 4 fps
     // 1 sec for 1 fps
-
-    read_delay.tv_sec = 1; // 1 sec for 1 fps
-    read_delay.tv_nsec = 0;
+    //
+    read_delay.tv_sec=1;
+    read_delay.tv_nsec=0;
 
     count = frame_count;
 
@@ -434,13 +443,10 @@ static void mainloop(void)
             struct timeval tv;
             int r;
 
-            // Record the start time of the iteration
-            clock_gettime(CLOCK_MONOTONIC, &iteration_start);
-
             FD_ZERO(&fds);
             FD_SET(fd, &fds);
 
-            /* Timeout */
+            /* Timeout. */
             tv.tv_sec = 2;
             tv.tv_usec = 0;
 
@@ -455,38 +461,28 @@ static void mainloop(void)
 
             if (0 == r)
             {
-                syslog(LOG_ERR, "select timeout");
+                fprintf(stderr, "select timeout\n");
                 exit(EXIT_FAILURE);
             }
 
             if (read_frame())
             {
-                // Calculate the time of the iteration
-                clock_gettime(CLOCK_MONOTONIC, &iteration_end);
-                iteration_duration = (iteration_end.tv_sec - iteration_start.tv_sec) + 
-                                     (iteration_end.tv_nsec - iteration_start.tv_nsec) / 1e9;
-                syslog(LOG_INFO, "Iteration duration: %f seconds", iteration_duration);
-
                 if(nanosleep(&read_delay, &time_error) != 0)
-                    syslog(LOG_ERR, "nanosleep error");
-                //else
-                    // syslog(LOG_INFO, "time_error.tv_sec=%ld, time_error.tv_nsec=%ld", 
-                    //        time_error.tv_sec, time_error.tv_nsec);
+                    perror("nanosleep");
+                else
+                    syslog(LOG_INFO, "time_error.tv_sec=%ld, time_error.tv_nsec=%ld", time_error.tv_sec, time_error.tv_nsec);
 
                 count--;
                 break;
             }
 
-            /* EAGAIN - continue select loop unless count done */
+            /* EAGAIN - continue select loop unless count done. */
             if(count <= 0) break;
         }
 
         if(count <= 0) break;
     }
-
-    closelog(); // Close syslog when done
 }
-
 
 static void stop_capturing(void)
 {
