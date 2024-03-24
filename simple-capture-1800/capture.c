@@ -407,20 +407,22 @@ static int read_frame(void)
     return 1;
 }
 
-
 static void mainloop(void)
 {
     unsigned int count;
-    struct timespec read_delay;
-    struct timespec time_error;
+    struct timespec read_delay, time_error, iteration_start, iteration_end;
+    double iteration_duration;
+
+    // Initialize syslog
+    openlog("frame_capture", LOG_CONS | LOG_PID | LOG_NDELAY, LOG_LOCAL1);
 
     // Replace this with a sequencer DELAY
     //
     // 250 million nsec is a 250 msec delay, for 4 fps
     // 1 sec for 1 fps
-    //
-    read_delay.tv_sec=1;
-    read_delay.tv_nsec=0;
+
+    read_delay.tv_sec = 1; // 1 sec for 1 fps
+    read_delay.tv_nsec = 0;
 
     count = frame_count;
 
@@ -432,10 +434,13 @@ static void mainloop(void)
             struct timeval tv;
             int r;
 
+            // Record the start time of the iteration
+            clock_gettime(CLOCK_MONOTONIC, &iteration_start);
+
             FD_ZERO(&fds);
             FD_SET(fd, &fds);
 
-            /* Timeout. */
+            /* Timeout */
             tv.tv_sec = 2;
             tv.tv_usec = 0;
 
@@ -450,28 +455,38 @@ static void mainloop(void)
 
             if (0 == r)
             {
-                fprintf(stderr, "select timeout\n");
+                syslog(LOG_ERR, "select timeout");
                 exit(EXIT_FAILURE);
             }
 
             if (read_frame())
             {
+                // Calculate the time of the iteration
+                clock_gettime(CLOCK_MONOTONIC, &iteration_end);
+                iteration_duration = (iteration_end.tv_sec - iteration_start.tv_sec) + 
+                                     (iteration_end.tv_nsec - iteration_start.tv_nsec) / 1e9;
+                syslog(LOG_INFO, "Iteration duration: %f seconds", iteration_duration);
+
                 if(nanosleep(&read_delay, &time_error) != 0)
-                    perror("nanosleep");
-                else
-                    syslog(LOG_INFO, "time_error.tv_sec=%ld, time_error.tv_nsec=%ld", time_error.tv_sec, time_error.tv_nsec);
+                    syslog(LOG_ERR, "nanosleep error");
+                //else
+                    // syslog(LOG_INFO, "time_error.tv_sec=%ld, time_error.tv_nsec=%ld", 
+                    //        time_error.tv_sec, time_error.tv_nsec);
 
                 count--;
                 break;
             }
 
-            /* EAGAIN - continue select loop unless count done. */
+            /* EAGAIN - continue select loop unless count done */
             if(count <= 0) break;
         }
 
         if(count <= 0) break;
     }
+
+    closelog(); // Close syslog when done
 }
+
 
 static void stop_capturing(void)
 {
