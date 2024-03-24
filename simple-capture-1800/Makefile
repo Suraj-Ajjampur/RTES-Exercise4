@@ -20,6 +20,7 @@ clean:
 
 distclean:
 	-rm -f *.o *.d
+	-rm -f frames/*.pgm frames/*.ppm
 
 capture: ${OBJS}
 	$(CC) $(LDFLAGS) $(CFLAGS) -o $@ $@.o $(LIBS)

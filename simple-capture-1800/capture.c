@@ -35,7 +35,7 @@
 #include <syslog.h>
 
 #define CLEAR(x) memset(&(x), 0, sizeof(x))
-//#define COLOR_CONVERT_RGB
+#define COLOR_CONVERT_RGB
 #define HRES 640
 #define VRES 480
 #define HRES_STR "640"
@@ -70,7 +70,7 @@ struct buffer          *buffers;
 static unsigned int     n_buffers;
 static int              out_buf;
 static int              force_format=1;
-static int              frame_count = (189);
+static int              frame_count = (100);
 
 static void errno_exit(const char *s)
 {
@@ -157,7 +157,7 @@ static void dump_pgm(const void *p, int size, unsigned int tag, struct timespec 
     clock_gettime(CLOCK_MONOTONIC, &end_time); // End timing
 
     duration = (end_time.tv_sec - start_time.tv_sec) + (end_time.tv_nsec - start_time.tv_nsec) / 1e9;
-    syslog(LOG_INFO, "PPM write duration: %f seconds", duration);
+    syslog(LOG_INFO, "PGM write duration: %f seconds", duration);
 
     syslog(LOG_INFO, "wrote %d bytes\n", total);
 
@@ -273,7 +273,8 @@ static void process_image(const void *p, int size)
         if(framecnt > -1) 
         {
             dump_ppm(bigbuffer, ((size*6)/4), framecnt, &frame_time);
-            printf("Dump YUYV converted to RGB size %d\n", size);
+            syslog(LOG_INFO, "Dump YUYV converted to RGB size %d\n", size);
+            //printf("Dump YUYV converted to RGB size %d\n", size);
         }
 #else
        
@@ -469,8 +470,8 @@ static void mainloop(void)
             {
                 if(nanosleep(&read_delay, &time_error) != 0)
                     perror("nanosleep");
-                else
-                    syslog(LOG_INFO, "time_error.tv_sec=%ld, time_error.tv_nsec=%ld", time_error.tv_sec, time_error.tv_nsec);
+                // else
+                //     syslog(LOG_INFO, "time_error.tv_sec=%ld, time_error.tv_nsec=%ld", time_error.tv_sec, time_error.tv_nsec);
 
                 count--;
                 break;
