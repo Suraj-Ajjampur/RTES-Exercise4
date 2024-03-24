@@ -28,13 +28,14 @@
 #include <sys/time.h>
 #include <sys/mman.h>
 #include <sys/ioctl.h>
+#include <syslog.h>
 
 #include <linux/videodev2.h>
 
 #include <time.h>
 
 #define CLEAR(x) memset(&(x), 0, sizeof(x))
-//#define COLOR_CONVERT_RGB
+#define COLOR_CONVERT_RGB
 #define HRES 640
 #define VRES 480
 #define HRES_STR "640"
@@ -43,6 +44,11 @@
 //#define VRES 240
 //#define HRES_STR "320"
 //#define VRES_STR "240"
+
+#define START_UP_FRAMES (8)
+#define LAST_FRAMES (1)
+#define CAPTURE_FRAMES (1800+LAST_FRAMES)
+#define FRAMES_TO_ACQUIRE (CAPTURE_FRAMES + START_UP_FRAMES + LAST_FRAMES)
 
 // Format is used by a number of functions, so made as a file global
 static struct v4l2_format fmt;
@@ -69,7 +75,11 @@ struct buffer          *buffers;
 static unsigned int     n_buffers;
 static int              out_buf;
 static int              force_format=1;
-static int              frame_count = (189);
+static int              frame_count = (FRAMES_TO_ACQUIRE);
+
+static double worst_frame_rate;
+static double fstart, fnow, fstop;
+static struct timespec time_now, time_start, time_stop;
 
 static void errno_exit(const char *s)
 {
@@ -115,7 +125,7 @@ static void dump_ppm(const void *p, int size, unsigned int tag, struct timespec 
         total+=written;
     } while(total < size);
 
-    printf("wrote %d bytes\n", total);
+    syslog(LOG_INFO,"wrote %d bytes\n", total);
 
     close(dumpfd);
     
@@ -147,7 +157,7 @@ static void dump_pgm(const void *p, int size, unsigned int tag, struct timespec 
         total+=written;
     } while(total < size);
 
-    printf("wrote %d bytes\n", total);
+    syslog(LOG_INFO,"wrote %d bytes\n", total);
 
     close(dumpfd);
     
@@ -231,7 +241,13 @@ static void process_image(const void *p, int size)
     clock_gettime(CLOCK_REALTIME, &frame_time);    
 
     framecnt++;
-    printf("frame %d: ", framecnt);
+    syslog(LOG_INFO,"frame %d: ", framecnt);
+
+    if(framecnt == 0) 
+    {
+        clock_gettime(CLOCK_MONOTONIC, &time_start);
+        fstart = (double)time_start.tv_sec + (double)time_start.tv_nsec / 1000000000.0;
+    }
 
     // This just dumps the frame to a file now, but you could replace with whatever image
     // processing you wish.
@@ -261,7 +277,7 @@ static void process_image(const void *p, int size)
         if(framecnt > -1) 
         {
             dump_ppm(bigbuffer, ((size*6)/4), framecnt, &frame_time);
-            printf("Dump YUYV converted to RGB size %d\n", size);
+            syslog(LOG_INFO,"Dump YUYV converted to RGB size %d\n", size);
         }
 #else
        
@@ -278,7 +294,7 @@ static void process_image(const void *p, int size)
         if(framecnt > -1)
         {
             dump_pgm(bigbuffer, (size/2), framecnt, &frame_time);
-            printf("Dump YUYV converted to YY size %d\n", size);
+            syslog(LOG_INFO,"Dump YUYV converted to YY size %d\n", size);
         }
 #endif
 
@@ -411,14 +427,15 @@ static void mainloop(void)
     unsigned int count;
     struct timespec read_delay;
     struct timespec time_error;
+    double calculated_frame_rate;
 
     // Replace this with a sequencer DELAY
     //
     // 250 million nsec is a 250 msec delay, for 4 fps
     // 1 sec for 1 fps
     //
-    read_delay.tv_sec=1;
-    read_delay.tv_nsec=0;
+    read_delay.tv_sec=0;
+    read_delay.tv_nsec=33333333;
 
     count = frame_count;
 
@@ -457,7 +474,37 @@ static void mainloop(void)
                 if(nanosleep(&read_delay, &time_error) != 0)
                     perror("nanosleep");
                 else
-                    printf("time_error.tv_sec=%ld, time_error.tv_nsec=%ld\n", time_error.tv_sec, time_error.tv_nsec);
+                {
+                    syslog(LOG_INFO,"time_error.tv_sec=%ld, time_error.tv_nsec=%ld\n", time_error.tv_sec, time_error.tv_nsec);
+
+                    if(framecnt>1)
+                    {	
+
+                        clock_gettime(CLOCK_MONOTONIC, &time_now);
+                        fnow = (double)time_now.tv_sec + (double)time_now.tv_nsec / 1000000000.0;
+                        //printf("REPLACE read at %lf, @ %lf FPS\n", (fnow-fstart), (double)(framecnt+1) / (fnow-fstart));
+                        // syslog(LOG_CRIT, "SIMPCAP: read at %lf, @ %lf FPS\n", (fnow-fstart), (double)(framecnt+1) / (fnow-fstart));
+
+                        calculated_frame_rate = (double)(framecnt+1) / (fnow-fstart);
+                        if(framecnt==2)
+                        {
+                            worst_frame_rate = calculated_frame_rate;
+                        }
+                        else
+                        {
+                            if(calculated_frame_rate<worst_frame_rate)
+                            {
+                                worst_frame_rate = calculated_frame_rate;
+                            }
+                        }
+
+                        syslog(LOG_INFO,"SIMPCAP: read at %lf, @ %lf FPS\n", (fnow-fstart), calculated_frame_rate);
+                    }
+                    else
+                    {
+
+                    }
+                }
 
                 count--;
                 break;
@@ -469,6 +516,9 @@ static void mainloop(void)
 
         if(count <= 0) break;
     }
+
+    clock_gettime(CLOCK_MONOTONIC, &time_stop);
+    fstop = (double)time_stop.tv_sec + (double)time_stop.tv_nsec / 1000000000.0;    
 }
 
 static void stop_capturing(void)
@@ -504,7 +554,7 @@ static void start_capturing(void)
         case IO_METHOD_MMAP:
                 for (i = 0; i < n_buffers; ++i) 
                 {
-                        printf("allocated buffer %d\n", i);
+                        syslog(LOG_INFO,"allocated buffer %d\n", i);
                         struct v4l2_buffer buf;
 
                         CLEAR(buf);
@@ -773,7 +823,7 @@ static void init_device(void)
 
     if (force_format)
     {
-        printf("FORCING FORMAT\n");
+        syslog(LOG_INFO,"FORCING FORMAT\n");
         fmt.fmt.pix.width       = HRES;
         fmt.fmt.pix.height      = VRES;
 
@@ -969,6 +1019,9 @@ int main(int argc, char **argv)
 
     // shutdown of frame acquisition service
     stop_capturing();
+
+    syslog(LOG_INFO,"Total capture time=%lf, for %d frames, %lf average FPS, %lf lowest FPS\n", (fstop-fstart), CAPTURE_FRAMES+1, ((double)CAPTURE_FRAMES / (fstop-fstart)), worst_frame_rate);
+    
     uninit_device();
     close_device();
     fprintf(stderr, "\n");
