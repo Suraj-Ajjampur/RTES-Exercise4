@@ -2,11 +2,7 @@
  * @file ppm_handling.c
  * @brief Functions for reading and writing PPM images and brightening
  */
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
-
+#include "brighten.h"
 /**
  * Reads a PPM image from a file.
  * 
@@ -190,7 +186,7 @@ void writeppm(unsigned char *buffer, int bufferlen,
  * named "brighter.ppm". The brightness adjustment parameters (alpha for gain and beta for bias)
  * are hardcoded in this example.
  */
-void main(int argc, char *argv[])
+void transform(int argc, char *argv[])
 {
   char header[512];
   unsigned char img[640*480*3], newimg[640*480*3];

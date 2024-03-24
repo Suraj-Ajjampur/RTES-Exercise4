@@ -6,8 +6,8 @@ CDEFS=
 CFLAGS= -O0 -g $(INCLUDE_DIRS) $(CDEFS)
 LIBS= -lrt
 
-HFILES= 
-CFILES= capture.c
+HFILES= brighten.h
+CFILES= capture.c brighten.c
 
 SRCS= ${HFILES} ${CFILES}
 OBJS= ${CFILES:.c=.o}
@@ -17,10 +17,10 @@ all:	capture
 clean:
 	-rm -f *.o *.d
 	-rm -f capture
-	-rm -f *.ppm *.pgm
 
 distclean:
 	-rm -f *.o *.d
+	-rm -f frames/*.pgm frames/*.ppm
 
 capture: ${OBJS}
 	$(CC) $(LDFLAGS) $(CFLAGS) -o $@ $@.o $(LIBS)

@@ -1,0 +1,73 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+.c.o	Makefile	/^.c.o:$/;"	t
+CC	Makefile	/^CC=gcc$/;"	m
+CDEFS	Makefile	/^CDEFS=$/;"	m
+CFILES	Makefile	/^CFILES= capture.c$/;"	m
+CFLAGS	Makefile	/^CFLAGS= -O0 -g $(INCLUDE_DIRS) $(CDEFS)$/;"	m
+CLEAR	capture.c	/^#define CLEAR(/;"	d	file:
+COLOR_CONVERT	capture.c	/^#define COLOR_CONVERT$/;"	d	file:
+HFILES	Makefile	/^HFILES= $/;"	m
+HRES	capture.c	/^#define HRES /;"	d	file:
+HRES_STR	capture.c	/^#define HRES_STR /;"	d	file:
+INCLUDE_DIRS	Makefile	/^INCLUDE_DIRS = $/;"	m
+IO_METHOD_MMAP	capture.c	/^        IO_METHOD_MMAP,$/;"	e	enum:io_method	file:
+IO_METHOD_READ	capture.c	/^        IO_METHOD_READ,$/;"	e	enum:io_method	file:
+IO_METHOD_USERPTR	capture.c	/^        IO_METHOD_USERPTR,$/;"	e	enum:io_method	file:
+LIBS	Makefile	/^LIBS= -lrt$/;"	m
+LIB_DIRS	Makefile	/^LIB_DIRS = $/;"	m
+OBJS	Makefile	/^OBJS= ${CFILES:.c=.o}$/;"	m
+SRCS	Makefile	/^SRCS= ${HFILES} ${CFILES}$/;"	m
+VRES	capture.c	/^#define VRES /;"	d	file:
+VRES_STR	capture.c	/^#define VRES_STR /;"	d	file:
+all	Makefile	/^all:	capture$/;"	t
+bigbuffer	capture.c	/^unsigned char bigbuffer[(1280*960)];$/;"	v	typeref:typename:unsigned char[]
+buffer	capture.c	/^struct buffer $/;"	s	file:
+buffers	capture.c	/^struct buffer          *buffers;$/;"	v	typeref:struct:buffer *
+capture	Makefile	/^capture: ${OBJS}$/;"	t
+clean	Makefile	/^clean:$/;"	t
+close_device	capture.c	/^static void close_device(void)$/;"	f	typeref:typename:void	file:
+depend	Makefile	/^depend:$/;"	t
+dev_name	capture.c	/^static char            *dev_name;$/;"	v	typeref:typename:char *	file:
+distclean	Makefile	/^distclean:$/;"	t
+dump_pgm	capture.c	/^static void dump_pgm(const void *p, int size, unsigned int tag, struct timespec *time)$/;"	f	typeref:typename:void	file:
+dump_ppm	capture.c	/^static void dump_ppm(const void *p, int size, unsigned int tag, struct timespec *time)$/;"	f	typeref:typename:void	file:
+errno_exit	capture.c	/^static void errno_exit(const char *s)$/;"	f	typeref:typename:void	file:
+fd	capture.c	/^static int              fd = -1;$/;"	v	typeref:typename:int	file:
+fmt	capture.c	/^static struct v4l2_format fmt;$/;"	v	typeref:struct:v4l2_format	file:
+force_format	capture.c	/^static int              force_format=1;$/;"	v	typeref:typename:int	file:
+frame_count	capture.c	/^static int              frame_count = 30;$/;"	v	typeref:typename:int	file:
+framecnt	capture.c	/^unsigned int framecnt=0;$/;"	v	typeref:typename:unsigned int
+init_device	capture.c	/^static void init_device(void)$/;"	f	typeref:typename:void	file:
+init_mmap	capture.c	/^static void init_mmap(void)$/;"	f	typeref:typename:void	file:
+init_read	capture.c	/^static void init_read(unsigned int buffer_size)$/;"	f	typeref:typename:void	file:
+init_userp	capture.c	/^static void init_userp(unsigned int buffer_size)$/;"	f	typeref:typename:void	file:
+io	capture.c	/^static enum io_method   io = IO_METHOD_MMAP;$/;"	v	typeref:enum:io_method	file:
+io_method	capture.c	/^enum io_method $/;"	g	file:
+length	capture.c	/^        size_t  length;$/;"	m	struct:buffer	typeref:typename:size_t	file:
+long_options	capture.c	/^long_options[] = {$/;"	v	typeref:typename:const struct option[]	file:
+main	capture.c	/^int main(int argc, char **argv)$/;"	f	typeref:typename:int
+mainloop	capture.c	/^static void mainloop(void)$/;"	f	typeref:typename:void	file:
+n_buffers	capture.c	/^static unsigned int     n_buffers;$/;"	v	typeref:typename:unsigned int	file:
+open_device	capture.c	/^static void open_device(void)$/;"	f	typeref:typename:void	file:
+out_buf	capture.c	/^static int              out_buf;$/;"	v	typeref:typename:int	file:
+pgm_dumpname	capture.c	/^char pgm_dumpname[]="test00000000.pgm";$/;"	v	typeref:typename:char[]
+pgm_header	capture.c	/^char pgm_header[]="P5\\n#9999999999 sec 9999999999 msec \\n"HRES_STR" "VRES_STR"\\n255\\n";$/;"	v	typeref:typename:char[]
+ppm_dumpname	capture.c	/^char ppm_dumpname[]="test00000000.ppm";$/;"	v	typeref:typename:char[]
+ppm_header	capture.c	/^char ppm_header[]="P6\\n#9999999999 sec 9999999999 msec \\n"HRES_STR" "VRES_STR"\\n255\\n";$/;"	v	typeref:typename:char[]
+process_image	capture.c	/^static void process_image(const void *p, int size)$/;"	f	typeref:typename:void	file:
+read_frame	capture.c	/^static int read_frame(void)$/;"	f	typeref:typename:int	file:
+short_options	capture.c	/^static const char short_options[] = "d:hmruofc:";$/;"	v	typeref:typename:const char[]	file:
+start	capture.c	/^        void   *start;$/;"	m	struct:buffer	typeref:typename:void *	file:
+start_capturing	capture.c	/^static void start_capturing(void)$/;"	f	typeref:typename:void	file:
+stop_capturing	capture.c	/^static void stop_capturing(void)$/;"	f	typeref:typename:void	file:
+uninit_device	capture.c	/^static void uninit_device(void)$/;"	f	typeref:typename:void	file:
+usage	capture.c	/^static void usage(FILE *fp, int argc, char **argv)$/;"	f	typeref:typename:void	file:
+xioctl	capture.c	/^static int xioctl(int fh, int request, void *arg)$/;"	f	typeref:typename:int	file:
+yuv2rgb	capture.c	/^void yuv2rgb(int y, int u, int v, unsigned char *r, unsigned char *g, unsigned char *b)$/;"	f	typeref:typename:void
+yuv2rgb_float	capture.c	/^void yuv2rgb_float(float y, float u, float v, $/;"	f	typeref:typename:void

@@ -1,0 +1,504 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+${PRODUCT}	sharpen-psf/Makefile	/^${PRODUCT}:	${OBJS}$/;"	t
+.c.o	c-brighten/Makefile	/^.c.o:$/;"	t
+.c.o	example-stereo-transform-improved cv3/example-stereo-transform-improved/Makefile	/^.c.o:$/;"	t
+.c.o	example-stereo-transform-improved/Makefile	/^.c.o:$/;"	t
+.c.o	sharpen-psf/Makefile	/^.c.o:$/;"	t
+.c.o	simple-canny-interactive cv3/simple-canny-interactive/Makefile	/^.c.o:$/;"	t
+.c.o	simple-canny-interactive/Makefile	/^.c.o:$/;"	t
+.c.o	simple-capture-1800/Makefile	/^.c.o:$/;"	t
+.c.o	simple-capture/Makefile	/^.c.o:$/;"	t
+.c.o	simple-hough-eliptical-interactive/Makefile	/^.c.o:$/;"	t
+.c.o	simple-hough-eliptical-interactivecv3/simple-hough-eliptical-interactive/Makefile	/^.c.o:$/;"	t
+.c.o	simple-hough-interactive cv3/simple-hough-interactive/Makefile	/^.c.o:$/;"	t
+.c.o	simple-hough-interactive/Makefile	/^.c.o:$/;"	t
+.c.o	simpler-capture-2/Makefile	/^.c.o:$/;"	t
+.c.o	simpler-capture-3/Makefile	/^.c.o:$/;"	t
+.c.o	simpler-capture/Makefile	/^.c.o:$/;"	t
+.c.o	simpler-video-capture-3/Makefile	/^.c.o:$/;"	t
+.cpp.o	example-stereo-transform-improved cv3/example-stereo-transform-improved/Makefile	/^.cpp.o:$/;"	t
+.cpp.o	example-stereo-transform-improved/Makefile	/^.cpp.o:$/;"	t
+.cpp.o	simple-canny-interactive cv3/simple-canny-interactive/Makefile	/^.cpp.o:$/;"	t
+.cpp.o	simple-canny-interactive/Makefile	/^.cpp.o:$/;"	t
+.cpp.o	simple-hough-eliptical-interactive/Makefile	/^.cpp.o:$/;"	t
+.cpp.o	simple-hough-eliptical-interactivecv3/simple-hough-eliptical-interactive/Makefile	/^.cpp.o:$/;"	t
+.cpp.o	simple-hough-interactive cv3/simple-hough-interactive/Makefile	/^.cpp.o:$/;"	t
+.cpp.o	simple-hough-interactive/Makefile	/^.cpp.o:$/;"	t
+.cpp.o	simpler-capture-2/Makefile	/^.cpp.o:$/;"	t
+.cpp.o	simpler-capture-3/Makefile	/^.cpp.o:$/;"	t
+.cpp.o	simpler-capture/Makefile	/^.cpp.o:$/;"	t
+.cpp.o	simpler-video-capture-3/Makefile	/^.cpp.o:$/;"	t
+B	sharpen-psf/sharpen.c	/^UINT8 B[IMG_HEIGHT*IMG_WIDTH];$/;"	v	typeref:typename:UINT8[]
+B	sharpen-psf/sharpen_grid.c	/^UINT8 B[IMG_HEIGHT][IMG_WIDTH];$/;"	v	typeref:typename:UINT8[][]
+CC	c-brighten/Makefile	/^CC=gcc$/;"	m
+CC	example-stereo-transform-improved cv3/example-stereo-transform-improved/Makefile	/^CC=g++$/;"	m
+CC	example-stereo-transform-improved/Makefile	/^CC=g++$/;"	m
+CC	sharpen-psf/Makefile	/^CC = gcc$/;"	m
+CC	simple-canny-interactive cv3/simple-canny-interactive/Makefile	/^CC=g++$/;"	m
+CC	simple-canny-interactive/Makefile	/^CC=g++$/;"	m
+CC	simple-capture-1800/Makefile	/^CC=gcc$/;"	m
+CC	simple-capture/Makefile	/^CC=gcc$/;"	m
+CC	simple-hough-eliptical-interactive/Makefile	/^CC=g++$/;"	m
+CC	simple-hough-eliptical-interactivecv3/simple-hough-eliptical-interactive/Makefile	/^CC=g++$/;"	m
+CC	simple-hough-interactive cv3/simple-hough-interactive/Makefile	/^CC=g++$/;"	m
+CC	simple-hough-interactive/Makefile	/^CC=g++$/;"	m
+CC	simpler-capture-2/Makefile	/^CC=g++$/;"	m
+CC	simpler-capture-3/Makefile	/^CC=g++$/;"	m
+CC	simpler-capture/Makefile	/^CC=g++$/;"	m
+CC	simpler-video-capture-3/Makefile	/^CC=g++$/;"	m
+CDEFS	c-brighten/Makefile	/^CDEFS=$/;"	m
+CDEFS	sharpen-psf/Makefile	/^CDEFS=$/;"	m
+CDEFS	simple-capture-1800/Makefile	/^CDEFS=$/;"	m
+CDEFS	simple-capture/Makefile	/^CDEFS=$/;"	m
+CFILES	c-brighten/Makefile	/^CFILES= brighten.c$/;"	m
+CFILES	example-stereo-transform-improved cv3/example-stereo-transform-improved/Makefile	/^CFILES= $/;"	m
+CFILES	example-stereo-transform-improved/Makefile	/^CFILES= $/;"	m
+CFILES	sharpen-psf/Makefile	/^CFILES= sharpen_grid.c$/;"	m
+CFILES	simple-canny-interactive cv3/simple-canny-interactive/Makefile	/^CFILES= $/;"	m
+CFILES	simple-canny-interactive/Makefile	/^CFILES= $/;"	m
+CFILES	simple-capture-1800/Makefile	/^CFILES= capture.c$/;"	m
+CFILES	simple-capture/Makefile	/^CFILES= capture.c$/;"	m
+CFILES	simple-hough-eliptical-interactive/Makefile	/^CFILES= $/;"	m
+CFILES	simple-hough-eliptical-interactivecv3/simple-hough-eliptical-interactive/Makefile	/^CFILES= $/;"	m
+CFILES	simple-hough-interactive cv3/simple-hough-interactive/Makefile	/^CFILES= $/;"	m
+CFILES	simple-hough-interactive/Makefile	/^CFILES= $/;"	m
+CFILES	simpler-capture-2/Makefile	/^CFILES= $/;"	m
+CFILES	simpler-capture-3/Makefile	/^CFILES= $/;"	m
+CFILES	simpler-capture/Makefile	/^CFILES= $/;"	m
+CFILES	simpler-video-capture-3/Makefile	/^CFILES= $/;"	m
+CFLAGS	c-brighten/Makefile	/^CFLAGS= -O0 -g $(INCLUDE_DIRS) $(CDEFS)$/;"	m
+CFLAGS	example-stereo-transform-improved cv3/example-stereo-transform-improved/Makefile	/^CFLAGS= -O0 -g $(INCLUDE_DIRS) $(CDEFS)$/;"	m
+CFLAGS	example-stereo-transform-improved/Makefile	/^CFLAGS= -O0 -g $(INCLUDE_DIRS) $(CDEFS)$/;"	m
+CFLAGS	sharpen-psf/Makefile	/^CFLAGS= -O3 -msse3 $(INCLUDE_DIRS) $(CDEFS)$/;"	m
+CFLAGS	simple-canny-interactive cv3/simple-canny-interactive/Makefile	/^CFLAGS= -O0 -pg -g $(INCLUDE_DIRS) $(CDEFS)$/;"	m
+CFLAGS	simple-canny-interactive/Makefile	/^CFLAGS= -O0 -pg -g $(INCLUDE_DIRS) $(CDEFS)$/;"	m
+CFLAGS	simple-capture-1800/Makefile	/^CFLAGS= -O0 -g $(INCLUDE_DIRS) $(CDEFS)$/;"	m
+CFLAGS	simple-capture/Makefile	/^CFLAGS= -O0 -g $(INCLUDE_DIRS) $(CDEFS)$/;"	m
+CFLAGS	simple-hough-eliptical-interactive/Makefile	/^CFLAGS= -O0 -g $(INCLUDE_DIRS) $(CDEFS)$/;"	m
+CFLAGS	simple-hough-eliptical-interactivecv3/simple-hough-eliptical-interactive/Makefile	/^CFLAGS= -O0 -g $(INCLUDE_DIRS) $(CDEFS)$/;"	m
+CFLAGS	simple-hough-interactive cv3/simple-hough-interactive/Makefile	/^CFLAGS= -O0 -g $(INCLUDE_DIRS) $(CDEFS)$/;"	m
+CFLAGS	simple-hough-interactive/Makefile	/^CFLAGS= -O0 -g $(INCLUDE_DIRS) $(CDEFS)$/;"	m
+CFLAGS	simpler-capture-2/Makefile	/^CFLAGS= -O0 -g $(INCLUDE_DIRS) $(CDEFS)$/;"	m
+CFLAGS	simpler-capture-3/Makefile	/^CFLAGS= -O0 -g $(INCLUDE_DIRS) $(CDEFS)$/;"	m
+CFLAGS	simpler-capture/Makefile	/^CFLAGS= -O0 -g $(INCLUDE_DIRS) $(CDEFS)$/;"	m
+CFLAGS	simpler-video-capture-3/Makefile	/^CFLAGS= -O0 -g $(INCLUDE_DIRS) $(CDEFS)$/;"	m
+CLEAR	simple-capture-1800/capture.c	/^#define CLEAR(/;"	d	file:
+CLEAR	simple-capture/capture.c	/^#define CLEAR(/;"	d	file:
+COBJS	c-brighten/Makefile	/^COBJS= ${CILES:.c=.o}$/;"	m
+COLOR_CONVERT	simple-capture/capture.c	/^#define COLOR_CONVERT$/;"	d	file:
+CPPFILES	simple-canny-interactive cv3/simple-canny-interactive/Makefile	/^CPPFILES= capture.cpp$/;"	m
+CPPFILES	simple-canny-interactive/Makefile	/^CPPFILES= capture.cpp$/;"	m
+CPPFILES	simple-hough-eliptical-interactive/Makefile	/^CPPFILES= capture.cpp$/;"	m
+CPPFILES	simple-hough-eliptical-interactivecv3/simple-hough-eliptical-interactive/Makefile	/^CPPFILES= capture.cpp$/;"	m
+CPPFILES	simple-hough-interactive cv3/simple-hough-interactive/Makefile	/^CPPFILES= capture.cpp$/;"	m
+CPPFILES	simple-hough-interactive/Makefile	/^CPPFILES= capture.cpp$/;"	m
+CPPFILES	simpler-capture-2/Makefile	/^CPPFILES= capture.cpp$/;"	m
+CPPFILES	simpler-capture-3/Makefile	/^CPPFILES= capture.cpp$/;"	m
+CPPFILES	simpler-capture/Makefile	/^CPPFILES= capture.cpp$/;"	m
+CPPFILES	simpler-video-capture-3/Makefile	/^CPPFILES= capture.cpp$/;"	m
+CPPLIBS	example-stereo-transform-improved cv3/example-stereo-transform-improved/Makefile	/^CPPLIBS= -L\/usr\/local\/opencv\/lib -lopencv_core -lopencv_flann -lopencv_video$/;"	m
+CPPLIBS	example-stereo-transform-improved/Makefile	/^CPPLIBS= -L\/usr\/local\/opencv\/lib -lopencv_core -lopencv_flann -lopencv_video$/;"	m
+CPPLIBS	simple-canny-interactive cv3/simple-canny-interactive/Makefile	/^CPPLIBS= -L\/usr\/lib -lopencv_core -lopencv_flann -lopencv_video$/;"	m
+CPPLIBS	simple-canny-interactive/Makefile	/^CPPLIBS= -L\/usr\/lib -lopencv_core -lopencv_flann -lopencv_video$/;"	m
+CPPLIBS	simple-hough-eliptical-interactive/Makefile	/^CPPLIBS= -L\/usr\/lib -lopencv_core -lopencv_flann -lopencv_video$/;"	m
+CPPLIBS	simple-hough-eliptical-interactivecv3/simple-hough-eliptical-interactive/Makefile	/^CPPLIBS= -L\/usr\/lib -lopencv_core -lopencv_flann -lopencv_video$/;"	m
+CPPLIBS	simple-hough-interactive cv3/simple-hough-interactive/Makefile	/^CPPLIBS= -L\/usr\/lib -lopencv_core -lopencv_flann -lopencv_video$/;"	m
+CPPLIBS	simple-hough-interactive/Makefile	/^CPPLIBS= -L\/usr\/lib -lopencv_core -lopencv_flann -lopencv_video$/;"	m
+CPPLIBS	simpler-capture-2/Makefile	/^CPPLIBS= -L\/usr\/lib -lopencv_core -lopencv_flann -lopencv_video$/;"	m
+CPPLIBS	simpler-capture-3/Makefile	/^CPPLIBS= -L\/usr\/lib -lopencv_core -lopencv_flann -lopencv_video$/;"	m
+CPPLIBS	simpler-capture/Makefile	/^CPPLIBS= -L\/usr\/lib -lopencv_core -lopencv_flann -lopencv_video$/;"	m
+CPPLIBS	simpler-video-capture-3/Makefile	/^CPPLIBS= -L\/usr\/lib -lopencv_core -lopencv_flann -lopencv_video$/;"	m
+CPPOBJS	simple-canny-interactive cv3/simple-canny-interactive/Makefile	/^CPPOBJS= ${CPPFILES:.cpp=.o}$/;"	m
+CPPOBJS	simple-canny-interactive/Makefile	/^CPPOBJS= ${CPPFILES:.cpp=.o}$/;"	m
+CPPOBJS	simple-hough-eliptical-interactive/Makefile	/^CPPOBJS= ${CPPFILES:.cpp=.o}$/;"	m
+CPPOBJS	simple-hough-eliptical-interactivecv3/simple-hough-eliptical-interactive/Makefile	/^CPPOBJS= ${CPPFILES:.cpp=.o}$/;"	m
+CPPOBJS	simple-hough-interactive cv3/simple-hough-interactive/Makefile	/^CPPOBJS= ${CPPFILES:.cpp=.o}$/;"	m
+CPPOBJS	simple-hough-interactive/Makefile	/^CPPOBJS= ${CPPFILES:.cpp=.o}$/;"	m
+CPPOBJS	simpler-capture-2/Makefile	/^CPPOBJS= ${CPPFILES:.cpp=.o}$/;"	m
+CPPOBJS	simpler-capture-3/Makefile	/^CPPOBJS= ${CPPFILES:.cpp=.o}$/;"	m
+CPPOBJS	simpler-capture/Makefile	/^CPPOBJS= ${CPPFILES:.cpp=.o}$/;"	m
+CPPOBJS	simpler-video-capture-3/Makefile	/^CPPOBJS= ${CPPFILES:.cpp=.o}$/;"	m
+CannyThreshold	simple-canny-interactive cv3/simple-canny-interactive/capture.cpp	/^void CannyThreshold(int, void*)$/;"	f	typeref:typename:void
+CannyThreshold	simple-canny-interactive/capture.cpp	/^void CannyThreshold(int, void*)$/;"	f	typeref:typename:void
+DEFAULT_CAMERA	simpler-capture-3/capture.cpp	/^#define DEFAULT_CAMERA /;"	d	file:
+DEVICE_ID	simpler-video-capture-3/capture.cpp	/^#define DEVICE_ID /;"	d	file:
+ESC_KEY	example-stereo-transform-improved cv3/example-stereo-transform-improved/capture_stereo.cpp	/^#define ESC_KEY /;"	d	file:
+ESC_KEY	example-stereo-transform-improved/capture_stereo.cpp	/^#define ESC_KEY /;"	d	file:
+FLOAT	sharpen-psf/sharpen.c	/^typedef double FLOAT;$/;"	t	typeref:typename:double	file:
+FLOAT	sharpen-psf/sharpen_grid.c	/^typedef double FLOAT;$/;"	t	typeref:typename:double	file:
+G	sharpen-psf/sharpen.c	/^UINT8 G[IMG_HEIGHT*IMG_WIDTH];$/;"	v	typeref:typename:UINT8[]
+G	sharpen-psf/sharpen_grid.c	/^UINT8 G[IMG_HEIGHT][IMG_WIDTH];$/;"	v	typeref:typename:UINT8[][]
+HFILES	c-brighten/Makefile	/^HFILES= $/;"	m
+HFILES	example-stereo-transform-improved cv3/example-stereo-transform-improved/Makefile	/^HFILES= $/;"	m
+HFILES	example-stereo-transform-improved/Makefile	/^HFILES= $/;"	m
+HFILES	sharpen-psf/Makefile	/^HFILES= $/;"	m
+HFILES	simple-canny-interactive cv3/simple-canny-interactive/Makefile	/^HFILES= $/;"	m
+HFILES	simple-canny-interactive/Makefile	/^HFILES= $/;"	m
+HFILES	simple-capture-1800/Makefile	/^HFILES= $/;"	m
+HFILES	simple-capture/Makefile	/^HFILES= $/;"	m
+HFILES	simple-hough-eliptical-interactive/Makefile	/^HFILES= $/;"	m
+HFILES	simple-hough-eliptical-interactivecv3/simple-hough-eliptical-interactive/Makefile	/^HFILES= $/;"	m
+HFILES	simple-hough-interactive cv3/simple-hough-interactive/Makefile	/^HFILES= $/;"	m
+HFILES	simple-hough-interactive/Makefile	/^HFILES= $/;"	m
+HFILES	simpler-capture-2/Makefile	/^HFILES= $/;"	m
+HFILES	simpler-capture-3/Makefile	/^HFILES= $/;"	m
+HFILES	simpler-capture/Makefile	/^HFILES= $/;"	m
+HFILES	simpler-video-capture-3/Makefile	/^HFILES= $/;"	m
+HRES	simple-canny-interactive cv3/simple-canny-interactive/capture.cpp	/^#define HRES /;"	d	file:
+HRES	simple-canny-interactive/capture.cpp	/^#define HRES /;"	d	file:
+HRES	simple-capture-1800/capture.c	/^#define HRES /;"	d	file:
+HRES	simple-capture/capture.c	/^#define HRES /;"	d	file:
+HRES	simple-hough-eliptical-interactive/capture.cpp	/^#define HRES /;"	d	file:
+HRES	simple-hough-eliptical-interactivecv3/simple-hough-eliptical-interactive/capture.cpp	/^#define HRES /;"	d	file:
+HRES	simple-hough-interactive cv3/simple-hough-interactive/capture.cpp	/^#define HRES /;"	d	file:
+HRES	simple-hough-interactive/capture.cpp	/^#define HRES /;"	d	file:
+HRES	simpler-capture-2/capture.cpp	/^#define HRES /;"	d	file:
+HRES_COLS	example-stereo-transform-improved cv3/example-stereo-transform-improved/capture_stereo.cpp	/^#define HRES_COLS /;"	d	file:
+HRES_COLS	example-stereo-transform-improved/capture_stereo.cpp	/^#define HRES_COLS /;"	d	file:
+HRES_STR	simple-capture-1800/capture.c	/^#define HRES_STR /;"	d	file:
+HRES_STR	simple-capture/capture.c	/^#define HRES_STR /;"	d	file:
+IMG_HEIGHT	sharpen-psf/sharpen.c	/^#define IMG_HEIGHT /;"	d	file:
+IMG_HEIGHT	sharpen-psf/sharpen_grid.c	/^#define IMG_HEIGHT /;"	d	file:
+IMG_H_SLICE	sharpen-psf/sharpen_grid.c	/^#define IMG_H_SLICE /;"	d	file:
+IMG_WIDTH	sharpen-psf/sharpen.c	/^#define IMG_WIDTH /;"	d	file:
+IMG_WIDTH	sharpen-psf/sharpen_grid.c	/^#define IMG_WIDTH /;"	d	file:
+IMG_W_SLICE	sharpen-psf/sharpen_grid.c	/^#define IMG_W_SLICE /;"	d	file:
+INCLUDE_DIRS	c-brighten/Makefile	/^INCLUDE_DIRS = $/;"	m
+INCLUDE_DIRS	example-stereo-transform-improved cv3/example-stereo-transform-improved/Makefile	/^INCLUDE_DIRS =  -I\/usr\/local\/opencv\/include$/;"	m
+INCLUDE_DIRS	example-stereo-transform-improved/Makefile	/^INCLUDE_DIRS =  -I\/usr\/local\/opencv\/include$/;"	m
+INCLUDE_DIRS	sharpen-psf/Makefile	/^INCLUDE_DIRS = $/;"	m
+INCLUDE_DIRS	simple-canny-interactive cv3/simple-canny-interactive/Makefile	/^INCLUDE_DIRS = $/;"	m
+INCLUDE_DIRS	simple-canny-interactive/Makefile	/^INCLUDE_DIRS = $/;"	m
+INCLUDE_DIRS	simple-capture-1800/Makefile	/^INCLUDE_DIRS = $/;"	m
+INCLUDE_DIRS	simple-capture/Makefile	/^INCLUDE_DIRS = $/;"	m
+INCLUDE_DIRS	simple-hough-eliptical-interactive/Makefile	/^INCLUDE_DIRS = $/;"	m
+INCLUDE_DIRS	simple-hough-eliptical-interactivecv3/simple-hough-eliptical-interactive/Makefile	/^INCLUDE_DIRS = $/;"	m
+INCLUDE_DIRS	simple-hough-interactive cv3/simple-hough-interactive/Makefile	/^INCLUDE_DIRS = $/;"	m
+INCLUDE_DIRS	simple-hough-interactive/Makefile	/^INCLUDE_DIRS = $/;"	m
+INCLUDE_DIRS	simpler-capture-2/Makefile	/^INCLUDE_DIRS = $/;"	m
+INCLUDE_DIRS	simpler-capture-3/Makefile	/^INCLUDE_DIRS = $/;"	m
+INCLUDE_DIRS	simpler-capture/Makefile	/^INCLUDE_DIRS = $/;"	m
+INCLUDE_DIRS	simpler-video-capture-3/Makefile	/^INCLUDE_DIRS = $/;"	m
+IO_METHOD_MMAP	simple-capture-1800/capture.c	/^        IO_METHOD_MMAP,$/;"	e	enum:io_method	file:
+IO_METHOD_MMAP	simple-capture/capture.c	/^        IO_METHOD_MMAP,$/;"	e	enum:io_method	file:
+IO_METHOD_READ	simple-capture-1800/capture.c	/^        IO_METHOD_READ,$/;"	e	enum:io_method	file:
+IO_METHOD_READ	simple-capture/capture.c	/^        IO_METHOD_READ,$/;"	e	enum:io_method	file:
+IO_METHOD_USERPTR	simple-capture-1800/capture.c	/^        IO_METHOD_USERPTR,$/;"	e	enum:io_method	file:
+IO_METHOD_USERPTR	simple-capture/capture.c	/^        IO_METHOD_USERPTR,$/;"	e	enum:io_method	file:
+K	sharpen-psf/sharpen.c	/^#define K /;"	d	file:
+K	sharpen-psf/sharpen_grid.c	/^#define K /;"	d	file:
+LIBS	c-brighten/Makefile	/^LIBS=$/;"	m
+LIBS	example-stereo-transform-improved cv3/example-stereo-transform-improved/Makefile	/^LIBS= -lrt$/;"	m
+LIBS	example-stereo-transform-improved/Makefile	/^LIBS= -lrt$/;"	m
+LIBS	sharpen-psf/Makefile	/^LIBS=-lpthread$/;"	m
+LIBS	simple-canny-interactive cv3/simple-canny-interactive/Makefile	/^LIBS= -lrt$/;"	m
+LIBS	simple-canny-interactive/Makefile	/^LIBS= -lrt$/;"	m
+LIBS	simple-capture-1800/Makefile	/^LIBS= -lrt$/;"	m
+LIBS	simple-capture/Makefile	/^LIBS= -lrt$/;"	m
+LIBS	simple-hough-eliptical-interactive/Makefile	/^LIBS= -lrt$/;"	m
+LIBS	simple-hough-eliptical-interactivecv3/simple-hough-eliptical-interactive/Makefile	/^LIBS= -lrt$/;"	m
+LIBS	simple-hough-interactive cv3/simple-hough-interactive/Makefile	/^LIBS= -lrt$/;"	m
+LIBS	simple-hough-interactive/Makefile	/^LIBS= -lrt$/;"	m
+LIBS	simpler-capture-2/Makefile	/^LIBS= -lrt$/;"	m
+LIBS	simpler-capture-3/Makefile	/^LIBS= -lrt$/;"	m
+LIBS	simpler-capture/Makefile	/^LIBS= -lrt$/;"	m
+LIBS	simpler-video-capture-3/Makefile	/^LIBS= -lrt$/;"	m
+LIB_DIRS	c-brighten/Makefile	/^LIB_DIRS = $/;"	m
+LIB_DIRS	example-stereo-transform-improved cv3/example-stereo-transform-improved/Makefile	/^LIB_DIRS = $/;"	m
+LIB_DIRS	example-stereo-transform-improved/Makefile	/^LIB_DIRS = $/;"	m
+LIB_DIRS	sharpen-psf/Makefile	/^LIB_DIRS = $/;"	m
+LIB_DIRS	simple-canny-interactive cv3/simple-canny-interactive/Makefile	/^LIB_DIRS = $/;"	m
+LIB_DIRS	simple-canny-interactive/Makefile	/^LIB_DIRS = $/;"	m
+LIB_DIRS	simple-capture-1800/Makefile	/^LIB_DIRS = $/;"	m
+LIB_DIRS	simple-capture/Makefile	/^LIB_DIRS = $/;"	m
+LIB_DIRS	simple-hough-eliptical-interactive/Makefile	/^LIB_DIRS = $/;"	m
+LIB_DIRS	simple-hough-eliptical-interactivecv3/simple-hough-eliptical-interactive/Makefile	/^LIB_DIRS = $/;"	m
+LIB_DIRS	simple-hough-interactive cv3/simple-hough-interactive/Makefile	/^LIB_DIRS = $/;"	m
+LIB_DIRS	simple-hough-interactive/Makefile	/^LIB_DIRS = $/;"	m
+LIB_DIRS	simpler-capture-2/Makefile	/^LIB_DIRS = $/;"	m
+LIB_DIRS	simpler-capture-3/Makefile	/^LIB_DIRS = $/;"	m
+LIB_DIRS	simpler-capture/Makefile	/^LIB_DIRS = $/;"	m
+LIB_DIRS	simpler-video-capture-3/Makefile	/^LIB_DIRS = $/;"	m
+NUM_COL_THREADS	sharpen-psf/sharpen_grid.c	/^#define NUM_COL_THREADS /;"	d	file:
+NUM_ROW_THREADS	sharpen-psf/sharpen_grid.c	/^#define NUM_ROW_THREADS /;"	d	file:
+OBJS	sharpen-psf/Makefile	/^OBJS= ${CFILES:.c=.o}$/;"	m
+OBJS	simple-capture-1800/Makefile	/^OBJS= ${CFILES:.c=.o}$/;"	m
+OBJS	simple-capture/Makefile	/^OBJS= ${CFILES:.c=.o}$/;"	m
+PIXIDX	c-brighten/brighten.c	/^#define PIXIDX /;"	d	file:
+PRODUCT	sharpen-psf/Makefile	/^PRODUCT=sharpen_grid$/;"	m
+PSF	sharpen-psf/sharpen.c	/^FLOAT PSF[9] = {-K\/8.0, -K\/8.0, -K\/8.0, -K\/8.0, K+1.0, -K\/8.0, -K\/8.0, -K\/8.0, -K\/8.0};$/;"	v	typeref:typename:FLOAT[9]
+PSF	sharpen-psf/sharpen_grid.c	/^FLOAT PSF[9] = {-K\/8.0, -K\/8.0, -K\/8.0, -K\/8.0, K+1.0, -K\/8.0, -K\/8.0, -K\/8.0, -K\/8.0};$/;"	v	typeref:typename:FLOAT[9]
+R	sharpen-psf/sharpen.c	/^UINT8 R[IMG_HEIGHT*IMG_WIDTH];$/;"	v	typeref:typename:UINT8[]
+R	sharpen-psf/sharpen_grid.c	/^UINT8 R[IMG_HEIGHT][IMG_WIDTH];$/;"	v	typeref:typename:UINT8[][]
+SAT	c-brighten/brighten.c	/^#define SAT /;"	d	file:
+SRCS	c-brighten/Makefile	/^SRCS= ${HFILES} ${CFILES}$/;"	m
+SRCS	example-stereo-transform-improved cv3/example-stereo-transform-improved/Makefile	/^SRCS= ${HFILES} ${CFILES}$/;"	m
+SRCS	example-stereo-transform-improved/Makefile	/^SRCS= ${HFILES} ${CFILES}$/;"	m
+SRCS	sharpen-psf/Makefile	/^SRCS= ${HFILES} ${CFILES}$/;"	m
+SRCS	simple-canny-interactive cv3/simple-canny-interactive/Makefile	/^SRCS= ${HFILES} ${CFILES}$/;"	m
+SRCS	simple-canny-interactive/Makefile	/^SRCS= ${HFILES} ${CFILES}$/;"	m
+SRCS	simple-capture-1800/Makefile	/^SRCS= ${HFILES} ${CFILES}$/;"	m
+SRCS	simple-capture/Makefile	/^SRCS= ${HFILES} ${CFILES}$/;"	m
+SRCS	simple-hough-eliptical-interactive/Makefile	/^SRCS= ${HFILES} ${CFILES}$/;"	m
+SRCS	simple-hough-eliptical-interactivecv3/simple-hough-eliptical-interactive/Makefile	/^SRCS= ${HFILES} ${CFILES}$/;"	m
+SRCS	simple-hough-interactive cv3/simple-hough-interactive/Makefile	/^SRCS= ${HFILES} ${CFILES}$/;"	m
+SRCS	simple-hough-interactive/Makefile	/^SRCS= ${HFILES} ${CFILES}$/;"	m
+SRCS	simpler-capture-2/Makefile	/^SRCS= ${HFILES} ${CFILES}$/;"	m
+SRCS	simpler-capture-3/Makefile	/^SRCS= ${HFILES} ${CFILES}$/;"	m
+SRCS	simpler-capture/Makefile	/^SRCS= ${HFILES} ${CFILES}$/;"	m
+SRCS	simpler-video-capture-3/Makefile	/^SRCS= ${HFILES} ${CFILES}$/;"	m
+UINT32	sharpen-psf/sharpen.c	/^typedef unsigned int UINT32;$/;"	t	typeref:typename:unsigned int	file:
+UINT32	sharpen-psf/sharpen_grid.c	/^typedef unsigned int UINT32;$/;"	t	typeref:typename:unsigned int	file:
+UINT64	sharpen-psf/sharpen.c	/^typedef unsigned long long int UINT64;$/;"	t	typeref:typename:unsigned long long int	file:
+UINT64	sharpen-psf/sharpen_grid.c	/^typedef unsigned long long int UINT64;$/;"	t	typeref:typename:unsigned long long int	file:
+UINT8	sharpen-psf/sharpen.c	/^typedef unsigned char UINT8;$/;"	t	typeref:typename:unsigned char	file:
+UINT8	sharpen-psf/sharpen_grid.c	/^typedef unsigned char UINT8;$/;"	t	typeref:typename:unsigned char	file:
+VRES	simple-canny-interactive cv3/simple-canny-interactive/capture.cpp	/^#define VRES /;"	d	file:
+VRES	simple-canny-interactive/capture.cpp	/^#define VRES /;"	d	file:
+VRES	simple-capture-1800/capture.c	/^#define VRES /;"	d	file:
+VRES	simple-capture/capture.c	/^#define VRES /;"	d	file:
+VRES	simple-hough-eliptical-interactive/capture.cpp	/^#define VRES /;"	d	file:
+VRES	simple-hough-eliptical-interactivecv3/simple-hough-eliptical-interactive/capture.cpp	/^#define VRES /;"	d	file:
+VRES	simple-hough-interactive cv3/simple-hough-interactive/capture.cpp	/^#define VRES /;"	d	file:
+VRES	simple-hough-interactive/capture.cpp	/^#define VRES /;"	d	file:
+VRES	simpler-capture-2/capture.cpp	/^#define VRES /;"	d	file:
+VRES_ROWS	example-stereo-transform-improved cv3/example-stereo-transform-improved/capture_stereo.cpp	/^#define VRES_ROWS /;"	d	file:
+VRES_ROWS	example-stereo-transform-improved/capture_stereo.cpp	/^#define VRES_ROWS /;"	d	file:
+VRES_STR	simple-capture-1800/capture.c	/^#define VRES_STR /;"	d	file:
+VRES_STR	simple-capture/capture.c	/^#define VRES_STR /;"	d	file:
+_threadArgs	sharpen-psf/sharpen_grid.c	/^typedef struct _threadArgs$/;"	s	file:
+all	c-brighten/Makefile	/^all:	brighten$/;"	t
+all	example-stereo-transform-improved cv3/example-stereo-transform-improved/Makefile	/^all:	capture capture_stereo$/;"	t
+all	example-stereo-transform-improved/Makefile	/^all:	capture capture_stereo$/;"	t
+all	sharpen-psf/Makefile	/^all:	${PRODUCT}$/;"	t
+all	simple-canny-interactive cv3/simple-canny-interactive/Makefile	/^all:	capture $/;"	t
+all	simple-canny-interactive/Makefile	/^all:	capture $/;"	t
+all	simple-capture-1800/Makefile	/^all:	capture$/;"	t
+all	simple-capture/Makefile	/^all:	capture$/;"	t
+all	simple-hough-eliptical-interactive/Makefile	/^all:	capture $/;"	t
+all	simple-hough-eliptical-interactivecv3/simple-hough-eliptical-interactive/Makefile	/^all:	capture $/;"	t
+all	simple-hough-interactive cv3/simple-hough-interactive/Makefile	/^all:	capture $/;"	t
+all	simple-hough-interactive/Makefile	/^all:	capture $/;"	t
+all	simpler-capture-2/Makefile	/^all:	capture $/;"	t
+all	simpler-capture-3/Makefile	/^all:	capture$/;"	t
+all	simpler-capture/Makefile	/^all:	capture $/;"	t
+all	simpler-video-capture-3/Makefile	/^all:	capture capture2 capture3$/;"	t
+bigbuffer	simple-capture-1800/capture.c	/^unsigned char bigbuffer[(1280*960)];$/;"	v	typeref:typename:unsigned char[]
+bigbuffer	simple-capture/capture.c	/^unsigned char bigbuffer[(1280*960)];$/;"	v	typeref:typename:unsigned char[]
+brighten	c-brighten/Makefile	/^brighten: brighten.o$/;"	t
+buffer	simple-capture-1800/capture.c	/^struct buffer $/;"	s	file:
+buffer	simple-capture/capture.c	/^struct buffer $/;"	s	file:
+buffers	simple-capture-1800/capture.c	/^struct buffer          *buffers;$/;"	v	typeref:struct:buffer *
+buffers	simple-capture/capture.c	/^struct buffer          *buffers;$/;"	v	typeref:struct:buffer *
+canny_frame	simple-canny-interactive cv3/simple-canny-interactive/capture.cpp	/^Mat canny_frame, cdst, timg_gray, timg_grad;$/;"	v	typeref:typename:Mat
+canny_frame	simple-canny-interactive/capture.cpp	/^Mat canny_frame, cdst, timg_gray, timg_grad;$/;"	v	typeref:typename:Mat
+capture	example-stereo-transform-improved cv3/example-stereo-transform-improved/Makefile	/^capture: capture.o$/;"	t
+capture	example-stereo-transform-improved/Makefile	/^capture: capture.o$/;"	t
+capture	simple-canny-interactive cv3/simple-canny-interactive/Makefile	/^capture: capture.o$/;"	t
+capture	simple-canny-interactive/Makefile	/^capture: capture.o$/;"	t
+capture	simple-capture-1800/Makefile	/^capture: ${OBJS}$/;"	t
+capture	simple-capture/Makefile	/^capture: ${OBJS}$/;"	t
+capture	simple-hough-eliptical-interactive/Makefile	/^capture: capture.o$/;"	t
+capture	simple-hough-eliptical-interactivecv3/simple-hough-eliptical-interactive/Makefile	/^capture: capture.o$/;"	t
+capture	simple-hough-interactive cv3/simple-hough-interactive/Makefile	/^capture: capture.o$/;"	t
+capture	simple-hough-interactive/Makefile	/^capture: capture.o$/;"	t
+capture	simpler-capture-2/Makefile	/^capture: capture.o$/;"	t
+capture	simpler-capture-3/Makefile	/^capture: capture.o$/;"	t
+capture	simpler-capture/Makefile	/^capture: capture.o$/;"	t
+capture	simpler-video-capture-3/Makefile	/^capture: capture.o$/;"	t
+capture2	simpler-video-capture-3/Makefile	/^capture2: capture2.o$/;"	t
+capture3	simpler-video-capture-3/Makefile	/^capture3: capture3.o$/;"	t
+capture_stereo	example-stereo-transform-improved cv3/example-stereo-transform-improved/Makefile	/^capture_stereo: capture_stereo.o$/;"	t
+capture_stereo	example-stereo-transform-improved/Makefile	/^capture_stereo: capture_stereo.o$/;"	t
+cdst	simple-canny-interactive cv3/simple-canny-interactive/capture.cpp	/^Mat canny_frame, cdst, timg_gray, timg_grad;$/;"	v	typeref:typename:Mat
+cdst	simple-canny-interactive/capture.cpp	/^Mat canny_frame, cdst, timg_gray, timg_grad;$/;"	v	typeref:typename:Mat
+clean	c-brighten/Makefile	/^clean:$/;"	t
+clean	example-stereo-transform-improved cv3/example-stereo-transform-improved/Makefile	/^clean:$/;"	t
+clean	example-stereo-transform-improved/Makefile	/^clean:$/;"	t
+clean	sharpen-psf/Makefile	/^clean:$/;"	t
+clean	simple-canny-interactive cv3/simple-canny-interactive/Makefile	/^clean:$/;"	t
+clean	simple-canny-interactive/Makefile	/^clean:$/;"	t
+clean	simple-capture-1800/Makefile	/^clean:$/;"	t
+clean	simple-capture/Makefile	/^clean:$/;"	t
+clean	simple-hough-eliptical-interactive/Makefile	/^clean:$/;"	t
+clean	simple-hough-eliptical-interactivecv3/simple-hough-eliptical-interactive/Makefile	/^clean:$/;"	t
+clean	simple-hough-interactive cv3/simple-hough-interactive/Makefile	/^clean:$/;"	t
+clean	simple-hough-interactive/Makefile	/^clean:$/;"	t
+clean	simpler-capture-2/Makefile	/^clean:$/;"	t
+clean	simpler-capture-3/Makefile	/^clean:$/;"	t
+clean	simpler-capture/Makefile	/^clean:$/;"	t
+clean	simpler-video-capture-3/Makefile	/^clean:$/;"	t
+close_device	simple-capture-1800/capture.c	/^static void close_device(void)$/;"	f	typeref:typename:void	file:
+close_device	simple-capture/capture.c	/^static void close_device(void)$/;"	f	typeref:typename:void	file:
+convB	sharpen-psf/sharpen.c	/^UINT8 convB[IMG_HEIGHT*IMG_WIDTH];$/;"	v	typeref:typename:UINT8[]
+convB	sharpen-psf/sharpen_grid.c	/^UINT8 convB[IMG_HEIGHT][IMG_WIDTH];$/;"	v	typeref:typename:UINT8[][]
+convG	sharpen-psf/sharpen.c	/^UINT8 convG[IMG_HEIGHT*IMG_WIDTH];$/;"	v	typeref:typename:UINT8[]
+convG	sharpen-psf/sharpen_grid.c	/^UINT8 convG[IMG_HEIGHT][IMG_WIDTH];$/;"	v	typeref:typename:UINT8[][]
+convR	sharpen-psf/sharpen.c	/^UINT8 convR[IMG_HEIGHT*IMG_WIDTH];$/;"	v	typeref:typename:UINT8[]
+convR	sharpen-psf/sharpen_grid.c	/^UINT8 convR[IMG_HEIGHT][IMG_WIDTH];$/;"	v	typeref:typename:UINT8[][]
+depend	c-brighten/Makefile	/^depend:$/;"	t
+depend	example-stereo-transform-improved cv3/example-stereo-transform-improved/Makefile	/^depend:$/;"	t
+depend	example-stereo-transform-improved/Makefile	/^depend:$/;"	t
+depend	sharpen-psf/Makefile	/^depend:$/;"	t
+depend	simple-canny-interactive cv3/simple-canny-interactive/Makefile	/^depend:$/;"	t
+depend	simple-canny-interactive/Makefile	/^depend:$/;"	t
+depend	simple-capture-1800/Makefile	/^depend:$/;"	t
+depend	simple-capture/Makefile	/^depend:$/;"	t
+depend	simple-hough-eliptical-interactive/Makefile	/^depend:$/;"	t
+depend	simple-hough-eliptical-interactivecv3/simple-hough-eliptical-interactive/Makefile	/^depend:$/;"	t
+depend	simple-hough-interactive cv3/simple-hough-interactive/Makefile	/^depend:$/;"	t
+depend	simple-hough-interactive/Makefile	/^depend:$/;"	t
+depend	simpler-capture-2/Makefile	/^depend:$/;"	t
+depend	simpler-capture-3/Makefile	/^depend:$/;"	t
+depend	simpler-capture/Makefile	/^depend:$/;"	t
+depend	simpler-video-capture-3/Makefile	/^depend:$/;"	t
+dev_name	simple-capture-1800/capture.c	/^static char            *dev_name;$/;"	v	typeref:typename:char *	file:
+dev_name	simple-capture/capture.c	/^static char            *dev_name;$/;"	v	typeref:typename:char *	file:
+distclean	c-brighten/Makefile	/^distclean:$/;"	t
+distclean	example-stereo-transform-improved cv3/example-stereo-transform-improved/Makefile	/^distclean:$/;"	t
+distclean	example-stereo-transform-improved/Makefile	/^distclean:$/;"	t
+distclean	simple-canny-interactive cv3/simple-canny-interactive/Makefile	/^distclean:$/;"	t
+distclean	simple-canny-interactive/Makefile	/^distclean:$/;"	t
+distclean	simple-capture-1800/Makefile	/^distclean:$/;"	t
+distclean	simple-capture/Makefile	/^distclean:$/;"	t
+distclean	simple-hough-eliptical-interactive/Makefile	/^distclean:$/;"	t
+distclean	simple-hough-eliptical-interactivecv3/simple-hough-eliptical-interactive/Makefile	/^distclean:$/;"	t
+distclean	simple-hough-interactive cv3/simple-hough-interactive/Makefile	/^distclean:$/;"	t
+distclean	simple-hough-interactive/Makefile	/^distclean:$/;"	t
+distclean	simpler-capture-2/Makefile	/^distclean:$/;"	t
+distclean	simpler-capture-3/Makefile	/^distclean:$/;"	t
+distclean	simpler-capture/Makefile	/^distclean:$/;"	t
+distclean	simpler-video-capture-3/Makefile	/^distclean:$/;"	t
+dump_pgm	simple-capture-1800/capture.c	/^static void dump_pgm(const void *p, int size, unsigned int tag, struct timespec *time)$/;"	f	typeref:typename:void	file:
+dump_pgm	simple-capture/capture.c	/^static void dump_pgm(const void *p, int size, unsigned int tag, struct timespec *time)$/;"	f	typeref:typename:void	file:
+dump_ppm	simple-capture-1800/capture.c	/^static void dump_ppm(const void *p, int size, unsigned int tag, struct timespec *time)$/;"	f	typeref:typename:void	file:
+dump_ppm	simple-capture/capture.c	/^static void dump_ppm(const void *p, int size, unsigned int tag, struct timespec *time)$/;"	f	typeref:typename:void	file:
+edgeThresh	simple-canny-interactive cv3/simple-canny-interactive/capture.cpp	/^int edgeThresh = 1;$/;"	v	typeref:typename:int
+edgeThresh	simple-canny-interactive/capture.cpp	/^int edgeThresh = 1;$/;"	v	typeref:typename:int
+errno_exit	simple-capture-1800/capture.c	/^static void errno_exit(const char *s)$/;"	f	typeref:typename:void	file:
+errno_exit	simple-capture/capture.c	/^static void errno_exit(const char *s)$/;"	f	typeref:typename:void	file:
+fd	simple-capture-1800/capture.c	/^static int              fd = -1;$/;"	v	typeref:typename:int	file:
+fd	simple-capture/capture.c	/^static int              fd = -1;$/;"	v	typeref:typename:int	file:
+fifo_param	sharpen-psf/sharpen_grid.c	/^struct sched_param fifo_param;$/;"	v	typeref:struct:sched_param
+fifo_sched_attr	sharpen-psf/sharpen_grid.c	/^pthread_attr_t fifo_sched_attr;$/;"	v	typeref:typename:pthread_attr_t
+fmt	simple-capture-1800/capture.c	/^static struct v4l2_format fmt;$/;"	v	typeref:struct:v4l2_format	file:
+fmt	simple-capture/capture.c	/^static struct v4l2_format fmt;$/;"	v	typeref:struct:v4l2_format	file:
+force_format	simple-capture-1800/capture.c	/^static int              force_format=1;$/;"	v	typeref:typename:int	file:
+force_format	simple-capture/capture.c	/^static int              force_format=1;$/;"	v	typeref:typename:int	file:
+frame	simple-canny-interactive cv3/simple-canny-interactive/capture.cpp	/^IplImage* frame;$/;"	v	typeref:typename:IplImage *
+frame	simple-canny-interactive/capture.cpp	/^IplImage* frame;$/;"	v	typeref:typename:IplImage *
+frame_count	simple-capture-1800/capture.c	/^static int              frame_count = (189);$/;"	v	typeref:typename:int	file:
+frame_count	simple-capture/capture.c	/^static int              frame_count = 30;$/;"	v	typeref:typename:int	file:
+framecnt	simple-capture-1800/capture.c	/^int framecnt=-8;$/;"	v	typeref:typename:int
+framecnt	simple-capture/capture.c	/^unsigned int framecnt=0;$/;"	v	typeref:typename:unsigned int
+h	sharpen-psf/sharpen_grid.c	/^    int h;$/;"	m	struct:_threadArgs	typeref:typename:int	file:
+header	sharpen-psf/sharpen.c	/^UINT8 header[22];$/;"	v	typeref:typename:UINT8[22]
+header	sharpen-psf/sharpen_grid.c	/^UINT8 header[22];$/;"	v	typeref:typename:UINT8[22]
+i	sharpen-psf/sharpen_grid.c	/^    int i;$/;"	m	struct:_threadArgs	typeref:typename:int	file:
+init_device	simple-capture-1800/capture.c	/^static void init_device(void)$/;"	f	typeref:typename:void	file:
+init_device	simple-capture/capture.c	/^static void init_device(void)$/;"	f	typeref:typename:void	file:
+init_mmap	simple-capture-1800/capture.c	/^static void init_mmap(void)$/;"	f	typeref:typename:void	file:
+init_mmap	simple-capture/capture.c	/^static void init_mmap(void)$/;"	f	typeref:typename:void	file:
+init_read	simple-capture-1800/capture.c	/^static void init_read(unsigned int buffer_size)$/;"	f	typeref:typename:void	file:
+init_read	simple-capture/capture.c	/^static void init_read(unsigned int buffer_size)$/;"	f	typeref:typename:void	file:
+init_userp	simple-capture-1800/capture.c	/^static void init_userp(unsigned int buffer_size)$/;"	f	typeref:typename:void	file:
+init_userp	simple-capture/capture.c	/^static void init_userp(unsigned int buffer_size)$/;"	f	typeref:typename:void	file:
+io	simple-capture-1800/capture.c	/^static enum io_method   io = IO_METHOD_MMAP;$/;"	v	typeref:enum:io_method	file:
+io	simple-capture/capture.c	/^static enum io_method   io = IO_METHOD_MMAP;$/;"	v	typeref:enum:io_method	file:
+io_method	simple-capture-1800/capture.c	/^enum io_method $/;"	g	file:
+io_method	simple-capture/capture.c	/^enum io_method $/;"	g	file:
+j	sharpen-psf/sharpen_grid.c	/^    int j;$/;"	m	struct:_threadArgs	typeref:typename:int	file:
+kernel_size	simple-canny-interactive cv3/simple-canny-interactive/capture.cpp	/^int kernel_size = 3;$/;"	v	typeref:typename:int
+kernel_size	simple-canny-interactive/capture.cpp	/^int kernel_size = 3;$/;"	v	typeref:typename:int
+length	simple-capture-1800/capture.c	/^        size_t  length;$/;"	m	struct:buffer	typeref:typename:size_t	file:
+length	simple-capture/capture.c	/^        size_t  length;$/;"	m	struct:buffer	typeref:typename:size_t	file:
+long_options	simple-capture-1800/capture.c	/^long_options[] = {$/;"	v	typeref:typename:const struct option[]	file:
+long_options	simple-capture/capture.c	/^long_options[] = {$/;"	v	typeref:typename:const struct option[]	file:
+lowThreshold	simple-canny-interactive cv3/simple-canny-interactive/capture.cpp	/^int lowThreshold=0;$/;"	v	typeref:typename:int
+lowThreshold	simple-canny-interactive/capture.cpp	/^int lowThreshold=0;$/;"	v	typeref:typename:int
+main	c-brighten/brighten.c	/^void main(int argc, char *argv[])$/;"	f	typeref:typename:void
+main	example-stereo-transform-improved cv3/example-stereo-transform-improved/capture.cpp	/^int main( int argc, char** argv )$/;"	f	typeref:typename:int
+main	example-stereo-transform-improved cv3/example-stereo-transform-improved/capture_stereo.cpp	/^int main( int argc, char** argv )$/;"	f	typeref:typename:int
+main	example-stereo-transform-improved/capture.cpp	/^int main( int argc, char** argv )$/;"	f	typeref:typename:int
+main	example-stereo-transform-improved/capture_stereo.cpp	/^int main( int argc, char** argv )$/;"	f	typeref:typename:int
+main	sharpen-psf/sharpen.c	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
+main	sharpen-psf/sharpen_grid.c	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
+main	simple-canny-interactive cv3/simple-canny-interactive/capture.cpp	/^int main( int argc, char** argv )$/;"	f	typeref:typename:int
+main	simple-canny-interactive/capture.cpp	/^int main( int argc, char** argv )$/;"	f	typeref:typename:int
+main	simple-capture-1800/capture.c	/^int main(int argc, char **argv)$/;"	f	typeref:typename:int
+main	simple-capture/capture.c	/^int main(int argc, char **argv)$/;"	f	typeref:typename:int
+main	simple-hough-eliptical-interactive/capture.cpp	/^int main( int argc, char** argv )$/;"	f	typeref:typename:int
+main	simple-hough-eliptical-interactivecv3/simple-hough-eliptical-interactive/capture.cpp	/^int main( int argc, char** argv )$/;"	f	typeref:typename:int
+main	simple-hough-interactive cv3/simple-hough-interactive/capture.cpp	/^int main( int argc, char** argv )$/;"	f	typeref:typename:int
+main	simple-hough-interactive/capture.cpp	/^int main( int argc, char** argv )$/;"	f	typeref:typename:int
+main	simpler-capture-2/capture.cpp	/^int main( int argc, char** argv )$/;"	f	typeref:typename:int
+main	simpler-capture-3/capture.cpp	/^int main( int argc, char** argv )$/;"	f	typeref:typename:int
+main	simpler-capture/capture.cpp	/^int main( int argc, char** argv )$/;"	f	typeref:typename:int
+main	simpler-video-capture-3/capture.cpp	/^int main( int argc, char** argv )$/;"	f	typeref:typename:int
+main	simpler-video-capture-3/capture2.cpp	/^int main(int argc, char** argv)$/;"	f	typeref:typename:int
+main	simpler-video-capture-3/capture3.cpp	/^int main(int, char**)$/;"	f	typeref:typename:int
+mainloop	simple-capture-1800/capture.c	/^static void mainloop(void)$/;"	f	typeref:typename:void	file:
+mainloop	simple-capture/capture.c	/^static void mainloop(void)$/;"	f	typeref:typename:void	file:
+max_lowThreshold	simple-canny-interactive cv3/simple-canny-interactive/capture.cpp	/^int const max_lowThreshold = 100;$/;"	v	typeref:typename:int const
+max_lowThreshold	simple-canny-interactive/capture.cpp	/^int const max_lowThreshold = 100;$/;"	v	typeref:typename:int const
+n_buffers	simple-capture-1800/capture.c	/^static unsigned int     n_buffers;$/;"	v	typeref:typename:unsigned int	file:
+n_buffers	simple-capture/capture.c	/^static unsigned int     n_buffers;$/;"	v	typeref:typename:unsigned int	file:
+open_device	simple-capture-1800/capture.c	/^static void open_device(void)$/;"	f	typeref:typename:void	file:
+open_device	simple-capture/capture.c	/^static void open_device(void)$/;"	f	typeref:typename:void	file:
+orig_sched_attr	sharpen-psf/sharpen_grid.c	/^pthread_attr_t orig_sched_attr;$/;"	v	typeref:typename:pthread_attr_t
+out_buf	simple-capture-1800/capture.c	/^static int              out_buf;$/;"	v	typeref:typename:int	file:
+out_buf	simple-capture/capture.c	/^static int              out_buf;$/;"	v	typeref:typename:int	file:
+pgm_dumpname	simple-capture-1800/capture.c	/^char pgm_dumpname[]="frames\/test0000.pgm";$/;"	v	typeref:typename:char[]
+pgm_dumpname	simple-capture/capture.c	/^char pgm_dumpname[]="test00000000.pgm";$/;"	v	typeref:typename:char[]
+pgm_header	simple-capture-1800/capture.c	/^char pgm_header[]="P5\\n#9999999999 sec 9999999999 msec \\n"HRES_STR" "VRES_STR"\\n255\\n";$/;"	v	typeref:typename:char[]
+pgm_header	simple-capture/capture.c	/^char pgm_header[]="P5\\n#9999999999 sec 9999999999 msec \\n"HRES_STR" "VRES_STR"\\n255\\n";$/;"	v	typeref:typename:char[]
+ppm_dumpname	simple-capture-1800/capture.c	/^char ppm_dumpname[]="frames\/test0000.ppm";$/;"	v	typeref:typename:char[]
+ppm_dumpname	simple-capture/capture.c	/^char ppm_dumpname[]="test00000000.ppm";$/;"	v	typeref:typename:char[]
+ppm_header	simple-capture-1800/capture.c	/^char ppm_header[]="P6\\n#9999999999 sec 9999999999 msec \\n"HRES_STR" "VRES_STR"\\n255\\n";$/;"	v	typeref:typename:char[]
+ppm_header	simple-capture/capture.c	/^char ppm_header[]="P6\\n#9999999999 sec 9999999999 msec \\n"HRES_STR" "VRES_STR"\\n255\\n";$/;"	v	typeref:typename:char[]
+process_image	simple-capture-1800/capture.c	/^static void process_image(const void *p, int size)$/;"	f	typeref:typename:void	file:
+process_image	simple-capture/capture.c	/^static void process_image(const void *p, int size)$/;"	f	typeref:typename:void	file:
+ratio	simple-canny-interactive cv3/simple-canny-interactive/capture.cpp	/^int ratio = 3;$/;"	v	typeref:typename:int
+ratio	simple-canny-interactive/capture.cpp	/^int ratio = 3;$/;"	v	typeref:typename:int
+read_frame	simple-capture-1800/capture.c	/^static int read_frame(void)$/;"	f	typeref:typename:int	file:
+read_frame	simple-capture/capture.c	/^static int read_frame(void)$/;"	f	typeref:typename:int	file:
+readppm	c-brighten/brighten.c	/^void readppm(unsigned char *buffer, int *bufferlen, $/;"	f	typeref:typename:void
+sharpen_thread	sharpen-psf/sharpen_grid.c	/^void *sharpen_thread(void *threadptr)$/;"	f	typeref:typename:void *
+short_options	simple-capture-1800/capture.c	/^static const char short_options[] = "d:hmruofc:";$/;"	v	typeref:typename:const char[]	file:
+short_options	simple-capture/capture.c	/^static const char short_options[] = "d:hmruofc:";$/;"	v	typeref:typename:const char[]	file:
+snapshotname	example-stereo-transform-improved cv3/example-stereo-transform-improved/capture_stereo.cpp	/^char snapshotname[80]="snapshot_xxx.jpg";$/;"	v	typeref:typename:char[80]
+snapshotname	example-stereo-transform-improved/capture_stereo.cpp	/^char snapshotname[80]="snapshot_xxx.jpg";$/;"	v	typeref:typename:char[80]
+start	simple-capture-1800/capture.c	/^        void   *start;$/;"	m	struct:buffer	typeref:typename:void *	file:
+start	simple-capture/capture.c	/^        void   *start;$/;"	m	struct:buffer	typeref:typename:void *	file:
+start_capturing	simple-capture-1800/capture.c	/^static void start_capturing(void)$/;"	f	typeref:typename:void	file:
+start_capturing	simple-capture/capture.c	/^static void start_capturing(void)$/;"	f	typeref:typename:void	file:
+stop_capturing	simple-capture-1800/capture.c	/^static void stop_capturing(void)$/;"	f	typeref:typename:void	file:
+stop_capturing	simple-capture/capture.c	/^static void stop_capturing(void)$/;"	f	typeref:typename:void	file:
+threadArgsType	sharpen-psf/sharpen_grid.c	/^} threadArgsType;$/;"	t	typeref:struct:_threadArgs	file:
+thread_idx	sharpen-psf/sharpen_grid.c	/^    int thread_idx;$/;"	m	struct:_threadArgs	typeref:typename:int	file:
+threadarg	sharpen-psf/sharpen_grid.c	/^threadArgsType threadarg[NUM_ROW_THREADS*NUM_COL_THREADS];$/;"	v	typeref:typename:threadArgsType[]
+threads	sharpen-psf/sharpen_grid.c	/^pthread_t threads[NUM_ROW_THREADS*NUM_COL_THREADS];$/;"	v	typeref:typename:pthread_t[]
+timg_grad	simple-canny-interactive cv3/simple-canny-interactive/capture.cpp	/^Mat canny_frame, cdst, timg_gray, timg_grad;$/;"	v	typeref:typename:Mat
+timg_grad	simple-canny-interactive/capture.cpp	/^Mat canny_frame, cdst, timg_gray, timg_grad;$/;"	v	typeref:typename:Mat
+timg_gray	simple-canny-interactive cv3/simple-canny-interactive/capture.cpp	/^Mat canny_frame, cdst, timg_gray, timg_grad;$/;"	v	typeref:typename:Mat
+timg_gray	simple-canny-interactive/capture.cpp	/^Mat canny_frame, cdst, timg_gray, timg_grad;$/;"	v	typeref:typename:Mat
+timg_window_name	simple-canny-interactive cv3/simple-canny-interactive/capture.cpp	/^char timg_window_name[] = "Edge Detector Transform";$/;"	v	typeref:typename:char[]
+timg_window_name	simple-canny-interactive/capture.cpp	/^char timg_window_name[] = "Edge Detector Transform";$/;"	v	typeref:typename:char[]
+uninit_device	simple-capture-1800/capture.c	/^static void uninit_device(void)$/;"	f	typeref:typename:void	file:
+uninit_device	simple-capture/capture.c	/^static void uninit_device(void)$/;"	f	typeref:typename:void	file:
+usage	simple-capture-1800/capture.c	/^static void usage(FILE *fp, int argc, char **argv)$/;"	f	typeref:typename:void	file:
+usage	simple-capture/capture.c	/^static void usage(FILE *fp, int argc, char **argv)$/;"	f	typeref:typename:void	file:
+w	sharpen-psf/sharpen_grid.c	/^    int w;$/;"	m	struct:_threadArgs	typeref:typename:int	file:
+writeppm	c-brighten/brighten.c	/^void writeppm(unsigned char *buffer, int bufferlen,$/;"	f	typeref:typename:void
+xioctl	simple-capture-1800/capture.c	/^static int xioctl(int fh, int request, void *arg)$/;"	f	typeref:typename:int	file:
+xioctl	simple-capture/capture.c	/^static int xioctl(int fh, int request, void *arg)$/;"	f	typeref:typename:int	file:
+yuv2rgb	simple-capture-1800/capture.c	/^void yuv2rgb(int y, int u, int v, unsigned char *r, unsigned char *g, unsigned char *b)$/;"	f	typeref:typename:void
+yuv2rgb	simple-capture/capture.c	/^void yuv2rgb(int y, int u, int v, unsigned char *r, unsigned char *g, unsigned char *b)$/;"	f	typeref:typename:void
+yuv2rgb_float	simple-capture-1800/capture.c	/^void yuv2rgb_float(float y, float u, float v, $/;"	f	typeref:typename:void
+yuv2rgb_float	simple-capture/capture.c	/^void yuv2rgb_float(float y, float u, float v, $/;"	f	typeref:typename:void

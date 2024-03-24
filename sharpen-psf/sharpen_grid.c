@@ -14,7 +14,6 @@
 #define IMG_H_SLICE (IMG_HEIGHT/NUM_ROW_THREADS)
 #define IMG_W_SLICE (IMG_WIDTH/NUM_COL_THREADS)
 
-
 typedef double FLOAT;
 
 pthread_t threads[NUM_ROW_THREADS*NUM_COL_THREADS];

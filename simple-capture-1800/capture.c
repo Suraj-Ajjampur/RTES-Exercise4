@@ -102,6 +102,8 @@ static int xioctl(int fh, int request, void *arg)
 
 char ppm_header[]="P6\n#9999999999 sec 9999999999 msec \n"HRES_STR" "VRES_STR"\n255\n";
 char ppm_dumpname[]="frames/test0000.ppm";
+#define PIXIDX ((i*col*chan)+(j*chan)+k)
+#define SAT (255)
 
 static void dump_ppm(const void *p, int size, unsigned int tag, struct timespec *time)
 {
@@ -119,6 +121,20 @@ static void dump_ppm(const void *p, int size, unsigned int tag, struct timespec 
 
     total=0;
 
+    char header[512];
+    unsigned char img[640*480*3], newimg[640*480*3];
+    int bufflen, hdrlen; unsigned row=0, col=0, chan=0, pix; int i, j, k;
+    double alpha=1.25;  unsigned char beta=25;
+
+    header[0]='\0';
+    //readppm(img, &bufflen, header, &hdrlen, &row, &col, &chan, argv[1]);
+
+  for(i=0; i < row; i++)
+    for(j=0; j < col; j++)
+      for(k=0; k < chan; k++)
+      {
+          newimg[PIXIDX] = (pix=(unsigned)((img[PIXIDX])*alpha)+beta) > SAT ? SAT : pix;
+      }
     do
     {
         written=write(dumpfd, p, size);
