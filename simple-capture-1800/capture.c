@@ -32,6 +32,7 @@
 #include <linux/videodev2.h>
 
 #include <time.h>
+#include <syslog.h>
 
 #define CLEAR(x) memset(&(x), 0, sizeof(x))
 //#define COLOR_CONVERT_RGB
@@ -115,7 +116,7 @@ static void dump_ppm(const void *p, int size, unsigned int tag, struct timespec 
         total+=written;
     } while(total < size);
 
-    printf("wrote %d bytes\n", total);
+    syslog(LOG_INFO, "wrote %d bytes\n", total);
 
     close(dumpfd);
     
@@ -147,7 +148,7 @@ static void dump_pgm(const void *p, int size, unsigned int tag, struct timespec 
         total+=written;
     } while(total < size);
 
-    printf("wrote %d bytes\n", total);
+    syslog(LOG_INFO, "wrote %d bytes\n", total);
 
     close(dumpfd);
     
@@ -231,7 +232,7 @@ static void process_image(const void *p, int size)
     clock_gettime(CLOCK_REALTIME, &frame_time);    
 
     framecnt++;
-    printf("frame %d: ", framecnt);
+    syslog(LOG_INFO, "frame %d: \n", framecnt);
 
     // This just dumps the frame to a file now, but you could replace with whatever image
     // processing you wish.
@@ -239,7 +240,7 @@ static void process_image(const void *p, int size)
 
     if(fmt.fmt.pix.pixelformat == V4L2_PIX_FMT_GREY)
     {
-        printf("Dump graymap as-is size %d\n", size);
+        syslog(LOG_INFO, "Dump graymap as-is size %d\n", size);
         dump_pgm(p, size, framecnt, &frame_time);
     }
 
@@ -278,7 +279,8 @@ static void process_image(const void *p, int size)
         if(framecnt > -1)
         {
             dump_pgm(bigbuffer, (size/2), framecnt, &frame_time);
-            printf("Dump YUYV converted to YY size %d\n", size);
+            syslog(LOG_INFO, "Dump YUYV converted to YY size %d\n", size);
+            //printf("Dump YUYV converted to YY size %d\n", size);
         }
 #endif
 
@@ -286,7 +288,7 @@ static void process_image(const void *p, int size)
 
     else if(fmt.fmt.pix.pixelformat == V4L2_PIX_FMT_RGB24)
     {
-        printf("Dump RGB as-is size %d\n", size);
+        syslog(LOG_INFO, "Dump RGB as-is size %d\n", size);
         dump_ppm(p, size, framecnt, &frame_time);
     }
     else
@@ -457,7 +459,7 @@ static void mainloop(void)
                 if(nanosleep(&read_delay, &time_error) != 0)
                     perror("nanosleep");
                 else
-                    printf("time_error.tv_sec=%ld, time_error.tv_nsec=%ld\n", time_error.tv_sec, time_error.tv_nsec);
+                    syslog(LOG_INFO, "time_error.tv_sec=%ld, time_error.tv_nsec=%ld", time_error.tv_sec, time_error.tv_nsec);
 
                 count--;
                 break;
@@ -504,7 +506,8 @@ static void start_capturing(void)
         case IO_METHOD_MMAP:
                 for (i = 0; i < n_buffers; ++i) 
                 {
-                        printf("allocated buffer %d\n", i);
+                        syslog(LOG_INFO, "allocated buffer %d\n", i);
+                        //printf("allocated buffer %d\n", i);
                         struct v4l2_buffer buf;
 
                         CLEAR(buf);
@@ -773,7 +776,8 @@ static void init_device(void)
 
     if (force_format)
     {
-        printf("FORCING FORMAT\n");
+        syslog(LOG_INFO, "FORCING FORMAT\n");
+        //printf("FORCING FORMAT\n");
         fmt.fmt.pix.width       = HRES;
         fmt.fmt.pix.height      = VRES;
 
@@ -799,7 +803,8 @@ static void init_device(void)
     }
     else
     {
-        printf("ASSUMING FORMAT\n");
+        syslog(LOG_INFO, "ASSUMING FORMAT\n");
+        //printf("ASSUMING FORMAT\n");
         /* Preserve original settings as set by v4l2-ctl for example */
         if (-1 == xioctl(fd, VIDIOC_G_FMT, &fmt))
                     errno_exit("VIDIOC_G_FMT");
@@ -832,34 +837,35 @@ static void init_device(void)
 
 static void close_device(void)
 {
-        if (-1 == close(fd))
-                errno_exit("close");
+    if (-1 == close(fd))
+    {
+        syslog(LOG_ERR, "Error closing device file descriptor: %s", strerror(errno));
+        errno_exit("close");
+    }
 
-        fd = -1;
+    fd = -1;
 }
 
 static void open_device(void)
 {
-        struct stat st;
+    struct stat st;
 
-        if (-1 == stat(dev_name, &st)) {
-                fprintf(stderr, "Cannot identify '%s': %d, %s\n",
-                         dev_name, errno, strerror(errno));
-                exit(EXIT_FAILURE);
-        }
+    if (-1 == stat(dev_name, &st)) {
+        syslog(LOG_ERR, "Cannot identify '%s': %d, %s", dev_name, errno, strerror(errno));
+        exit(EXIT_FAILURE);
+    }
 
-        if (!S_ISCHR(st.st_mode)) {
-                fprintf(stderr, "%s is no device\n", dev_name);
-                exit(EXIT_FAILURE);
-        }
+    if (!S_ISCHR(st.st_mode)) {
+        syslog(LOG_ERR, "%s is no device", dev_name);
+        exit(EXIT_FAILURE);
+    }
 
-        fd = open(dev_name, O_RDWR /* required */ | O_NONBLOCK, 0);
+    fd = open(dev_name, O_RDWR | O_NONBLOCK, 0);
 
-        if (-1 == fd) {
-                fprintf(stderr, "Cannot open '%s': %d, %s\n",
-                         dev_name, errno, strerror(errno));
-                exit(EXIT_FAILURE);
-        }
+    if (-1 == fd) {
+        syslog(LOG_ERR, "Cannot open '%s': %d, %s", dev_name, errno, strerror(errno));
+        exit(EXIT_FAILURE);
+    }
 }
 
 static void usage(FILE *fp, int argc, char **argv)
