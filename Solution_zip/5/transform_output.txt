@@ -1,772 +1,670 @@
-Mar 24 22:57:34 suraj-desktop capture: FORCING FORMAT
-Mar 24 22:57:34 suraj-desktop capture: allocated buffer 0
-Mar 24 22:57:34 suraj-desktop capture: allocated buffer 1
-Mar 24 22:57:34 suraj-desktop capture: allocated buffer 2
-Mar 24 22:57:34 suraj-desktop capture: allocated buffer 3
-Mar 24 22:57:34 suraj-desktop capture: allocated buffer 4
-Mar 24 22:57:34 suraj-desktop capture: allocated buffer 5
-Mar 24 22:57:34 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 0.000000 FPS, for frame -8
-Mar 24 22:57:34 suraj-desktop capture: frame -7:
-Mar 24 22:57:34 suraj-desktop capture: Transformation duration: 0.029789 s, Frame rate: 33.569438 FPS, for frame -7
-Mar 24 22:57:34 suraj-desktop capture: Transformation duration: 0.029845 s for frame -7
-Mar 24 22:57:34 suraj-desktop capture: Write back duration: 0.002277 s, Frame rate: 439.114377 FPS, for frame -7
-Mar 24 22:57:34 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:35 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 33.569438 FPS, for frame -7
-Mar 24 22:57:35 suraj-desktop capture: frame -6:
-Mar 24 22:57:35 suraj-desktop capture: Transformation duration: 0.027834 s, Frame rate: 35.927659 FPS, for frame -6
-Mar 24 22:57:35 suraj-desktop capture: Transformation duration: 0.027888 s for frame -6
-Mar 24 22:57:35 suraj-desktop capture: Write back duration: 0.002284 s, Frame rate: 437.793102 FPS, for frame -6
-Mar 24 22:57:35 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:35 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 35.927659 FPS, for frame -6
-Mar 24 22:57:35 suraj-desktop capture: frame -5:
-Mar 24 22:57:35 suraj-desktop capture: Transformation duration: 0.027784 s, Frame rate: 35.991303 FPS, for frame -5
-Mar 24 22:57:35 suraj-desktop capture: Transformation duration: 0.027838 s for frame -5
-Mar 24 22:57:35 suraj-desktop capture: Write back duration: 0.002269 s, Frame rate: 440.697148 FPS, for frame -5
-Mar 24 22:57:35 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:35 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 35.991303 FPS, for frame -5
-Mar 24 22:57:35 suraj-desktop capture: frame -4:
-Mar 24 22:57:35 suraj-desktop capture: Transformation duration: 0.027845 s, Frame rate: 35.912808 FPS, for frame -4
-Mar 24 22:57:35 suraj-desktop capture: Transformation duration: 0.027904 s for frame -4
-Mar 24 22:57:35 suraj-desktop capture: Write back duration: 0.002285 s, Frame rate: 437.553464 FPS, for frame -4
-Mar 24 22:57:35 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:35 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 35.912808 FPS, for frame -4
-Mar 24 22:57:35 suraj-desktop capture: frame -3:
-Mar 24 22:57:35 suraj-desktop capture: Transformation duration: 0.027977 s, Frame rate: 35.743259 FPS, for frame -3
-Mar 24 22:57:35 suraj-desktop capture: Transformation duration: 0.028032 s for frame -3
-Mar 24 22:57:35 suraj-desktop capture: Write back duration: 0.002279 s, Frame rate: 438.853644 FPS, for frame -3
-Mar 24 22:57:35 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:35 suraj-desktop capture: Acquision duration: 0.000044 s, Frame rate: 35.743259 FPS, for frame -3
-Mar 24 22:57:35 suraj-desktop capture: frame -2:
-Mar 24 22:57:35 suraj-desktop capture: Transformation duration: 0.027549 s, Frame rate: 36.298659 FPS, for frame -2
-Mar 24 22:57:35 suraj-desktop capture: Transformation duration: 0.027605 s for frame -2
-Mar 24 22:57:35 suraj-desktop capture: Write back duration: 0.002535 s, Frame rate: 394.539105 FPS, for frame -2
-Mar 24 22:57:35 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:35 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 36.298659 FPS, for frame -2
-Mar 24 22:57:35 suraj-desktop capture: frame -1:
-Mar 24 22:57:35 suraj-desktop capture: Transformation duration: 0.027591 s, Frame rate: 36.243226 FPS, for frame -1
-Mar 24 22:57:35 suraj-desktop capture: Transformation duration: 0.027648 s for frame -1
-Mar 24 22:57:35 suraj-desktop capture: Write back duration: 0.002386 s, Frame rate: 419.100945 FPS, for frame -1
-Mar 24 22:57:35 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:35 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 36.243226 FPS, for frame -1
-Mar 24 22:57:35 suraj-desktop capture: frame 0:
-Mar 24 22:57:35 suraj-desktop capture: Transformation duration: 0.028604 s, Frame rate: 34.960557 FPS, for frame 0
-Mar 24 22:57:35 suraj-desktop capture: Transformation duration: 0.028668 s for frame 0
-Mar 24 22:57:35 suraj-desktop capture: Write back duration: 0.002363 s, Frame rate: 423.221128 FPS, for frame 0
-Mar 24 22:57:35 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:35 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 34.960557 FPS, for frame 0
-Mar 24 22:57:35 suraj-desktop capture: frame 1:
-Mar 24 22:57:35 suraj-desktop capture: Transformation duration: 0.027676 s, Frame rate: 36.132255 FPS, for frame 1
-Mar 24 22:57:35 suraj-desktop capture: Transformation duration: 0.027734 s for frame 1
-Mar 24 22:57:35 suraj-desktop capture: Write back duration: 0.003111 s, Frame rate: 321.417012 FPS, for frame 1
-Mar 24 22:57:35 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:35 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 36.132255 FPS, for frame 1
-Mar 24 22:57:35 suraj-desktop capture: frame 2:
-Mar 24 22:57:35 suraj-desktop capture: Transformation duration: 0.028906 s, Frame rate: 34.594446 FPS, for frame 2
-Mar 24 22:57:35 suraj-desktop capture: Transformation duration: 0.028959 s for frame 2
-Mar 24 22:57:35 suraj-desktop capture: Write back duration: 0.003867 s, Frame rate: 258.573389 FPS, for frame 2
-Mar 24 22:57:35 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:35 suraj-desktop capture: SIMPCAP: read at 128.855155, @ 0.023282 FPS
-Mar 24 22:57:35 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 34.594446 FPS, for frame 2
-Mar 24 22:57:35 suraj-desktop capture: frame 3:
-Mar 24 22:57:35 suraj-desktop capture: Transformation duration: 0.029256 s, Frame rate: 34.180521 FPS, for frame 3
-Mar 24 22:57:35 suraj-desktop capture: Transformation duration: 0.029310 s for frame 3
-Mar 24 22:57:35 suraj-desktop capture: Write back duration: 0.003258 s, Frame rate: 306.902953 FPS, for frame 3
-Mar 24 22:57:35 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:35 suraj-desktop capture: SIMPCAP: read at 128.921316, @ 0.031027 FPS
-Mar 24 22:57:35 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 34.180521 FPS, for frame 3
-Mar 24 22:57:35 suraj-desktop capture: frame 4:
-Mar 24 22:57:35 suraj-desktop capture: Transformation duration: 0.029589 s, Frame rate: 33.796481 FPS, for frame 4
-Mar 24 22:57:35 suraj-desktop capture: Transformation duration: 0.029644 s for frame 4
-Mar 24 22:57:35 suraj-desktop capture: Write back duration: 0.004009 s, Frame rate: 249.449154 FPS, for frame 4
-Mar 24 22:57:35 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:35 suraj-desktop capture: SIMPCAP: read at 128.988557, @ 0.038763 FPS
-Mar 24 22:57:35 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 33.796481 FPS, for frame 4
-Mar 24 22:57:35 suraj-desktop capture: frame 5:
-Mar 24 22:57:35 suraj-desktop capture: Transformation duration: 0.029020 s, Frame rate: 34.459403 FPS, for frame 5
-Mar 24 22:57:35 suraj-desktop capture: Transformation duration: 0.029069 s for frame 5
-Mar 24 22:57:35 suraj-desktop capture: Write back duration: 0.003099 s, Frame rate: 322.702856 FPS, for frame 5
-Mar 24 22:57:35 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:35 suraj-desktop capture: SIMPCAP: read at 129.054339, @ 0.046492 FPS
-Mar 24 22:57:35 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 34.459403 FPS, for frame 5
-Mar 24 22:57:35 suraj-desktop capture: frame 6:
-Mar 24 22:57:35 suraj-desktop capture: Transformation duration: 0.028805 s, Frame rate: 34.716173 FPS, for frame 6
-Mar 24 22:57:35 suraj-desktop capture: Transformation duration: 0.028855 s for frame 6
-Mar 24 22:57:35 suraj-desktop capture: Write back duration: 0.003948 s, Frame rate: 253.302880 FPS, for frame 6
-Mar 24 22:57:35 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:35 suraj-desktop capture: SIMPCAP: read at 129.120783, @ 0.054213 FPS
-Mar 24 22:57:35 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 34.716173 FPS, for frame 6
-Mar 24 22:57:35 suraj-desktop capture: frame 7:
-Mar 24 22:57:35 suraj-desktop capture: Transformation duration: 0.027699 s, Frame rate: 36.101817 FPS, for frame 7
-Mar 24 22:57:35 suraj-desktop capture: Transformation duration: 0.027757 s for frame 7
-Mar 24 22:57:35 suraj-desktop capture: Write back duration: 0.002943 s, Frame rate: 339.814271 FPS, for frame 7
-Mar 24 22:57:35 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:35 suraj-desktop capture: SIMPCAP: read at 129.186232, @ 0.061926 FPS
-Mar 24 22:57:35 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 36.101817 FPS, for frame 7
-Mar 24 22:57:35 suraj-desktop capture: frame 8:
-Mar 24 22:57:35 suraj-desktop capture: Transformation duration: 0.030544 s, Frame rate: 32.739162 FPS, for frame 8
-Mar 24 22:57:35 suraj-desktop capture: Transformation duration: 0.031158 s for frame 8
-Mar 24 22:57:35 suraj-desktop capture: Write back duration: 0.004177 s, Frame rate: 239.411603 FPS, for frame 8
-Mar 24 22:57:35 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:35 suraj-desktop capture: SIMPCAP: read at 129.255614, @ 0.069629 FPS
-Mar 24 22:57:36 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 32.739162 FPS, for frame 8
-Mar 24 22:57:36 suraj-desktop capture: frame 9:
-Mar 24 22:57:36 suraj-desktop capture: Transformation duration: 0.031354 s, Frame rate: 31.894192 FPS, for frame 9
-Mar 24 22:57:36 suraj-desktop capture: Transformation duration: 0.031413 s for frame 9
-Mar 24 22:57:36 suraj-desktop capture: Write back duration: 0.002879 s, Frame rate: 347.364183 FPS, for frame 9
-Mar 24 22:57:36 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:36 suraj-desktop capture: SIMPCAP: read at 129.323625, @ 0.077325 FPS
-Mar 24 22:57:36 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 31.894192 FPS, for frame 9
-Mar 24 22:57:36 suraj-desktop capture: frame 10:
-Mar 24 22:57:36 suraj-desktop capture: Transformation duration: 0.027333 s, Frame rate: 36.586141 FPS, for frame 10
-Mar 24 22:57:36 suraj-desktop capture: Transformation duration: 0.027385 s for frame 10
-Mar 24 22:57:36 suraj-desktop capture: Write back duration: 0.003790 s, Frame rate: 263.817647 FPS, for frame 10
-Mar 24 22:57:36 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:36 suraj-desktop capture: SIMPCAP: read at 129.388480, @ 0.085015 FPS
-Mar 24 22:57:36 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 36.586141 FPS, for frame 10
-Mar 24 22:57:36 suraj-desktop capture: frame 11:
-Mar 24 22:57:36 suraj-desktop capture: Transformation duration: 0.028126 s, Frame rate: 35.554437 FPS, for frame 11
-Mar 24 22:57:36 suraj-desktop capture: Transformation duration: 0.028180 s for frame 11
-Mar 24 22:57:36 suraj-desktop capture: Write back duration: 0.003010 s, Frame rate: 332.234965 FPS, for frame 11
-Mar 24 22:57:36 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:36 suraj-desktop capture: SIMPCAP: read at 129.453269, @ 0.092698 FPS
-Mar 24 22:57:36 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 35.554437 FPS, for frame 11
-Mar 24 22:57:36 suraj-desktop capture: frame 12:
-Mar 24 22:57:36 suraj-desktop capture: Transformation duration: 0.029330 s, Frame rate: 34.095137 FPS, for frame 12
-Mar 24 22:57:36 suraj-desktop capture: Transformation duration: 0.029378 s for frame 12
-Mar 24 22:57:36 suraj-desktop capture: Write back duration: 0.004011 s, Frame rate: 249.329429 FPS, for frame 12
-Mar 24 22:57:36 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:36 suraj-desktop capture: SIMPCAP: read at 129.520341, @ 0.100370 FPS
-Mar 24 22:57:36 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 34.095137 FPS, for frame 12
-Mar 24 22:57:36 suraj-desktop capture: frame 13:
-Mar 24 22:57:36 suraj-desktop capture: Transformation duration: 0.027981 s, Frame rate: 35.738552 FPS, for frame 13
-Mar 24 22:57:36 suraj-desktop capture: Transformation duration: 0.028031 s for frame 13
-Mar 24 22:57:36 suraj-desktop capture: Write back duration: 0.003102 s, Frame rate: 322.334527 FPS, for frame 13
-Mar 24 22:57:36 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:36 suraj-desktop capture: SIMPCAP: read at 129.585081, @ 0.108037 FPS
-Mar 24 22:57:36 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 35.738552 FPS, for frame 13
-Mar 24 22:57:36 suraj-desktop capture: frame 14:
-Mar 24 22:57:36 suraj-desktop capture: Transformation duration: 0.028904 s, Frame rate: 34.596707 FPS, for frame 14
-Mar 24 22:57:36 suraj-desktop capture: Transformation duration: 0.028957 s for frame 14
-Mar 24 22:57:36 suraj-desktop capture: Write back duration: 0.003799 s, Frame rate: 263.235341 FPS, for frame 14
-Mar 24 22:57:36 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:36 suraj-desktop capture: SIMPCAP: read at 129.651486, @ 0.115695 FPS
-Mar 24 22:57:36 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 34.596707 FPS, for frame 14
-Mar 24 22:57:36 suraj-desktop capture: frame 15:
-Mar 24 22:57:36 suraj-desktop capture: Transformation duration: 0.027805 s, Frame rate: 35.964961 FPS, for frame 15
-Mar 24 22:57:36 suraj-desktop capture: Transformation duration: 0.027857 s for frame 15
-Mar 24 22:57:36 suraj-desktop capture: Write back duration: 0.003000 s, Frame rate: 333.365670 FPS, for frame 15
-Mar 24 22:57:36 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:36 suraj-desktop capture: SIMPCAP: read at 129.715986, @ 0.123346 FPS
-Mar 24 22:57:36 suraj-desktop capture: Acquision duration: 0.000012 s, Frame rate: 35.964961 FPS, for frame 15
-Mar 24 22:57:36 suraj-desktop capture: frame 16:
-Mar 24 22:57:36 suraj-desktop capture: Transformation duration: 0.028084 s, Frame rate: 35.608047 FPS, for frame 16
-Mar 24 22:57:36 suraj-desktop capture: Transformation duration: 0.028148 s for frame 16
-Mar 24 22:57:36 suraj-desktop capture: Write back duration: 0.004616 s, Frame rate: 216.656227 FPS, for frame 16
-Mar 24 22:57:36 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:36 suraj-desktop capture: SIMPCAP: read at 129.782495, @ 0.130988 FPS
-Mar 24 22:57:36 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 35.608047 FPS, for frame 16
-Mar 24 22:57:36 suraj-desktop capture: frame 17:
-Mar 24 22:57:36 suraj-desktop capture: Transformation duration: 0.027056 s, Frame rate: 36.960618 FPS, for frame 17
-Mar 24 22:57:36 suraj-desktop capture: Transformation duration: 0.027110 s for frame 17
-Mar 24 22:57:36 suraj-desktop capture: Write back duration: 0.003094 s, Frame rate: 323.208190 FPS, for frame 17
-Mar 24 22:57:36 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:36 suraj-desktop capture: SIMPCAP: read at 129.846294, @ 0.138625 FPS
-Mar 24 22:57:36 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 36.960618 FPS, for frame 17
-Mar 24 22:57:36 suraj-desktop capture: frame 18:
-Mar 24 22:57:36 suraj-desktop capture: Transformation duration: 0.027780 s, Frame rate: 35.997395 FPS, for frame 18
-Mar 24 22:57:36 suraj-desktop capture: Transformation duration: 0.027840 s for frame 18
-Mar 24 22:57:36 suraj-desktop capture: Write back duration: 0.004196 s, Frame rate: 238.303300 FPS, for frame 18
-Mar 24 22:57:36 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:36 suraj-desktop capture: SIMPCAP: read at 129.911974, @ 0.146253 FPS
-Mar 24 22:57:36 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 35.997395 FPS, for frame 18
-Mar 24 22:57:36 suraj-desktop capture: frame 19:
-Mar 24 22:57:36 suraj-desktop capture: Transformation duration: 0.028078 s, Frame rate: 35.615444 FPS, for frame 19
-Mar 24 22:57:36 suraj-desktop capture: Transformation duration: 0.028134 s for frame 19
-Mar 24 22:57:36 suraj-desktop capture: Write back duration: 0.002919 s, Frame rate: 342.597630 FPS, for frame 19
-Mar 24 22:57:36 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:36 suraj-desktop capture: SIMPCAP: read at 129.976768, @ 0.153874 FPS
-Mar 24 22:57:36 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 35.615444 FPS, for frame 19
-Mar 24 22:57:36 suraj-desktop capture: frame 20:
-Mar 24 22:57:36 suraj-desktop capture: Transformation duration: 0.027657 s, Frame rate: 36.157584 FPS, for frame 20
-Mar 24 22:57:36 suraj-desktop capture: Transformation duration: 0.027706 s for frame 20
-Mar 24 22:57:36 suraj-desktop capture: Write back duration: 0.003910 s, Frame rate: 255.766185 FPS, for frame 20
-Mar 24 22:57:36 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:36 suraj-desktop capture: SIMPCAP: read at 130.042019, @ 0.161486 FPS
-Mar 24 22:57:36 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 36.157584 FPS, for frame 20
-Mar 24 22:57:36 suraj-desktop capture: frame 21:
-Mar 24 22:57:36 suraj-desktop capture: Transformation duration: 0.027511 s, Frame rate: 36.349109 FPS, for frame 21
-Mar 24 22:57:36 suraj-desktop capture: Transformation duration: 0.027562 s for frame 21
-Mar 24 22:57:36 suraj-desktop capture: Write back duration: 0.003072 s, Frame rate: 325.496887 FPS, for frame 21
-Mar 24 22:57:36 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:36 suraj-desktop capture: SIMPCAP: read at 130.106294, @ 0.169093 FPS
-Mar 24 22:57:36 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 36.349109 FPS, for frame 21
-Mar 24 22:57:36 suraj-desktop capture: frame 22:
-Mar 24 22:57:36 suraj-desktop capture: Transformation duration: 0.027333 s, Frame rate: 36.585460 FPS, for frame 22
-Mar 24 22:57:36 suraj-desktop capture: Transformation duration: 0.027391 s for frame 22
-Mar 24 22:57:36 suraj-desktop capture: Write back duration: 0.003942 s, Frame rate: 253.654528 FPS, for frame 22
-Mar 24 22:57:36 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:36 suraj-desktop capture: SIMPCAP: read at 130.171273, @ 0.176690 FPS
-Mar 24 22:57:36 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 36.585460 FPS, for frame 22
-Mar 24 22:57:36 suraj-desktop capture: frame 23:
-Mar 24 22:57:36 suraj-desktop capture: Transformation duration: 0.027180 s, Frame rate: 36.791960 FPS, for frame 23
-Mar 24 22:57:36 suraj-desktop capture: Transformation duration: 0.027255 s for frame 23
-Mar 24 22:57:36 suraj-desktop capture: Write back duration: 0.003280 s, Frame rate: 304.837342 FPS, for frame 23
-Mar 24 22:57:36 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:36 suraj-desktop capture: SIMPCAP: read at 130.235442, @ 0.184282 FPS
-Mar 24 22:57:36 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 36.791960 FPS, for frame 23
-Mar 24 22:57:36 suraj-desktop capture: frame 24:
-Mar 24 22:57:37 suraj-desktop capture: Transformation duration: 0.027826 s, Frame rate: 35.937003 FPS, for frame 24
-Mar 24 22:57:37 suraj-desktop capture: Transformation duration: 0.028404 s for frame 24
-Mar 24 22:57:37 suraj-desktop capture: Write back duration: 0.006486 s, Frame rate: 154.178634 FPS, for frame 24
-Mar 24 22:57:37 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:37 suraj-desktop capture: SIMPCAP: read at 130.305157, @ 0.191857 FPS
-Mar 24 22:57:37 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 35.937003 FPS, for frame 24
-Mar 24 22:57:37 suraj-desktop capture: frame 25:
-Mar 24 22:57:37 suraj-desktop capture: Transformation duration: 0.026543 s, Frame rate: 37.675178 FPS, for frame 25
-Mar 24 22:57:37 suraj-desktop capture: Transformation duration: 0.026599 s for frame 25
-Mar 24 22:57:37 suraj-desktop capture: Write back duration: 0.002902 s, Frame rate: 344.555387 FPS, for frame 25
-Mar 24 22:57:37 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:37 suraj-desktop capture: SIMPCAP: read at 130.368330, @ 0.199435 FPS
-Mar 24 22:57:37 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 37.675178 FPS, for frame 25
-Mar 24 22:57:37 suraj-desktop capture: frame 26:
-Mar 24 22:57:37 suraj-desktop capture: Transformation duration: 0.027587 s, Frame rate: 36.248794 FPS, for frame 26
-Mar 24 22:57:37 suraj-desktop capture: Transformation duration: 0.027665 s for frame 26
-Mar 24 22:57:37 suraj-desktop capture: Write back duration: 0.003853 s, Frame rate: 259.537079 FPS, for frame 26
-Mar 24 22:57:37 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:37 suraj-desktop capture: SIMPCAP: read at 130.433536, @ 0.207002 FPS
-Mar 24 22:57:37 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 36.248794 FPS, for frame 26
-Mar 24 22:57:37 suraj-desktop capture: frame 27:
-Mar 24 22:57:37 suraj-desktop capture: Transformation duration: 0.027570 s, Frame rate: 36.270737 FPS, for frame 27
-Mar 24 22:57:37 suraj-desktop capture: Transformation duration: 0.027622 s for frame 27
-Mar 24 22:57:37 suraj-desktop capture: Write back duration: 0.002821 s, Frame rate: 354.532862 FPS, for frame 27
-Mar 24 22:57:37 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:37 suraj-desktop capture: SIMPCAP: read at 130.497628, @ 0.214563 FPS
-Mar 24 22:57:37 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 36.270737 FPS, for frame 27
-Mar 24 22:57:37 suraj-desktop capture: frame 28:
-Mar 24 22:57:37 suraj-desktop capture: Transformation duration: 0.027271 s, Frame rate: 36.668638 FPS, for frame 28
-Mar 24 22:57:37 suraj-desktop capture: Transformation duration: 0.027321 s for frame 28
-Mar 24 22:57:37 suraj-desktop capture: Write back duration: 0.003872 s, Frame rate: 258.250590 FPS, for frame 28
-Mar 24 22:57:37 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:37 suraj-desktop capture: SIMPCAP: read at 130.562486, @ 0.222116 FPS
-Mar 24 22:57:37 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 36.668638 FPS, for frame 28
-Mar 24 22:57:37 suraj-desktop capture: frame 29:
-Mar 24 22:57:37 suraj-desktop capture: Transformation duration: 0.027147 s, Frame rate: 36.836594 FPS, for frame 29
-Mar 24 22:57:37 suraj-desktop capture: Transformation duration: 0.027202 s for frame 29
-Mar 24 22:57:37 suraj-desktop capture: Write back duration: 0.002933 s, Frame rate: 340.952485 FPS, for frame 29
-Mar 24 22:57:37 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:37 suraj-desktop capture: SIMPCAP: read at 130.626289, @ 0.229663 FPS
-Mar 24 22:57:37 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 36.836594 FPS, for frame 29
-Mar 24 22:57:37 suraj-desktop capture: frame 30:
-Mar 24 22:57:37 suraj-desktop capture: Transformation duration: 0.027146 s, Frame rate: 36.837516 FPS, for frame 30
-Mar 24 22:57:37 suraj-desktop capture: Transformation duration: 0.027197 s for frame 30
-Mar 24 22:57:37 suraj-desktop capture: Write back duration: 0.004013 s, Frame rate: 249.188145 FPS, for frame 30
-Mar 24 22:57:37 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:37 suraj-desktop capture: SIMPCAP: read at 130.691154, @ 0.237200 FPS
-Mar 24 22:57:37 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 36.837516 FPS, for frame 30
-Mar 24 22:57:37 suraj-desktop capture: frame 31:
-Mar 24 22:57:37 suraj-desktop capture: Transformation duration: 0.027033 s, Frame rate: 36.991817 FPS, for frame 31
-Mar 24 22:57:37 suraj-desktop capture: Transformation duration: 0.027094 s for frame 31
-Mar 24 22:57:37 suraj-desktop capture: Write back duration: 0.003087 s, Frame rate: 323.908356 FPS, for frame 31
-Mar 24 22:57:37 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:37 suraj-desktop capture: SIMPCAP: read at 130.755035, @ 0.244732 FPS
-Mar 24 22:57:37 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 36.991817 FPS, for frame 31
-Mar 24 22:57:37 suraj-desktop capture: frame 32:
-Mar 24 22:57:37 suraj-desktop capture: Transformation duration: 0.026835 s, Frame rate: 37.264454 FPS, for frame 32
-Mar 24 22:57:37 suraj-desktop capture: Transformation duration: 0.026895 s for frame 32
-Mar 24 22:57:37 suraj-desktop capture: Write back duration: 0.004349 s, Frame rate: 229.939133 FPS, for frame 32
-Mar 24 22:57:37 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:37 suraj-desktop capture: SIMPCAP: read at 130.819925, @ 0.252255 FPS
-Mar 24 22:57:37 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 37.264454 FPS, for frame 32
-Mar 24 22:57:37 suraj-desktop capture: frame 33:
-Mar 24 22:57:37 suraj-desktop capture: Transformation duration: 0.028611 s, Frame rate: 34.951880 FPS, for frame 33
-Mar 24 22:57:37 suraj-desktop capture: Transformation duration: 0.028663 s for frame 33
-Mar 24 22:57:37 suraj-desktop capture: Write back duration: 0.003073 s, Frame rate: 325.436826 FPS, for frame 33
-Mar 24 22:57:37 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:37 suraj-desktop capture: SIMPCAP: read at 130.885287, @ 0.259769 FPS
-Mar 24 22:57:37 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 34.951880 FPS, for frame 33
-Mar 24 22:57:37 suraj-desktop capture: frame 34:
-Mar 24 22:57:37 suraj-desktop capture: Transformation duration: 0.028691 s, Frame rate: 34.854220 FPS, for frame 34
-Mar 24 22:57:37 suraj-desktop capture: Transformation duration: 0.028740 s for frame 34
-Mar 24 22:57:37 suraj-desktop capture: Write back duration: 0.004148 s, Frame rate: 241.088234 FPS, for frame 34
-Mar 24 22:57:37 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:37 suraj-desktop capture: SIMPCAP: read at 130.951783, @ 0.267274 FPS
-Mar 24 22:57:37 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 34.854220 FPS, for frame 34
-Mar 24 22:57:37 suraj-desktop capture: frame 35:
-Mar 24 22:57:37 suraj-desktop capture: Transformation duration: 0.028266 s, Frame rate: 35.377861 FPS, for frame 35
-Mar 24 22:57:37 suraj-desktop capture: Transformation duration: 0.028319 s for frame 35
-Mar 24 22:57:37 suraj-desktop capture: Write back duration: 0.002924 s, Frame rate: 341.943704 FPS, for frame 35
-Mar 24 22:57:37 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:37 suraj-desktop capture: SIMPCAP: read at 131.016719, @ 0.274774 FPS
-Mar 24 22:57:37 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 35.377861 FPS, for frame 35
-Mar 24 22:57:37 suraj-desktop capture: frame 36:
-Mar 24 22:57:37 suraj-desktop capture: Transformation duration: 0.029234 s, Frame rate: 34.206818 FPS, for frame 36
-Mar 24 22:57:37 suraj-desktop capture: Transformation duration: 0.029289 s for frame 36
-Mar 24 22:57:37 suraj-desktop capture: Write back duration: 0.003865 s, Frame rate: 258.756046 FPS, for frame 36
-Mar 24 22:57:37 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:37 suraj-desktop capture: SIMPCAP: read at 131.083530, @ 0.282263 FPS
-Mar 24 22:57:37 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 34.206818 FPS, for frame 36
-Mar 24 22:57:37 suraj-desktop capture: frame 37:
-Mar 24 22:57:37 suraj-desktop capture: Transformation duration: 0.027077 s, Frame rate: 36.931108 FPS, for frame 37
-Mar 24 22:57:37 suraj-desktop capture: Transformation duration: 0.027134 s for frame 37
-Mar 24 22:57:37 suraj-desktop capture: Write back duration: 0.002973 s, Frame rate: 336.400068 FPS, for frame 37
-Mar 24 22:57:37 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:37 suraj-desktop capture: SIMPCAP: read at 131.147237, @ 0.289751 FPS
-Mar 24 22:57:37 suraj-desktop capture: Acquision duration: 0.000012 s, Frame rate: 36.931108 FPS, for frame 37
-Mar 24 22:57:37 suraj-desktop capture: frame 38:
-Mar 24 22:57:37 suraj-desktop capture: Transformation duration: 0.028485 s, Frame rate: 35.106246 FPS, for frame 38
-Mar 24 22:57:37 suraj-desktop capture: Transformation duration: 0.028542 s for frame 38
-Mar 24 22:57:37 suraj-desktop capture: Write back duration: 0.004029 s, Frame rate: 248.194632 FPS, for frame 38
-Mar 24 22:57:37 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:37 suraj-desktop capture: SIMPCAP: read at 131.213515, @ 0.297225 FPS
-Mar 24 22:57:37 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 35.106246 FPS, for frame 38
-Mar 24 22:57:37 suraj-desktop capture: frame 39:
-Mar 24 22:57:37 suraj-desktop capture: Transformation duration: 0.026263 s, Frame rate: 38.076519 FPS, for frame 39
-Mar 24 22:57:37 suraj-desktop capture: Transformation duration: 0.026322 s for frame 39
-Mar 24 22:57:37 suraj-desktop capture: Write back duration: 0.003170 s, Frame rate: 315.471545 FPS, for frame 39
-Mar 24 22:57:37 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:38 suraj-desktop capture: SIMPCAP: read at 131.276644, @ 0.304700 FPS
-Mar 24 22:57:38 suraj-desktop capture: Acquision duration: 0.000013 s, Frame rate: 38.076519 FPS, for frame 39
-Mar 24 22:57:38 suraj-desktop capture: frame 40:
-Mar 24 22:57:38 suraj-desktop capture: Transformation duration: 0.034656 s, Frame rate: 28.854997 FPS, for frame 40
-Mar 24 22:57:38 suraj-desktop capture: Transformation duration: 0.034713 s for frame 40
-Mar 24 22:57:38 suraj-desktop capture: Write back duration: 0.009687 s, Frame rate: 103.226169 FPS, for frame 40
-Mar 24 22:57:38 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:38 suraj-desktop capture: SIMPCAP: read at 131.354696, @ 0.312132 FPS
-Mar 24 22:57:38 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 28.854997 FPS, for frame 40
-Mar 24 22:57:38 suraj-desktop capture: frame 41:
-Mar 24 22:57:38 suraj-desktop capture: Transformation duration: 0.027130 s, Frame rate: 36.859361 FPS, for frame 41
-Mar 24 22:57:38 suraj-desktop capture: Transformation duration: 0.027187 s for frame 41
-Mar 24 22:57:38 suraj-desktop capture: Write back duration: 0.003368 s, Frame rate: 296.951173 FPS, for frame 41
-Mar 24 22:57:38 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:38 suraj-desktop capture: SIMPCAP: read at 131.420742, @ 0.319584 FPS
-Mar 24 22:57:38 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 36.859361 FPS, for frame 41
-Mar 24 22:57:38 suraj-desktop capture: frame 42:
-Mar 24 22:57:38 suraj-desktop capture: Transformation duration: 0.028279 s, Frame rate: 35.361310 FPS, for frame 42
-Mar 24 22:57:38 suraj-desktop capture: Transformation duration: 0.028330 s for frame 42
-Mar 24 22:57:38 suraj-desktop capture: Write back duration: 0.003958 s, Frame rate: 252.639132 FPS, for frame 42
-Mar 24 22:57:38 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:38 suraj-desktop capture: SIMPCAP: read at 131.486699, @ 0.327029 FPS
-Mar 24 22:57:38 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 35.361310 FPS, for frame 42
-Mar 24 22:57:38 suraj-desktop capture: frame 43:
-Mar 24 22:57:38 suraj-desktop capture: Transformation duration: 0.026529 s, Frame rate: 37.694364 FPS, for frame 43
-Mar 24 22:57:38 suraj-desktop capture: Transformation duration: 0.026579 s for frame 43
-Mar 24 22:57:38 suraj-desktop capture: Write back duration: 0.003015 s, Frame rate: 331.699162 FPS, for frame 43
-Mar 24 22:57:38 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:38 suraj-desktop capture: SIMPCAP: read at 131.549894, @ 0.334474 FPS
-Mar 24 22:57:38 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 37.694364 FPS, for frame 43
-Mar 24 22:57:38 suraj-desktop capture: frame 44:
-Mar 24 22:57:38 suraj-desktop capture: Transformation duration: 0.027104 s, Frame rate: 36.894541 FPS, for frame 44
-Mar 24 22:57:38 suraj-desktop capture: Transformation duration: 0.027158 s for frame 44
-Mar 24 22:57:38 suraj-desktop capture: Write back duration: 0.003994 s, Frame rate: 250.379199 FPS, for frame 44
-Mar 24 22:57:38 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:38 suraj-desktop capture: SIMPCAP: read at 131.614710, @ 0.341907 FPS
-Mar 24 22:57:38 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 36.894541 FPS, for frame 44
-Mar 24 22:57:38 suraj-desktop capture: frame 45:
-Mar 24 22:57:38 suraj-desktop capture: Transformation duration: 0.027027 s, Frame rate: 37.000483 FPS, for frame 45
-Mar 24 22:57:38 suraj-desktop capture: Transformation duration: 0.027077 s for frame 45
-Mar 24 22:57:38 suraj-desktop capture: Write back duration: 0.002865 s, Frame rate: 349.009685 FPS, for frame 45
-Mar 24 22:57:38 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:38 suraj-desktop capture: SIMPCAP: read at 131.678311, @ 0.349336 FPS
-Mar 24 22:57:38 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 37.000483 FPS, for frame 45
-Mar 24 22:57:38 suraj-desktop capture: frame 46:
-Mar 24 22:57:38 suraj-desktop capture: Transformation duration: 0.027091 s, Frame rate: 36.912369 FPS, for frame 46
-Mar 24 22:57:38 suraj-desktop capture: Transformation duration: 0.027144 s for frame 46
-Mar 24 22:57:38 suraj-desktop capture: Write back duration: 0.003969 s, Frame rate: 251.938668 FPS, for frame 46
-Mar 24 22:57:38 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:38 suraj-desktop capture: SIMPCAP: read at 131.743033, @ 0.356755 FPS
-Mar 24 22:57:38 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 36.912369 FPS, for frame 46
-Mar 24 22:57:38 suraj-desktop capture: frame 47:
-Mar 24 22:57:38 suraj-desktop capture: Transformation duration: 0.026945 s, Frame rate: 37.112494 FPS, for frame 47
-Mar 24 22:57:38 suraj-desktop capture: Transformation duration: 0.026999 s for frame 47
-Mar 24 22:57:38 suraj-desktop capture: Write back duration: 0.003256 s, Frame rate: 307.164929 FPS, for frame 47
-Mar 24 22:57:38 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:38 suraj-desktop capture: SIMPCAP: read at 131.806985, @ 0.364169 FPS
-Mar 24 22:57:38 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 37.112494 FPS, for frame 47
-Mar 24 22:57:38 suraj-desktop capture: frame 48:
-Mar 24 22:57:38 suraj-desktop capture: Transformation duration: 0.027974 s, Frame rate: 35.747652 FPS, for frame 48
-Mar 24 22:57:38 suraj-desktop capture: Transformation duration: 0.028030 s for frame 48
-Mar 24 22:57:38 suraj-desktop capture: Write back duration: 0.004223 s, Frame rate: 236.774712 FPS, for frame 48
-Mar 24 22:57:38 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:38 suraj-desktop capture: SIMPCAP: read at 131.872943, @ 0.371570 FPS
-Mar 24 22:57:38 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 35.747652 FPS, for frame 48
-Mar 24 22:57:38 suraj-desktop capture: frame 49:
-Mar 24 22:57:38 suraj-desktop capture: Transformation duration: 0.029112 s, Frame rate: 34.350286 FPS, for frame 49
-Mar 24 22:57:38 suraj-desktop capture: Transformation duration: 0.029171 s for frame 49
-Mar 24 22:57:38 suraj-desktop capture: Write back duration: 0.002906 s, Frame rate: 344.123794 FPS, for frame 49
-Mar 24 22:57:38 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:38 suraj-desktop capture: SIMPCAP: read at 131.938733, @ 0.378964 FPS
-Mar 24 22:57:38 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 34.350286 FPS, for frame 49
-Mar 24 22:57:38 suraj-desktop capture: frame 50:
-Mar 24 22:57:38 suraj-desktop capture: Transformation duration: 0.028364 s, Frame rate: 35.256235 FPS, for frame 50
-Mar 24 22:57:38 suraj-desktop capture: Transformation duration: 0.028415 s for frame 50
-Mar 24 22:57:38 suraj-desktop capture: Write back duration: 0.004074 s, Frame rate: 245.455875 FPS, for frame 50
-Mar 24 22:57:38 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:38 suraj-desktop capture: SIMPCAP: read at 132.004887, @ 0.386349 FPS
-Mar 24 22:57:38 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 35.256235 FPS, for frame 50
-Mar 24 22:57:38 suraj-desktop capture: frame 51:
-Mar 24 22:57:38 suraj-desktop capture: Transformation duration: 0.026449 s, Frame rate: 37.808534 FPS, for frame 51
-Mar 24 22:57:38 suraj-desktop capture: Transformation duration: 0.026494 s for frame 51
-Mar 24 22:57:38 suraj-desktop capture: Write back duration: 0.002955 s, Frame rate: 338.426196 FPS, for frame 51
-Mar 24 22:57:38 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:38 suraj-desktop capture: SIMPCAP: read at 132.067969, @ 0.393737 FPS
-Mar 24 22:57:38 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 37.808534 FPS, for frame 51
-Mar 24 22:57:38 suraj-desktop capture: frame 52:
-Mar 24 22:57:38 suraj-desktop capture: Transformation duration: 0.026460 s, Frame rate: 37.792661 FPS, for frame 52
-Mar 24 22:57:38 suraj-desktop capture: Transformation duration: 0.026524 s for frame 52
-Mar 24 22:57:38 suraj-desktop capture: Write back duration: 0.004428 s, Frame rate: 225.831410 FPS, for frame 52
-Mar 24 22:57:38 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:38 suraj-desktop capture: SIMPCAP: read at 132.132608, @ 0.401112 FPS
-Mar 24 22:57:38 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 37.792661 FPS, for frame 52
-Mar 24 22:57:38 suraj-desktop capture: frame 53:
-Mar 24 22:57:38 suraj-desktop capture: Transformation duration: 0.026753 s, Frame rate: 37.378453 FPS, for frame 53
-Mar 24 22:57:38 suraj-desktop capture: Transformation duration: 0.026812 s for frame 53
-Mar 24 22:57:38 suraj-desktop capture: Write back duration: 0.003065 s, Frame rate: 326.258207 FPS, for frame 53
-Mar 24 22:57:38 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:38 suraj-desktop capture: SIMPCAP: read at 132.196180, @ 0.408484 FPS
-Mar 24 22:57:38 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 37.378453 FPS, for frame 53
-Mar 24 22:57:38 suraj-desktop capture: frame 54:
-Mar 24 22:57:38 suraj-desktop capture: Transformation duration: 0.027041 s, Frame rate: 36.980715 FPS, for frame 54
-Mar 24 22:57:38 suraj-desktop capture: Transformation duration: 0.027091 s for frame 54
-Mar 24 22:57:38 suraj-desktop capture: Write back duration: 0.004008 s, Frame rate: 249.532003 FPS, for frame 54
-Mar 24 22:57:38 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:39 suraj-desktop capture: SIMPCAP: read at 132.260888, @ 0.415845 FPS
-Mar 24 22:57:39 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 36.980715 FPS, for frame 54
-Mar 24 22:57:39 suraj-desktop capture: frame 55:
-Mar 24 22:57:39 suraj-desktop capture: Transformation duration: 0.026473 s, Frame rate: 37.773784 FPS, for frame 55
-Mar 24 22:57:39 suraj-desktop capture: Transformation duration: 0.026529 s for frame 55
-Mar 24 22:57:39 suraj-desktop capture: Write back duration: 0.003113 s, Frame rate: 321.182465 FPS, for frame 55
-Mar 24 22:57:39 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:39 suraj-desktop capture: SIMPCAP: read at 132.324337, @ 0.423203 FPS
-Mar 24 22:57:39 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 37.773784 FPS, for frame 55
-Mar 24 22:57:39 suraj-desktop capture: frame 56:
-Mar 24 22:57:39 suraj-desktop capture: Transformation duration: 0.048283 s, Frame rate: 20.711163 FPS, for frame 56
-Mar 24 22:57:39 suraj-desktop capture: Transformation duration: 0.048354 s for frame 56
-Mar 24 22:57:39 suraj-desktop capture: Write back duration: 0.004622 s, Frame rate: 216.347990 FPS, for frame 56
-Mar 24 22:57:39 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:39 suraj-desktop capture: SIMPCAP: read at 132.410964, @ 0.430478 FPS
-Mar 24 22:57:39 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 20.711163 FPS, for frame 56
-Mar 24 22:57:39 suraj-desktop capture: frame 57:
-Mar 24 22:57:39 suraj-desktop capture: Transformation duration: 0.048047 s, Frame rate: 20.813071 FPS, for frame 57
-Mar 24 22:57:39 suraj-desktop capture: Transformation duration: 0.048612 s for frame 57
-Mar 24 22:57:39 suraj-desktop capture: Write back duration: 0.011266 s, Frame rate: 88.762783 FPS, for frame 57
-Mar 24 22:57:39 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:39 suraj-desktop capture: SIMPCAP: read at 132.504517, @ 0.437721 FPS
-Mar 24 22:57:39 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 20.813071 FPS, for frame 57
-Mar 24 22:57:39 suraj-desktop capture: frame 58:
-Mar 24 22:57:39 suraj-desktop capture: Transformation duration: 0.033179 s, Frame rate: 30.139884 FPS, for frame 58
-Mar 24 22:57:39 suraj-desktop capture: Transformation duration: 0.033588 s for frame 58
-Mar 24 22:57:39 suraj-desktop capture: Write back duration: 0.005124 s, Frame rate: 195.163954 FPS, for frame 58
-Mar 24 22:57:39 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:39 suraj-desktop capture: SIMPCAP: read at 132.577180, @ 0.445024 FPS
-Mar 24 22:57:39 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 30.139884 FPS, for frame 58
-Mar 24 22:57:39 suraj-desktop capture: frame 59:
-Mar 24 22:57:39 suraj-desktop capture: Transformation duration: 0.026333 s, Frame rate: 37.975094 FPS, for frame 59
-Mar 24 22:57:39 suraj-desktop capture: Transformation duration: 0.026387 s for frame 59
-Mar 24 22:57:39 suraj-desktop capture: Write back duration: 0.002903 s, Frame rate: 344.526423 FPS, for frame 59
-Mar 24 22:57:39 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:39 suraj-desktop capture: SIMPCAP: read at 132.640111, @ 0.452352 FPS
-Mar 24 22:57:39 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 37.975094 FPS, for frame 59
-Mar 24 22:57:39 suraj-desktop capture: frame 60:
-Mar 24 22:57:39 suraj-desktop capture: Transformation duration: 0.026488 s, Frame rate: 37.753099 FPS, for frame 60
-Mar 24 22:57:39 suraj-desktop capture: Transformation duration: 0.026543 s for frame 60
-Mar 24 22:57:39 suraj-desktop capture: Write back duration: 0.004132 s, Frame rate: 242.026029 FPS, for frame 60
-Mar 24 22:57:39 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:39 suraj-desktop capture: SIMPCAP: read at 132.705060, @ 0.459666 FPS
-Mar 24 22:57:39 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 37.753099 FPS, for frame 60
-Mar 24 22:57:39 suraj-desktop capture: frame 61:
-Mar 24 22:57:39 suraj-desktop capture: Transformation duration: 0.027477 s, Frame rate: 36.394106 FPS, for frame 61
-Mar 24 22:57:39 suraj-desktop capture: Transformation duration: 0.027532 s for frame 61
-Mar 24 22:57:39 suraj-desktop capture: Write back duration: 0.003124 s, Frame rate: 320.136762 FPS, for frame 61
-Mar 24 22:57:39 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:39 suraj-desktop capture: SIMPCAP: read at 132.769333, @ 0.466975 FPS
-Mar 24 22:57:39 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 36.394106 FPS, for frame 61
-Mar 24 22:57:39 suraj-desktop capture: frame 62:
-Mar 24 22:57:39 suraj-desktop capture: Transformation duration: 0.027440 s, Frame rate: 36.443425 FPS, for frame 62
-Mar 24 22:57:39 suraj-desktop capture: Transformation duration: 0.027494 s for frame 62
-Mar 24 22:57:39 suraj-desktop capture: Write back duration: 0.004037 s, Frame rate: 247.713603 FPS, for frame 62
-Mar 24 22:57:39 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:39 suraj-desktop capture: SIMPCAP: read at 132.838178, @ 0.474261 FPS
-Mar 24 22:57:39 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 36.443425 FPS, for frame 62
-Mar 24 22:57:39 suraj-desktop capture: frame 63:
-Mar 24 22:57:39 suraj-desktop capture: Transformation duration: 0.026861 s, Frame rate: 37.228773 FPS, for frame 63
-Mar 24 22:57:39 suraj-desktop capture: Transformation duration: 0.026918 s for frame 63
-Mar 24 22:57:39 suraj-desktop capture: Write back duration: 0.002889 s, Frame rate: 346.118489 FPS, for frame 63
-Mar 24 22:57:39 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:39 suraj-desktop capture: SIMPCAP: read at 132.901693, @ 0.481559 FPS
-Mar 24 22:57:39 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 37.228773 FPS, for frame 63
-Mar 24 22:57:39 suraj-desktop capture: frame 64:
-Mar 24 22:57:39 suraj-desktop capture: Transformation duration: 0.027890 s, Frame rate: 35.854771 FPS, for frame 64
-Mar 24 22:57:39 suraj-desktop capture: Transformation duration: 0.027942 s for frame 64
-Mar 24 22:57:39 suraj-desktop capture: Write back duration: 0.004342 s, Frame rate: 230.321557 FPS, for frame 64
-Mar 24 22:57:39 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:39 suraj-desktop capture: SIMPCAP: read at 132.967600, @ 0.488841 FPS
-Mar 24 22:57:39 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 35.854771 FPS, for frame 64
-Mar 24 22:57:39 suraj-desktop capture: frame 65:
-Mar 24 22:57:39 suraj-desktop capture: Transformation duration: 0.029360 s, Frame rate: 34.059799 FPS, for frame 65
-Mar 24 22:57:39 suraj-desktop capture: Transformation duration: 0.029414 s for frame 65
-Mar 24 22:57:39 suraj-desktop capture: Write back duration: 0.003543 s, Frame rate: 282.285963 FPS, for frame 65
-Mar 24 22:57:39 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:39 suraj-desktop capture: SIMPCAP: read at 133.034174, @ 0.496113 FPS
-Mar 24 22:57:39 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 34.059799 FPS, for frame 65
-Mar 24 22:57:39 suraj-desktop capture: frame 66:
-Mar 24 22:57:39 suraj-desktop capture: Transformation duration: 0.028746 s, Frame rate: 34.787675 FPS, for frame 66
-Mar 24 22:57:39 suraj-desktop capture: Transformation duration: 0.028799 s for frame 66
-Mar 24 22:57:39 suraj-desktop capture: Write back duration: 0.004199 s, Frame rate: 238.174913 FPS, for frame 66
-Mar 24 22:57:39 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:39 suraj-desktop capture: SIMPCAP: read at 133.100792, @ 0.503378 FPS
-Mar 24 22:57:39 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 34.787675 FPS, for frame 66
-Mar 24 22:57:39 suraj-desktop capture: frame 67:
-Mar 24 22:57:39 suraj-desktop capture: Transformation duration: 0.028195 s, Frame rate: 35.467646 FPS, for frame 67
-Mar 24 22:57:39 suraj-desktop capture: Transformation duration: 0.028247 s for frame 67
-Mar 24 22:57:39 suraj-desktop capture: Write back duration: 0.002987 s, Frame rate: 334.810629 FPS, for frame 67
-Mar 24 22:57:39 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:39 suraj-desktop capture: SIMPCAP: read at 133.165666, @ 0.510642 FPS
-Mar 24 22:57:39 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 35.467646 FPS, for frame 67
-Mar 24 22:57:39 suraj-desktop capture: frame 68:
-Mar 24 22:57:39 suraj-desktop capture: Transformation duration: 0.027538 s, Frame rate: 36.313393 FPS, for frame 68
-Mar 24 22:57:39 suraj-desktop capture: Transformation duration: 0.027601 s for frame 68
-Mar 24 22:57:39 suraj-desktop capture: Write back duration: 0.003929 s, Frame rate: 254.513349 FPS, for frame 68
-Mar 24 22:57:39 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:39 suraj-desktop capture: SIMPCAP: read at 133.230789, @ 0.517898 FPS
-Mar 24 22:57:39 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 36.313393 FPS, for frame 68
-Mar 24 22:57:39 suraj-desktop capture: frame 69:
-Mar 24 22:57:40 suraj-desktop capture: Transformation duration: 0.029021 s, Frame rate: 34.457765 FPS, for frame 69
-Mar 24 22:57:40 suraj-desktop capture: Transformation duration: 0.029080 s for frame 69
-Mar 24 22:57:40 suraj-desktop capture: Write back duration: 0.002762 s, Frame rate: 362.010607 FPS, for frame 69
-Mar 24 22:57:40 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:40 suraj-desktop capture: SIMPCAP: read at 133.296250, @ 0.525146 FPS
-Mar 24 22:57:40 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 34.457765 FPS, for frame 69
-Mar 24 22:57:40 suraj-desktop capture: frame 70:
-Mar 24 22:57:40 suraj-desktop capture: Transformation duration: 0.027212 s, Frame rate: 36.748461 FPS, for frame 70
-Mar 24 22:57:40 suraj-desktop capture: Transformation duration: 0.027277 s for frame 70
-Mar 24 22:57:40 suraj-desktop capture: Write back duration: 0.006303 s, Frame rate: 158.650531 FPS, for frame 70
-Mar 24 22:57:40 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:40 suraj-desktop capture: SIMPCAP: read at 133.363483, @ 0.532380 FPS
-Mar 24 22:57:40 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 36.748461 FPS, for frame 70
-Mar 24 22:57:40 suraj-desktop capture: frame 71:
-Mar 24 22:57:40 suraj-desktop capture: Transformation duration: 0.030395 s, Frame rate: 32.899612 FPS, for frame 71
-Mar 24 22:57:40 suraj-desktop capture: Transformation duration: 0.030454 s for frame 71
-Mar 24 22:57:40 suraj-desktop capture: Write back duration: 0.005295 s, Frame rate: 188.863940 FPS, for frame 71
-Mar 24 22:57:40 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:40 suraj-desktop capture: SIMPCAP: read at 133.436219, @ 0.539584 FPS
-Mar 24 22:57:40 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 32.899612 FPS, for frame 71
-Mar 24 22:57:40 suraj-desktop capture: frame 72:
-Mar 24 22:57:40 suraj-desktop capture: Transformation duration: 0.027717 s, Frame rate: 36.079546 FPS, for frame 72
-Mar 24 22:57:40 suraj-desktop capture: Transformation duration: 0.027782 s for frame 72
-Mar 24 22:57:40 suraj-desktop capture: Write back duration: 0.004125 s, Frame rate: 242.429767 FPS, for frame 72
-Mar 24 22:57:40 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:40 suraj-desktop capture: SIMPCAP: read at 133.501738, @ 0.546809 FPS
-Mar 24 22:57:40 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 36.079546 FPS, for frame 72
-Mar 24 22:57:40 suraj-desktop capture: frame 73:
-Mar 24 22:57:40 suraj-desktop capture: Transformation duration: 0.028030 s, Frame rate: 35.676240 FPS, for frame 73
-Mar 24 22:57:40 suraj-desktop capture: Transformation duration: 0.028089 s for frame 73
-Mar 24 22:57:40 suraj-desktop capture: Write back duration: 0.003138 s, Frame rate: 318.648319 FPS, for frame 73
-Mar 24 22:57:40 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:40 suraj-desktop capture: SIMPCAP: read at 133.566578, @ 0.554031 FPS
-Mar 24 22:57:40 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 35.676240 FPS, for frame 73
-Mar 24 22:57:40 suraj-desktop capture: frame 74:
-Mar 24 22:57:40 suraj-desktop capture: Transformation duration: 0.029546 s, Frame rate: 33.845167 FPS, for frame 74
-Mar 24 22:57:40 suraj-desktop capture: Transformation duration: 0.029604 s for frame 74
-Mar 24 22:57:40 suraj-desktop capture: Write back duration: 0.004135 s, Frame rate: 241.821360 FPS, for frame 74
-Mar 24 22:57:40 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:40 suraj-desktop capture: SIMPCAP: read at 133.633949, @ 0.561235 FPS
-Mar 24 22:57:40 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 33.845167 FPS, for frame 74
-Mar 24 22:57:40 suraj-desktop capture: frame 75:
-Mar 24 22:57:40 suraj-desktop capture: Transformation duration: 0.026215 s, Frame rate: 38.146637 FPS, for frame 75
-Mar 24 22:57:40 suraj-desktop capture: Transformation duration: 0.026269 s for frame 75
-Mar 24 22:57:40 suraj-desktop capture: Write back duration: 0.002767 s, Frame rate: 361.362539 FPS, for frame 75
-Mar 24 22:57:40 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:40 suraj-desktop capture: SIMPCAP: read at 133.696671, @ 0.568451 FPS
-Mar 24 22:57:40 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 38.146637 FPS, for frame 75
-Mar 24 22:57:40 suraj-desktop capture: frame 76:
-Mar 24 22:57:40 suraj-desktop capture: Transformation duration: 0.026733 s, Frame rate: 37.407587 FPS, for frame 76
-Mar 24 22:57:40 suraj-desktop capture: Transformation duration: 0.026785 s for frame 76
-Mar 24 22:57:40 suraj-desktop capture: Write back duration: 0.004041 s, Frame rate: 247.470174 FPS, for frame 76
-Mar 24 22:57:40 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:40 suraj-desktop capture: SIMPCAP: read at 133.761129, @ 0.575653 FPS
-Mar 24 22:57:40 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 37.407587 FPS, for frame 76
-Mar 24 22:57:40 suraj-desktop capture: frame 77:
-Mar 24 22:57:40 suraj-desktop capture: Transformation duration: 0.026601 s, Frame rate: 37.591956 FPS, for frame 77
-Mar 24 22:57:40 suraj-desktop capture: Transformation duration: 0.026655 s for frame 77
-Mar 24 22:57:40 suraj-desktop capture: Write back duration: 0.002878 s, Frame rate: 347.454582 FPS, for frame 77
-Mar 24 22:57:40 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:40 suraj-desktop capture: SIMPCAP: read at 133.824275, @ 0.582854 FPS
-Mar 24 22:57:40 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 37.591956 FPS, for frame 77
-Mar 24 22:57:40 suraj-desktop capture: frame 78:
-Mar 24 22:57:40 suraj-desktop capture: Transformation duration: 0.030190 s, Frame rate: 33.124045 FPS, for frame 78
-Mar 24 22:57:40 suraj-desktop capture: Transformation duration: 0.030251 s for frame 78
-Mar 24 22:57:40 suraj-desktop capture: Write back duration: 0.005508 s, Frame rate: 181.562311 FPS, for frame 78
-Mar 24 22:57:40 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:40 suraj-desktop capture: SIMPCAP: read at 133.893743, @ 0.590020 FPS
-Mar 24 22:57:40 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 33.124045 FPS, for frame 78
-Mar 24 22:57:40 suraj-desktop capture: frame 79:
-Mar 24 22:57:40 suraj-desktop capture: Transformation duration: 0.032211 s, Frame rate: 31.045157 FPS, for frame 79
-Mar 24 22:57:40 suraj-desktop capture: Transformation duration: 0.032634 s for frame 79
-Mar 24 22:57:40 suraj-desktop capture: Write back duration: 0.003185 s, Frame rate: 314.009305 FPS, for frame 79
-Mar 24 22:57:40 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:40 suraj-desktop capture: SIMPCAP: read at 133.963546, @ 0.597177 FPS
-Mar 24 22:57:40 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 31.045157 FPS, for frame 79
-Mar 24 22:57:40 suraj-desktop capture: frame 80:
-Mar 24 22:57:40 suraj-desktop capture: Transformation duration: 0.026572 s, Frame rate: 37.634231 FPS, for frame 80
-Mar 24 22:57:40 suraj-desktop capture: Transformation duration: 0.026641 s for frame 80
-Mar 24 22:57:40 suraj-desktop capture: Write back duration: 0.004078 s, Frame rate: 245.238811 FPS, for frame 80
-Mar 24 22:57:40 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:40 suraj-desktop capture: SIMPCAP: read at 134.028833, @ 0.604348 FPS
-Mar 24 22:57:40 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 37.634231 FPS, for frame 80
-Mar 24 22:57:40 suraj-desktop capture: frame 81:
-Mar 24 22:57:40 suraj-desktop capture: Transformation duration: 0.026287 s, Frame rate: 38.041444 FPS, for frame 81
-Mar 24 22:57:40 suraj-desktop capture: Transformation duration: 0.026339 s for frame 81
-Mar 24 22:57:40 suraj-desktop capture: Write back duration: 0.002915 s, Frame rate: 343.010694 FPS, for frame 81
-Mar 24 22:57:40 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:40 suraj-desktop capture: SIMPCAP: read at 134.091743, @ 0.611522 FPS
-Mar 24 22:57:40 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 38.041444 FPS, for frame 81
-Mar 24 22:57:40 suraj-desktop capture: frame 82:
-Mar 24 22:57:40 suraj-desktop capture: Transformation duration: 0.026862 s, Frame rate: 37.227981 FPS, for frame 82
-Mar 24 22:57:40 suraj-desktop capture: Transformation duration: 0.026913 s for frame 82
-Mar 24 22:57:40 suraj-desktop capture: Write back duration: 0.005507 s, Frame rate: 181.582982 FPS, for frame 82
-Mar 24 22:57:40 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:40 suraj-desktop capture: SIMPCAP: read at 134.157783, @ 0.618675 FPS
-Mar 24 22:57:40 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 37.227981 FPS, for frame 82
-Mar 24 22:57:40 suraj-desktop capture: frame 83:
-Mar 24 22:57:40 suraj-desktop capture: Transformation duration: 0.027821 s, Frame rate: 35.944213 FPS, for frame 83
-Mar 24 22:57:40 suraj-desktop capture: Transformation duration: 0.027882 s for frame 83
-Mar 24 22:57:40 suraj-desktop capture: Write back duration: 0.051081 s, Frame rate: 19.576733 FPS, for frame 83
-Mar 24 22:57:40 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:41 suraj-desktop capture: SIMPCAP: read at 134.270386, @ 0.625603 FPS
-Mar 24 22:57:41 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 35.944213 FPS, for frame 83
-Mar 24 22:57:41 suraj-desktop capture: frame 84:
-Mar 24 22:57:41 suraj-desktop capture: Transformation duration: 0.042183 s, Frame rate: 23.706412 FPS, for frame 84
-Mar 24 22:57:41 suraj-desktop capture: Transformation duration: 0.042251 s for frame 84
-Mar 24 22:57:41 suraj-desktop capture: Write back duration: 0.058583 s, Frame rate: 17.069753 FPS, for frame 84
-Mar 24 22:57:41 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:41 suraj-desktop capture: SIMPCAP: read at 134.409870, @ 0.632394 FPS
-Mar 24 22:57:41 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 23.706412 FPS, for frame 84
-Mar 24 22:57:41 suraj-desktop capture: frame 85:
-Mar 24 22:57:41 suraj-desktop capture: Transformation duration: 0.030752 s, Frame rate: 32.517993 FPS, for frame 85
-Mar 24 22:57:41 suraj-desktop capture: Transformation duration: 0.030814 s for frame 85
-Mar 24 22:57:41 suraj-desktop capture: Write back duration: 0.064908 s, Frame rate: 15.406324 FPS, for frame 85
-Mar 24 22:57:41 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:41 suraj-desktop capture: SIMPCAP: read at 134.540495, @ 0.639213 FPS
-Mar 24 22:57:41 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 32.517993 FPS, for frame 85
-Mar 24 22:57:41 suraj-desktop capture: frame 86:
-Mar 24 22:57:41 suraj-desktop capture: Transformation duration: 0.029835 s, Frame rate: 33.517211 FPS, for frame 86
-Mar 24 22:57:41 suraj-desktop capture: Transformation duration: 0.029893 s for frame 86
-Mar 24 22:57:41 suraj-desktop capture: Write back duration: 0.059250 s, Frame rate: 16.877670 FPS, for frame 86
-Mar 24 22:57:41 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:41 suraj-desktop capture: SIMPCAP: read at 134.664765, @ 0.646049 FPS
-Mar 24 22:57:41 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 33.517211 FPS, for frame 86
-Mar 24 22:57:41 suraj-desktop capture: frame 87:
-Mar 24 22:57:41 suraj-desktop capture: Transformation duration: 0.028309 s, Frame rate: 35.324711 FPS, for frame 87
-Mar 24 22:57:41 suraj-desktop capture: Transformation duration: 0.028366 s for frame 87
-Mar 24 22:57:41 suraj-desktop capture: Write back duration: 0.055025 s, Frame rate: 18.173592 FPS, for frame 87
-Mar 24 22:57:41 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:41 suraj-desktop capture: SIMPCAP: read at 134.782527, @ 0.652904 FPS
-Mar 24 22:57:41 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 35.324711 FPS, for frame 87
-Mar 24 22:57:41 suraj-desktop capture: frame 88:
-Mar 24 22:57:41 suraj-desktop capture: Transformation duration: 0.027841 s, Frame rate: 35.917827 FPS, for frame 88
-Mar 24 22:57:41 suraj-desktop capture: Transformation duration: 0.027899 s for frame 88
-Mar 24 22:57:41 suraj-desktop capture: Write back duration: 0.064832 s, Frame rate: 15.424367 FPS, for frame 88
-Mar 24 22:57:41 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:41 suraj-desktop capture: SIMPCAP: read at 134.910526, @ 0.659696 FPS
-Mar 24 22:57:41 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 35.917827 FPS, for frame 88
-Mar 24 22:57:41 suraj-desktop capture: frame 89:
-Mar 24 22:57:41 suraj-desktop capture: Transformation duration: 0.029493 s, Frame rate: 33.906046 FPS, for frame 89
-Mar 24 22:57:41 suraj-desktop capture: Transformation duration: 0.029556 s for frame 89
-Mar 24 22:57:41 suraj-desktop capture: Write back duration: 0.063848 s, Frame rate: 15.662184 FPS, for frame 89
-Mar 24 22:57:41 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:41 suraj-desktop capture: SIMPCAP: read at 135.037580, @ 0.666481 FPS
-Mar 24 22:57:41 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 33.906046 FPS, for frame 89
-Mar 24 22:57:41 suraj-desktop capture: frame 90:
-Mar 24 22:57:41 suraj-desktop capture: Transformation duration: 0.027252 s, Frame rate: 36.695204 FPS, for frame 90
-Mar 24 22:57:41 suraj-desktop capture: Transformation duration: 0.027305 s for frame 90
-Mar 24 22:57:42 suraj-desktop capture: Write back duration: 0.335889 s, Frame rate: 2.977176 FPS, for frame 90
-Mar 24 22:57:42 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:42 suraj-desktop capture: SIMPCAP: read at 135.434412, @ 0.671912 FPS
-Mar 24 22:57:42 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 36.695204 FPS, for frame 90
-Mar 24 22:57:42 suraj-desktop capture: frame 91:
-Mar 24 22:57:42 suraj-desktop capture: Transformation duration: 0.029151 s, Frame rate: 34.304523 FPS, for frame 91
-Mar 24 22:57:42 suraj-desktop capture: Transformation duration: 0.029633 s for frame 91
-Mar 24 22:57:42 suraj-desktop capture: Write back duration: 0.084999 s, Frame rate: 11.764779 FPS, for frame 91
-Mar 24 22:57:42 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:42 suraj-desktop capture: SIMPCAP: read at 135.582804, @ 0.678552 FPS
-Mar 24 22:57:42 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 34.304523 FPS, for frame 91
-Mar 24 22:57:42 suraj-desktop capture: frame 92:
-Mar 24 22:57:42 suraj-desktop capture: Transformation duration: 0.030032 s, Frame rate: 33.298254 FPS, for frame 92
-Mar 24 22:57:42 suraj-desktop capture: Transformation duration: 0.030642 s for frame 92
-Mar 24 22:57:42 suraj-desktop capture: Write back duration: 0.057680 s, Frame rate: 17.337028 FPS, for frame 92
-Mar 24 22:57:42 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:42 suraj-desktop capture: SIMPCAP: read at 135.706528, @ 0.685302 FPS
-Mar 24 22:57:42 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 33.298254 FPS, for frame 92
-Mar 24 22:57:42 suraj-desktop capture: frame 93:
-Mar 24 22:57:42 suraj-desktop capture: Transformation duration: 0.026303 s, Frame rate: 38.018026 FPS, for frame 93
-Mar 24 22:57:42 suraj-desktop capture: Transformation duration: 0.026357 s for frame 93
-Mar 24 22:57:42 suraj-desktop capture: Write back duration: 0.051675 s, Frame rate: 19.351716 FPS, for frame 93
-Mar 24 22:57:42 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:42 suraj-desktop capture: SIMPCAP: read at 135.818244, @ 0.692101 FPS
-Mar 24 22:57:42 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 38.018026 FPS, for frame 93
-Mar 24 22:57:42 suraj-desktop capture: frame 94:
-Mar 24 22:57:42 suraj-desktop capture: Transformation duration: 0.027226 s, Frame rate: 36.728949 FPS, for frame 94
-Mar 24 22:57:42 suraj-desktop capture: Transformation duration: 0.027289 s for frame 94
-Mar 24 22:57:42 suraj-desktop capture: Write back duration: 0.049054 s, Frame rate: 20.385519 FPS, for frame 94
-Mar 24 22:57:42 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:42 suraj-desktop capture: SIMPCAP: read at 135.928605, @ 0.698896 FPS
-Mar 24 22:57:42 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 36.728949 FPS, for frame 94
-Mar 24 22:57:42 suraj-desktop capture: frame 95:
-Mar 24 22:57:42 suraj-desktop capture: Transformation duration: 0.028026 s, Frame rate: 35.680878 FPS, for frame 95
-Mar 24 22:57:42 suraj-desktop capture: Transformation duration: 0.028083 s for frame 95
-Mar 24 22:57:42 suraj-desktop capture: Write back duration: 0.053455 s, Frame rate: 18.707466 FPS, for frame 95
-Mar 24 22:57:42 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:42 suraj-desktop capture: SIMPCAP: read at 136.044462, @ 0.705652 FPS
-Mar 24 22:57:42 suraj-desktop capture: Acquision duration: 0.000016 s, Frame rate: 35.680878 FPS, for frame 95
-Mar 24 22:57:42 suraj-desktop capture: frame 96:
-Mar 24 22:57:42 suraj-desktop capture: Transformation duration: 0.026967 s, Frame rate: 37.081723 FPS, for frame 96
-Mar 24 22:57:42 suraj-desktop capture: Transformation duration: 0.027030 s for frame 96
-Mar 24 22:57:42 suraj-desktop capture: Write back duration: 0.059791 s, Frame rate: 16.724955 FPS, for frame 96
-Mar 24 22:57:42 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:42 suraj-desktop capture: SIMPCAP: read at 136.165376, @ 0.712369 FPS
-Mar 24 22:57:42 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 37.081723 FPS, for frame 96
-Mar 24 22:57:42 suraj-desktop capture: frame 97:
-Mar 24 22:57:42 suraj-desktop capture: Transformation duration: 0.030575 s, Frame rate: 32.706478 FPS, for frame 97
-Mar 24 22:57:42 suraj-desktop capture: Transformation duration: 0.030663 s for frame 97
-Mar 24 22:57:42 suraj-desktop capture: Write back duration: 0.057562 s, Frame rate: 17.372524 FPS, for frame 97
-Mar 24 22:57:42 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:43 suraj-desktop capture: SIMPCAP: read at 136.288721, @ 0.719062 FPS
-Mar 24 22:57:43 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 32.706478 FPS, for frame 97
-Mar 24 22:57:43 suraj-desktop capture: frame 98:
-Mar 24 22:57:43 suraj-desktop capture: Transformation duration: 0.032099 s, Frame rate: 31.153301 FPS, for frame 98
-Mar 24 22:57:43 suraj-desktop capture: Transformation duration: 0.032162 s for frame 98
-Mar 24 22:57:43 suraj-desktop capture: Write back duration: 0.106914 s, Frame rate: 9.353340 FPS, for frame 98
-Mar 24 22:57:43 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:43 suraj-desktop capture: SIMPCAP: read at 136.462487, @ 0.725474 FPS
-Mar 24 22:57:43 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 31.153301 FPS, for frame 98
-Mar 24 22:57:43 suraj-desktop capture: frame 99:
-Mar 24 22:57:43 suraj-desktop capture: Transformation duration: 0.032342 s, Frame rate: 30.919833 FPS, for frame 99
-Mar 24 22:57:43 suraj-desktop capture: Transformation duration: 0.032404 s for frame 99
-Mar 24 22:57:43 suraj-desktop capture: Write back duration: 0.062980 s, Frame rate: 15.878082 FPS, for frame 99
-Mar 24 22:57:43 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:43 suraj-desktop capture: SIMPCAP: read at 136.592797, @ 0.732103 FPS
-Mar 24 22:57:43 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 30.919833 FPS, for frame 99
-Mar 24 22:57:43 suraj-desktop capture: frame 100:
-Mar 24 22:57:43 suraj-desktop capture: Transformation duration: 0.030795 s, Frame rate: 32.472362 FPS, for frame 100
-Mar 24 22:57:43 suraj-desktop capture: Transformation duration: 0.030857 s for frame 100
-Mar 24 22:57:43 suraj-desktop capture: Write back duration: 0.067401 s, Frame rate: 14.836602 FPS, for frame 100
-Mar 24 22:57:43 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:43 suraj-desktop capture: SIMPCAP: read at 136.725842, @ 0.738705 FPS
-Mar 24 22:57:43 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 32.472362 FPS, for frame 100
-Mar 24 22:57:43 suraj-desktop capture: frame 101:
-Mar 24 22:57:43 suraj-desktop capture: Transformation duration: 0.028168 s, Frame rate: 35.501806 FPS, for frame 101
-Mar 24 22:57:43 suraj-desktop capture: Transformation duration: 0.028231 s for frame 101
-Mar 24 22:57:43 suraj-desktop capture: Write back duration: 0.063513 s, Frame rate: 15.744863 FPS, for frame 101
-Mar 24 22:57:43 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:43 suraj-desktop capture: SIMPCAP: read at 136.851226, @ 0.745335 FPS
-Mar 24 22:57:43 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 35.501806 FPS, for frame 101
-Mar 24 22:57:43 suraj-desktop capture: frame 102:
-Mar 24 22:57:43 suraj-desktop capture: Transformation duration: 0.034169 s, Frame rate: 29.266565 FPS, for frame 102
-Mar 24 22:57:43 suraj-desktop capture: Transformation duration: 0.034237 s for frame 102
-Mar 24 22:57:44 suraj-desktop capture: Write back duration: 0.388917 s, Frame rate: 2.571240 FPS, for frame 102
-Mar 24 22:57:44 suraj-desktop capture: wrote 921600 bytes
-Mar 24 22:57:44 suraj-desktop capture: SIMPCAP: read at 137.310025, @ 0.750127 FPS
-Mar 24 22:57:44 suraj-desktop capture: Acquisition -- Total capture time=9.325914 seconds, for 101 frames, Average FPS=10.830038, Lowest FPS=22508.328081
-Mar 24 22:57:44 suraj-desktop capture: Total capture time=137.311488, for 102 frames, 0.735554 average FPS, 0.023282 lowest FPS
-Mar 24 22:57:44 suraj-desktop capture: Transformation -- 102 frames, 20.711163 lowest FPS, Average FPS is 38.644066
-Mar 24 22:57:44 suraj-desktop capture: Write back --102 total frames, 2.571240 lowest FPS, Average FPS is 264.837899
+Mar 25 13:52:23 suraj-desktop capture: Acquision duration: 0.000016 s, Frame rate: 60760.724268 Hz FPS, for frame 101
+Mar 25 13:52:23 suraj-desktop capture: frame 102:
+Mar 25 13:52:23 suraj-desktop capture: Transformation duration: 0.026878 s, Frame rate: 37.204805 Hz FPS, for frame 102
+Mar 25 13:52:23 suraj-desktop capture: Write back duration: 0.001991 s, Frame rate: 502.340152 Hz FPS, for frame 102
+Mar 25 13:52:23 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:52:23 suraj-desktop capture: SIMPCAP: read at 2193.195981, @ 0.046963 FPS Hz
+Mar 25 13:52:23 suraj-desktop capture: Acquisition -- 101 frames, Lowest FPS=38170.852737 hz,  Average FPS=108232.031935 hz
+Mar 25 13:52:23 suraj-desktop capture: Transformation -- 102 frames, 15.194777 lowest FPS hz, Average FPS is 38.280623 hz
+Mar 25 13:52:23 suraj-desktop capture: Write back --102 total frames, 27.421917 lowest FPS hz, Average FPS is 744.874540 hz
+Mar 25 13:54:23 suraj-desktop capture: FORCING FORMAT
+Mar 25 13:54:23 suraj-desktop capture: allocated buffer 0
+Mar 25 13:54:23 suraj-desktop capture: allocated buffer 1
+Mar 25 13:54:23 suraj-desktop capture: allocated buffer 2
+Mar 25 13:54:23 suraj-desktop capture: allocated buffer 3
+Mar 25 13:54:23 suraj-desktop capture: allocated buffer 4
+Mar 25 13:54:23 suraj-desktop capture: allocated buffer 5
+Mar 25 13:54:23 suraj-desktop capture: Acquision duration: 0.000024 s, Frame rate: 41201.433810 Hz FPS, for frame -8
+Mar 25 13:54:23 suraj-desktop capture: frame -7:
+Mar 25 13:54:23 suraj-desktop capture: Transformation duration: 0.029988 s, Frame rate: 33.346552 Hz FPS, for frame -7
+Mar 25 13:54:23 suraj-desktop capture: Write back duration: 0.002493 s, Frame rate: 401.065551 Hz FPS, for frame -7
+Mar 25 13:54:23 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:23 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 116360.251338 Hz FPS, for frame -7
+Mar 25 13:54:23 suraj-desktop capture: frame -6:
+Mar 25 13:54:23 suraj-desktop capture: Transformation duration: 0.029216 s, Frame rate: 34.227556 Hz FPS, for frame -6
+Mar 25 13:54:23 suraj-desktop capture: Write back duration: 0.002470 s, Frame rate: 404.803233 Hz FPS, for frame -6
+Mar 25 13:54:23 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:23 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 109086.942293 Hz FPS, for frame -6
+Mar 25 13:54:23 suraj-desktop capture: frame -5:
+Mar 25 13:54:23 suraj-desktop capture: Transformation duration: 0.029422 s, Frame rate: 33.988282 Hz FPS, for frame -5
+Mar 25 13:54:23 suraj-desktop capture: Write back duration: 0.002286 s, Frame rate: 437.363242 Hz FPS, for frame -5
+Mar 25 13:54:23 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:23 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 95996.928098 Hz FPS, for frame -5
+Mar 25 13:54:23 suraj-desktop capture: frame -4:
+Mar 25 13:54:23 suraj-desktop capture: Transformation duration: 0.029496 s, Frame rate: 33.902819 Hz FPS, for frame -4
+Mar 25 13:54:23 suraj-desktop capture: Write back duration: 0.002628 s, Frame rate: 380.495641 Hz FPS, for frame -4
+Mar 25 13:54:23 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:23 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 97962.382445 Hz FPS, for frame -4
+Mar 25 13:54:23 suraj-desktop capture: frame -3:
+Mar 25 13:54:23 suraj-desktop capture: Transformation duration: 0.028806 s, Frame rate: 34.715037 Hz FPS, for frame -3
+Mar 25 13:54:23 suraj-desktop capture: Write back duration: 0.002494 s, Frame rate: 400.973403 Hz FPS, for frame -3
+Mar 25 13:54:23 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:23 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 107863.229425 Hz FPS, for frame -3
+Mar 25 13:54:23 suraj-desktop capture: frame -2:
+Mar 25 13:54:23 suraj-desktop capture: Transformation duration: 0.028530 s, Frame rate: 35.051310 Hz FPS, for frame -2
+Mar 25 13:54:23 suraj-desktop capture: Write back duration: 0.002225 s, Frame rate: 449.423255 Hz FPS, for frame -2
+Mar 25 13:54:23 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:23 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 130616.509927 Hz FPS, for frame -2
+Mar 25 13:54:23 suraj-desktop capture: frame -1:
+Mar 25 13:54:23 suraj-desktop capture: Transformation duration: 0.028336 s, Frame rate: 35.290202 Hz FPS, for frame -1
+Mar 25 13:54:23 suraj-desktop capture: Write back duration: 0.002475 s, Frame rate: 403.968424 Hz FPS, for frame -1
+Mar 25 13:54:23 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:23 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 107863.229425 Hz FPS, for frame -1
+Mar 25 13:54:23 suraj-desktop capture: frame 0:
+Mar 25 13:54:23 suraj-desktop capture: Transformation duration: 0.028675 s, Frame rate: 34.873304 Hz FPS, for frame 0
+Mar 25 13:54:23 suraj-desktop capture: Write back duration: 0.002377 s, Frame rate: 420.771645 Hz FPS, for frame 0
+Mar 25 13:54:23 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:23 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 96487.842532 Hz FPS, for frame 0
+Mar 25 13:54:23 suraj-desktop capture: frame 1:
+Mar 25 13:54:23 suraj-desktop capture: Transformation duration: 0.028479 s, Frame rate: 35.114004 Hz FPS, for frame 1
+Mar 25 13:54:23 suraj-desktop capture: Write back duration: 0.002376 s, Frame rate: 420.808651 Hz FPS, for frame 1
+Mar 25 13:54:23 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:23 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 100522.718134 Hz FPS, for frame 1
+Mar 25 13:54:23 suraj-desktop capture: frame 2:
+Mar 25 13:54:23 suraj-desktop capture: Transformation duration: 0.028752 s, Frame rate: 34.779998 Hz FPS, for frame 2
+Mar 25 13:54:23 suraj-desktop capture: Write back duration: 0.002439 s, Frame rate: 410.085815 Hz FPS, for frame 2
+Mar 25 13:54:23 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:23 suraj-desktop capture: SIMPCAP: read at 2313.875382, @ 0.001297 FPS Hz
+Mar 25 13:54:23 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 89718.284586 Hz FPS, for frame 2
+Mar 25 13:54:23 suraj-desktop capture: frame 3:
+Mar 25 13:54:23 suraj-desktop capture: Transformation duration: 0.029654 s, Frame rate: 33.722216 Hz FPS, for frame 3
+Mar 25 13:54:23 suraj-desktop capture: Write back duration: 0.002362 s, Frame rate: 423.341528 Hz FPS, for frame 3
+Mar 25 13:54:23 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:23 suraj-desktop capture: SIMPCAP: read at 2313.941116, @ 0.001729 FPS Hz
+Mar 25 13:54:23 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 97962.382445 Hz FPS, for frame 3
+Mar 25 13:54:23 suraj-desktop capture: frame 4:
+Mar 25 13:54:24 suraj-desktop capture: Transformation duration: 0.051025 s, Frame rate: 19.598083 Hz FPS, for frame 4
+Mar 25 13:54:24 suraj-desktop capture: Write back duration: 0.002344 s, Frame rate: 426.624437 Hz FPS, for frame 4
+Mar 25 13:54:24 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:24 suraj-desktop capture: SIMPCAP: read at 2314.028170, @ 0.002161 FPS Hz
+Mar 25 13:54:24 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 92310.532632 Hz FPS, for frame 4
+Mar 25 13:54:24 suraj-desktop capture: frame 5:
+Mar 25 13:54:24 suraj-desktop capture: Transformation duration: 0.054897 s, Frame rate: 18.216069 Hz FPS, for frame 5
+Mar 25 13:54:24 suraj-desktop capture: Write back duration: 0.002735 s, Frame rate: 365.613201 Hz FPS, for frame 5
+Mar 25 13:54:24 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:24 suraj-desktop capture: SIMPCAP: read at 2314.119569, @ 0.002593 FPS Hz
+Mar 25 13:54:24 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 97962.382445 Hz FPS, for frame 5
+Mar 25 13:54:24 suraj-desktop capture: frame 6:
+Mar 25 13:54:24 suraj-desktop capture: Transformation duration: 0.048992 s, Frame rate: 20.411346 Hz FPS, for frame 6
+Mar 25 13:54:24 suraj-desktop capture: Write back duration: 0.002607 s, Frame rate: 383.643144 Hz FPS, for frame 6
+Mar 25 13:54:24 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:24 suraj-desktop capture: SIMPCAP: read at 2314.206089, @ 0.003025 FPS Hz
+Mar 25 13:54:24 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 95047.999240 Hz FPS, for frame 6
+Mar 25 13:54:24 suraj-desktop capture: frame 7:
+Mar 25 13:54:24 suraj-desktop capture: Transformation duration: 0.085387 s, Frame rate: 11.711443 Hz FPS, for frame 7
+Mar 25 13:54:24 suraj-desktop capture: Write back duration: 0.004011 s, Frame rate: 249.306057 Hz FPS, for frame 7
+Mar 25 13:54:24 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:24 suraj-desktop capture: SIMPCAP: read at 2314.331516, @ 0.003457 FPS Hz
+Mar 25 13:54:24 suraj-desktop capture: Acquision duration: 0.000012 s, Frame rate: 82754.054949 Hz FPS, for frame 7
+Mar 25 13:54:24 suraj-desktop capture: frame 8:
+Mar 25 13:54:24 suraj-desktop capture: Transformation duration: 0.046153 s, Frame rate: 21.666888 Hz FPS, for frame 8
+Mar 25 13:54:24 suraj-desktop capture: Write back duration: 0.002508 s, Frame rate: 398.799613 Hz FPS, for frame 8
+Mar 25 13:54:24 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:24 suraj-desktop capture: SIMPCAP: read at 2314.414518, @ 0.003889 FPS Hz
+Mar 25 13:54:24 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 92310.532632 Hz FPS, for frame 8
+Mar 25 13:54:24 suraj-desktop capture: frame 9:
+Mar 25 13:54:24 suraj-desktop capture: Transformation duration: 0.029256 s, Frame rate: 34.180575 Hz FPS, for frame 9
+Mar 25 13:54:24 suraj-desktop capture: Write back duration: 0.002723 s, Frame rate: 367.242687 Hz FPS, for frame 9
+Mar 25 13:54:24 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:24 suraj-desktop capture: SIMPCAP: read at 2314.480848, @ 0.004321 FPS Hz
+Mar 25 13:54:24 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 102124.183007 Hz FPS, for frame 9
+Mar 25 13:54:24 suraj-desktop capture: frame 10:
+Mar 25 13:54:24 suraj-desktop capture: Transformation duration: 0.026137 s, Frame rate: 38.260276 Hz FPS, for frame 10
+Mar 25 13:54:24 suraj-desktop capture: Write back duration: 0.003166 s, Frame rate: 315.822751 Hz FPS, for frame 10
+Mar 25 13:54:24 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:24 suraj-desktop capture: SIMPCAP: read at 2314.543867, @ 0.004753 FPS Hz
+Mar 25 13:54:24 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 89301.661011 Hz FPS, for frame 10
+Mar 25 13:54:24 suraj-desktop capture: frame 11:
+Mar 25 13:54:24 suraj-desktop capture: Transformation duration: 0.045352 s, Frame rate: 22.049941 Hz FPS, for frame 11
+Mar 25 13:54:24 suraj-desktop capture: Write back duration: 0.002687 s, Frame rate: 372.147028 Hz FPS, for frame 11
+Mar 25 13:54:24 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:24 suraj-desktop capture: SIMPCAP: read at 2314.627789, @ 0.005184 FPS Hz
+Mar 25 13:54:24 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 95047.999240 Hz FPS, for frame 11
+Mar 25 13:54:24 suraj-desktop capture: frame 12:
+Mar 25 13:54:24 suraj-desktop capture: Transformation duration: 0.052033 s, Frame rate: 19.218721 Hz FPS, for frame 12
+Mar 25 13:54:24 suraj-desktop capture: Write back duration: 0.003559 s, Frame rate: 280.998884 Hz FPS, for frame 12
+Mar 25 13:54:24 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:24 suraj-desktop capture: SIMPCAP: read at 2314.717128, @ 0.005616 FPS Hz
+Mar 25 13:54:24 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 87275.266190 Hz FPS, for frame 12
+Mar 25 13:54:24 suraj-desktop capture: frame 13:
+Mar 25 13:54:24 suraj-desktop capture: Transformation duration: 0.046042 s, Frame rate: 21.719513 Hz FPS, for frame 13
+Mar 25 13:54:24 suraj-desktop capture: Write back duration: 0.003176 s, Frame rate: 314.900625 Hz FPS, for frame 13
+Mar 25 13:54:24 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:24 suraj-desktop capture: SIMPCAP: read at 2314.801117, @ 0.006048 FPS Hz
+Mar 25 13:54:24 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 95996.928098 Hz FPS, for frame 13
+Mar 25 13:54:24 suraj-desktop capture: frame 14:
+Mar 25 13:54:24 suraj-desktop capture: Transformation duration: 0.039377 s, Frame rate: 25.395600 Hz FPS, for frame 14
+Mar 25 13:54:24 suraj-desktop capture: Write back duration: 0.003142 s, Frame rate: 318.235904 Hz FPS, for frame 14
+Mar 25 13:54:24 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:24 suraj-desktop capture: SIMPCAP: read at 2314.878742, @ 0.006480 FPS Hz
+Mar 25 13:54:24 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 97465.886940 Hz FPS, for frame 14
+Mar 25 13:54:24 suraj-desktop capture: frame 15:
+Mar 25 13:54:24 suraj-desktop capture: Transformation duration: 0.050141 s, Frame rate: 19.943607 Hz FPS, for frame 15
+Mar 25 13:54:24 suraj-desktop capture: Write back duration: 0.002443 s, Frame rate: 409.281690 Hz FPS, for frame 15
+Mar 25 13:54:24 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:25 suraj-desktop capture: SIMPCAP: read at 2314.965023, @ 0.006912 FPS Hz
+Mar 25 13:54:25 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 100000.000000 Hz FPS, for frame 15
+Mar 25 13:54:25 suraj-desktop capture: frame 16:
+Mar 25 13:54:25 suraj-desktop capture: Transformation duration: 0.052699 s, Frame rate: 18.975743 Hz FPS, for frame 16
+Mar 25 13:54:25 suraj-desktop capture: Write back duration: 0.006806 s, Frame rate: 146.929072 Hz FPS, for frame 16
+Mar 25 13:54:25 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:25 suraj-desktop capture: SIMPCAP: read at 2315.066051, @ 0.007343 FPS Hz
+Mar 25 13:54:25 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 101584.721658 Hz FPS, for frame 16
+Mar 25 13:54:25 suraj-desktop capture: frame 17:
+Mar 25 13:54:25 suraj-desktop capture: Transformation duration: 0.053220 s, Frame rate: 18.789980 Hz FPS, for frame 17
+Mar 25 13:54:25 suraj-desktop capture: Write back duration: 0.003394 s, Frame rate: 294.615721 Hz FPS, for frame 17
+Mar 25 13:54:25 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:25 suraj-desktop capture: SIMPCAP: read at 2315.156348, @ 0.007775 FPS Hz
+Mar 25 13:54:25 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 93659.267585 Hz FPS, for frame 17
+Mar 25 13:54:25 suraj-desktop capture: frame 18:
+Mar 25 13:54:25 suraj-desktop capture: Transformation duration: 0.039323 s, Frame rate: 25.430581 Hz FPS, for frame 18
+Mar 25 13:54:25 suraj-desktop capture: Write back duration: 0.002570 s, Frame rate: 389.164266 Hz FPS, for frame 18
+Mar 25 13:54:25 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:25 suraj-desktop capture: SIMPCAP: read at 2315.232706, @ 0.008207 FPS Hz
+Mar 25 13:54:25 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 98463.962190 Hz FPS, for frame 18
+Mar 25 13:54:25 suraj-desktop capture: frame 19:
+Mar 25 13:54:25 suraj-desktop capture: Transformation duration: 0.031334 s, Frame rate: 31.913780 Hz FPS, for frame 19
+Mar 25 13:54:25 suraj-desktop capture: Write back duration: 0.002597 s, Frame rate: 384.989565 Hz FPS, for frame 19
+Mar 25 13:54:25 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:25 suraj-desktop capture: SIMPCAP: read at 2315.300353, @ 0.008638 FPS Hz
+Mar 25 13:54:25 suraj-desktop capture: Acquision duration: 0.000013 s, Frame rate: 75001.875047 Hz FPS, for frame 19
+Mar 25 13:54:25 suraj-desktop capture: frame 20:
+Mar 25 13:54:25 suraj-desktop capture: Transformation duration: 0.045028 s, Frame rate: 22.208635 Hz FPS, for frame 20
+Mar 25 13:54:25 suraj-desktop capture: Write back duration: 0.005860 s, Frame rate: 170.660434 Hz FPS, for frame 20
+Mar 25 13:54:25 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:25 suraj-desktop capture: SIMPCAP: read at 2315.385808, @ 0.009070 FPS Hz
+Mar 25 13:54:25 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 94117.647059 Hz FPS, for frame 20
+Mar 25 13:54:25 suraj-desktop capture: frame 21:
+Mar 25 13:54:25 suraj-desktop capture: Transformation duration: 0.025905 s, Frame rate: 38.602746 Hz FPS, for frame 21
+Mar 25 13:54:25 suraj-desktop capture: Write back duration: 0.003140 s, Frame rate: 318.510492 Hz FPS, for frame 21
+Mar 25 13:54:25 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:25 suraj-desktop capture: SIMPCAP: read at 2315.452038, @ 0.009501 FPS Hz
+Mar 25 13:54:25 suraj-desktop capture: Acquision duration: 0.000012 s, Frame rate: 80671.184253 Hz FPS, for frame 21
+Mar 25 13:54:25 suraj-desktop capture: frame 22:
+Mar 25 13:54:25 suraj-desktop capture: Transformation duration: 0.028791 s, Frame rate: 34.732679 Hz FPS, for frame 22
+Mar 25 13:54:25 suraj-desktop capture: Write back duration: 0.003391 s, Frame rate: 294.864522 Hz FPS, for frame 22
+Mar 25 13:54:25 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:25 suraj-desktop capture: SIMPCAP: read at 2315.518003, @ 0.009933 FPS Hz
+Mar 25 13:54:25 suraj-desktop capture: Acquision duration: 0.000014 s, Frame rate: 69060.773481 Hz FPS, for frame 22
+Mar 25 13:54:25 suraj-desktop capture: frame 23:
+Mar 25 13:54:25 suraj-desktop capture: Transformation duration: 0.028636 s, Frame rate: 34.920489 Hz FPS, for frame 23
+Mar 25 13:54:25 suraj-desktop capture: Write back duration: 0.003042 s, Frame rate: 328.707542 Hz FPS, for frame 23
+Mar 25 13:54:25 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:25 suraj-desktop capture: SIMPCAP: read at 2315.584267, @ 0.010365 FPS Hz
+Mar 25 13:54:25 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 101050.929669 Hz FPS, for frame 23
+Mar 25 13:54:25 suraj-desktop capture: frame 24:
+Mar 25 13:54:25 suraj-desktop capture: Transformation duration: 0.025364 s, Frame rate: 39.426117 Hz FPS, for frame 24
+Mar 25 13:54:25 suraj-desktop capture: Write back duration: 0.002597 s, Frame rate: 385.112921 Hz FPS, for frame 24
+Mar 25 13:54:25 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:25 suraj-desktop capture: SIMPCAP: read at 2315.646543, @ 0.010796 FPS Hz
+Mar 25 13:54:25 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 104909.777591 Hz FPS, for frame 24
+Mar 25 13:54:25 suraj-desktop capture: frame 25:
+Mar 25 13:54:25 suraj-desktop capture: Transformation duration: 0.026229 s, Frame rate: 38.125572 Hz FPS, for frame 25
+Mar 25 13:54:25 suraj-desktop capture: Write back duration: 0.002312 s, Frame rate: 432.457305 Hz FPS, for frame 25
+Mar 25 13:54:25 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:25 suraj-desktop capture: SIMPCAP: read at 2315.708837, @ 0.011228 FPS Hz
+Mar 25 13:54:25 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 117068.602201 Hz FPS, for frame 25
+Mar 25 13:54:25 suraj-desktop capture: frame 26:
+Mar 25 13:54:25 suraj-desktop capture: Transformation duration: 0.026495 s, Frame rate: 37.742670 Hz FPS, for frame 26
+Mar 25 13:54:25 suraj-desktop capture: Write back duration: 0.002783 s, Frame rate: 359.277866 Hz FPS, for frame 26
+Mar 25 13:54:25 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:25 suraj-desktop capture: SIMPCAP: read at 2315.771814, @ 0.011659 FPS Hz
+Mar 25 13:54:25 suraj-desktop capture: Acquision duration: 0.000015 s, Frame rate: 68818.388273 Hz FPS, for frame 26
+Mar 25 13:54:25 suraj-desktop capture: frame 27:
+Mar 25 13:54:25 suraj-desktop capture: Transformation duration: 0.041211 s, Frame rate: 24.265468 Hz FPS, for frame 27
+Mar 25 13:54:25 suraj-desktop capture: Write back duration: 0.012288 s, Frame rate: 81.381328 Hz FPS, for frame 27
+Mar 25 13:54:25 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:25 suraj-desktop capture: SIMPCAP: read at 2315.859063, @ 0.012091 FPS Hz
+Mar 25 13:54:25 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 95047.999240 Hz FPS, for frame 27
+Mar 25 13:54:25 suraj-desktop capture: frame 28:
+Mar 25 13:54:25 suraj-desktop capture: Transformation duration: 0.050834 s, Frame rate: 19.671955 Hz FPS, for frame 28
+Mar 25 13:54:25 suraj-desktop capture: Write back duration: 0.007002 s, Frame rate: 142.821723 Hz FPS, for frame 28
+Mar 25 13:54:25 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:25 suraj-desktop capture: SIMPCAP: read at 2315.950596, @ 0.012522 FPS Hz
+Mar 25 13:54:25 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 89301.661011 Hz FPS, for frame 28
+Mar 25 13:54:25 suraj-desktop capture: frame 29:
+Mar 25 13:54:26 suraj-desktop capture: Transformation duration: 0.046390 s, Frame rate: 21.556251 Hz FPS, for frame 29
+Mar 25 13:54:26 suraj-desktop capture: Write back duration: 0.009140 s, Frame rate: 109.408724 Hz FPS, for frame 29
+Mar 25 13:54:26 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:26 suraj-desktop capture: SIMPCAP: read at 2316.039835, @ 0.012953 FPS Hz
+Mar 25 13:54:26 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 88074.687335 Hz FPS, for frame 29
+Mar 25 13:54:26 suraj-desktop capture: frame 30:
+Mar 25 13:54:26 suraj-desktop capture: Transformation duration: 0.033606 s, Frame rate: 29.756718 Hz FPS, for frame 30
+Mar 25 13:54:26 suraj-desktop capture: Write back duration: 0.003389 s, Frame rate: 295.068462 Hz FPS, for frame 30
+Mar 25 13:54:26 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:26 suraj-desktop capture: SIMPCAP: read at 2316.111863, @ 0.013385 FPS Hz
+Mar 25 13:54:26 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 94117.647059 Hz FPS, for frame 30
+Mar 25 13:54:26 suraj-desktop capture: frame 31:
+Mar 25 13:54:26 suraj-desktop capture: Transformation duration: 0.030016 s, Frame rate: 33.315648 Hz FPS, for frame 31
+Mar 25 13:54:26 suraj-desktop capture: Write back duration: 0.004654 s, Frame rate: 214.887907 Hz FPS, for frame 31
+Mar 25 13:54:26 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:26 suraj-desktop capture: SIMPCAP: read at 2316.182657, @ 0.013816 FPS Hz
+Mar 25 13:54:26 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 95047.999240 Hz FPS, for frame 31
+Mar 25 13:54:26 suraj-desktop capture: frame 32:
+Mar 25 13:54:26 suraj-desktop capture: Transformation duration: 0.024921 s, Frame rate: 40.126416 Hz FPS, for frame 32
+Mar 25 13:54:26 suraj-desktop capture: Write back duration: 0.002692 s, Frame rate: 371.506078 Hz FPS, for frame 32
+Mar 25 13:54:26 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:26 suraj-desktop capture: SIMPCAP: read at 2316.244850, @ 0.014247 FPS Hz
+Mar 25 13:54:26 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 102669.404517 Hz FPS, for frame 32
+Mar 25 13:54:26 suraj-desktop capture: frame 33:
+Mar 25 13:54:26 suraj-desktop capture: Transformation duration: 0.025089 s, Frame rate: 39.858683 Hz FPS, for frame 33
+Mar 25 13:54:26 suraj-desktop capture: Write back duration: 0.003313 s, Frame rate: 301.817272 Hz FPS, for frame 33
+Mar 25 13:54:26 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:26 suraj-desktop capture: SIMPCAP: read at 2316.306962, @ 0.014679 FPS Hz
+Mar 25 13:54:26 suraj-desktop capture: Acquision duration: 0.000012 s, Frame rate: 81017.580815 Hz FPS, for frame 33
+Mar 25 13:54:26 suraj-desktop capture: frame 34:
+Mar 25 13:54:26 suraj-desktop capture: Transformation duration: 0.038612 s, Frame rate: 25.898928 Hz FPS, for frame 34
+Mar 25 13:54:26 suraj-desktop capture: Write back duration: 0.003464 s, Frame rate: 288.649521 Hz FPS, for frame 34
+Mar 25 13:54:26 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:26 suraj-desktop capture: SIMPCAP: read at 2316.382776, @ 0.015110 FPS Hz
+Mar 25 13:54:26 suraj-desktop capture: Acquision duration: 0.000013 s, Frame rate: 77730.275942 Hz FPS, for frame 34
+Mar 25 13:54:26 suraj-desktop capture: frame 35:
+Mar 25 13:54:26 suraj-desktop capture: Transformation duration: 0.058304 s, Frame rate: 17.151614 Hz FPS, for frame 35
+Mar 25 13:54:26 suraj-desktop capture: Write back duration: 0.002801 s, Frame rate: 356.966541 Hz FPS, for frame 35
+Mar 25 13:54:26 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:26 suraj-desktop capture: SIMPCAP: read at 2316.478662, @ 0.015541 FPS Hz
+Mar 25 13:54:26 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 95047.999240 Hz FPS, for frame 35
+Mar 25 13:54:26 suraj-desktop capture: frame 36:
+Mar 25 13:54:26 suraj-desktop capture: Transformation duration: 0.025720 s, Frame rate: 38.880884 Hz FPS, for frame 36
+Mar 25 13:54:26 suraj-desktop capture: Write back duration: 0.003356 s, Frame rate: 298.008676 Hz FPS, for frame 36
+Mar 25 13:54:26 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:26 suraj-desktop capture: SIMPCAP: read at 2316.541465, @ 0.015972 FPS Hz
+Mar 25 13:54:26 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 102669.404517 Hz FPS, for frame 36
+Mar 25 13:54:26 suraj-desktop capture: frame 37:
+Mar 25 13:54:26 suraj-desktop capture: Transformation duration: 0.024889 s, Frame rate: 40.178729 Hz FPS, for frame 37
+Mar 25 13:54:26 suraj-desktop capture: Write back duration: 0.004599 s, Frame rate: 217.428504 Hz FPS, for frame 37
+Mar 25 13:54:26 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:26 suraj-desktop capture: SIMPCAP: read at 2316.604671, @ 0.016403 FPS Hz
+Mar 25 13:54:26 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 90138.813773 Hz FPS, for frame 37
+Mar 25 13:54:26 suraj-desktop capture: frame 38:
+Mar 25 13:54:26 suraj-desktop capture: Transformation duration: 0.035111 s, Frame rate: 28.481291 Hz FPS, for frame 38
+Mar 25 13:54:26 suraj-desktop capture: Write back duration: 0.002588 s, Frame rate: 386.415188 Hz FPS, for frame 38
+Mar 25 13:54:26 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:26 suraj-desktop capture: SIMPCAP: read at 2316.676060, @ 0.016834 FPS Hz
+Mar 25 13:54:26 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 99482.690012 Hz FPS, for frame 38
+Mar 25 13:54:26 suraj-desktop capture: frame 39:
+Mar 25 13:54:26 suraj-desktop capture: Transformation duration: 0.032411 s, Frame rate: 30.853572 Hz FPS, for frame 39
+Mar 25 13:54:26 suraj-desktop capture: Write back duration: 0.002411 s, Frame rate: 414.727470 Hz FPS, for frame 39
+Mar 25 13:54:26 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:26 suraj-desktop capture: SIMPCAP: read at 2316.744568, @ 0.017266 FPS Hz
+Mar 25 13:54:26 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 106666.666667 Hz FPS, for frame 39
+Mar 25 13:54:26 suraj-desktop capture: frame 40:
+Mar 25 13:54:26 suraj-desktop capture: Transformation duration: 0.025458 s, Frame rate: 39.280039 Hz FPS, for frame 40
+Mar 25 13:54:26 suraj-desktop capture: Write back duration: 0.002859 s, Frame rate: 349.799687 Hz FPS, for frame 40
+Mar 25 13:54:26 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:26 suraj-desktop capture: SIMPCAP: read at 2316.807509, @ 0.017697 FPS Hz
+Mar 25 13:54:26 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 96974.398759 Hz FPS, for frame 40
+Mar 25 13:54:26 suraj-desktop capture: frame 41:
+Mar 25 13:54:26 suraj-desktop capture: Transformation duration: 0.030243 s, Frame rate: 33.065434 Hz FPS, for frame 41
+Mar 25 13:54:26 suraj-desktop capture: Write back duration: 0.004434 s, Frame rate: 225.505990 Hz FPS, for frame 41
+Mar 25 13:54:26 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:26 suraj-desktop capture: SIMPCAP: read at 2316.876425, @ 0.018128 FPS Hz
+Mar 25 13:54:26 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 87275.266190 Hz FPS, for frame 41
+Mar 25 13:54:26 suraj-desktop capture: frame 42:
+Mar 25 13:54:26 suraj-desktop capture: Transformation duration: 0.025595 s, Frame rate: 39.070456 Hz FPS, for frame 42
+Mar 25 13:54:26 suraj-desktop capture: Write back duration: 0.002409 s, Frame rate: 415.059177 Hz FPS, for frame 42
+Mar 25 13:54:26 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:26 suraj-desktop capture: SIMPCAP: read at 2316.944668, @ 0.018559 FPS Hz
+Mar 25 13:54:26 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 97952.786757 Hz FPS, for frame 42
+Mar 25 13:54:26 suraj-desktop capture: frame 43:
+Mar 25 13:54:27 suraj-desktop capture: Transformation duration: 0.025737 s, Frame rate: 38.854445 Hz FPS, for frame 43
+Mar 25 13:54:27 suraj-desktop capture: Write back duration: 0.002505 s, Frame rate: 399.239050 Hz FPS, for frame 43
+Mar 25 13:54:27 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:27 suraj-desktop capture: SIMPCAP: read at 2317.007443, @ 0.018990 FPS Hz
+Mar 25 13:54:27 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 96478.533526 Hz FPS, for frame 43
+Mar 25 13:54:27 suraj-desktop capture: frame 44:
+Mar 25 13:54:27 suraj-desktop capture: Transformation duration: 0.045862 s, Frame rate: 21.804780 Hz FPS, for frame 44
+Mar 25 13:54:27 suraj-desktop capture: Write back duration: 0.002297 s, Frame rate: 435.271059 Hz FPS, for frame 44
+Mar 25 13:54:27 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:27 suraj-desktop capture: SIMPCAP: read at 2317.089316, @ 0.019421 FPS Hz
+Mar 25 13:54:27 suraj-desktop capture: Acquision duration: 0.000013 s, Frame rate: 78363.764595 Hz FPS, for frame 44
+Mar 25 13:54:27 suraj-desktop capture: frame 45:
+Mar 25 13:54:27 suraj-desktop capture: Transformation duration: 0.051014 s, Frame rate: 19.602501 Hz FPS, for frame 45
+Mar 25 13:54:27 suraj-desktop capture: Write back duration: 0.002918 s, Frame rate: 342.743587 Hz FPS, for frame 45
+Mar 25 13:54:27 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:27 suraj-desktop capture: SIMPCAP: read at 2317.176999, @ 0.019852 FPS Hz
+Mar 25 13:54:27 suraj-desktop capture: Acquision duration: 0.000012 s, Frame rate: 86102.979163 Hz FPS, for frame 45
+Mar 25 13:54:27 suraj-desktop capture: frame 46:
+Mar 25 13:54:27 suraj-desktop capture: Transformation duration: 0.038652 s, Frame rate: 25.871915 Hz FPS, for frame 46
+Mar 25 13:54:27 suraj-desktop capture: Write back duration: 0.018769 s, Frame rate: 53.280550 Hz FPS, for frame 46
+Mar 25 13:54:27 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:27 suraj-desktop capture: SIMPCAP: read at 2317.268141, @ 0.020283 FPS Hz
+Mar 25 13:54:27 suraj-desktop capture: Acquision duration: 0.000012 s, Frame rate: 83843.380565 Hz FPS, for frame 46
+Mar 25 13:54:27 suraj-desktop capture: frame 47:
+Mar 25 13:54:27 suraj-desktop capture: Transformation duration: 0.036170 s, Frame rate: 27.647381 Hz FPS, for frame 47
+Mar 25 13:54:27 suraj-desktop capture: Write back duration: 0.003436 s, Frame rate: 291.047270 Hz FPS, for frame 47
+Mar 25 13:54:27 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:27 suraj-desktop capture: SIMPCAP: read at 2317.342179, @ 0.020713 FPS Hz
+Mar 25 13:54:27 suraj-desktop capture: Acquision duration: 0.000012 s, Frame rate: 80671.184253 Hz FPS, for frame 47
+Mar 25 13:54:27 suraj-desktop capture: frame 48:
+Mar 25 13:54:27 suraj-desktop capture: Transformation duration: 0.044168 s, Frame rate: 22.640961 Hz FPS, for frame 48
+Mar 25 13:54:27 suraj-desktop capture: Write back duration: 0.002591 s, Frame rate: 385.933496 Hz FPS, for frame 48
+Mar 25 13:54:27 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:27 suraj-desktop capture: SIMPCAP: read at 2317.423157, @ 0.021144 FPS Hz
+Mar 25 13:54:27 suraj-desktop capture: Acquision duration: 0.000014 s, Frame rate: 71113.639596 Hz FPS, for frame 48
+Mar 25 13:54:27 suraj-desktop capture: frame 49:
+Mar 25 13:54:27 suraj-desktop capture: Transformation duration: 0.066311 s, Frame rate: 15.080341 Hz FPS, for frame 49
+Mar 25 13:54:27 suraj-desktop capture: Write back duration: 0.016202 s, Frame rate: 61.720829 Hz FPS, for frame 49
+Mar 25 13:54:27 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:27 suraj-desktop capture: SIMPCAP: read at 2317.541515, @ 0.021575 FPS Hz
+Mar 25 13:54:27 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 93659.267585 Hz FPS, for frame 49
+Mar 25 13:54:27 suraj-desktop capture: frame 50:
+Mar 25 13:54:27 suraj-desktop capture: Transformation duration: 0.041949 s, Frame rate: 23.838521 Hz FPS, for frame 50
+Mar 25 13:54:27 suraj-desktop capture: Write back duration: 0.003205 s, Frame rate: 312.060093 Hz FPS, for frame 50
+Mar 25 13:54:27 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:27 suraj-desktop capture: SIMPCAP: read at 2317.622918, @ 0.022005 FPS Hz
+Mar 25 13:54:27 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 90571.506204 Hz FPS, for frame 50
+Mar 25 13:54:27 suraj-desktop capture: frame 51:
+Mar 25 13:54:27 suraj-desktop capture: Transformation duration: 0.032373 s, Frame rate: 30.889807 Hz FPS, for frame 51
+Mar 25 13:54:27 suraj-desktop capture: Write back duration: 0.002292 s, Frame rate: 436.319592 Hz FPS, for frame 51
+Mar 25 13:54:27 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:27 suraj-desktop capture: SIMPCAP: read at 2317.692616, @ 0.022436 FPS Hz
+Mar 25 13:54:27 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 97465.886940 Hz FPS, for frame 51
+Mar 25 13:54:27 suraj-desktop capture: frame 52:
+Mar 25 13:54:27 suraj-desktop capture: Transformation duration: 0.042829 s, Frame rate: 23.348936 Hz FPS, for frame 52
+Mar 25 13:54:27 suraj-desktop capture: Write back duration: 0.003506 s, Frame rate: 285.227606 Hz FPS, for frame 52
+Mar 25 13:54:27 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:27 suraj-desktop capture: SIMPCAP: read at 2317.774585, @ 0.022867 FPS Hz
+Mar 25 13:54:27 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 96006.144393 Hz FPS, for frame 52
+Mar 25 13:54:27 suraj-desktop capture: frame 53:
+Mar 25 13:54:27 suraj-desktop capture: Transformation duration: 0.035018 s, Frame rate: 28.557117 Hz FPS, for frame 53
+Mar 25 13:54:27 suraj-desktop capture: Write back duration: 0.004130 s, Frame rate: 242.134386 Hz FPS, for frame 53
+Mar 25 13:54:27 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:27 suraj-desktop capture: SIMPCAP: read at 2317.847446, @ 0.023297 FPS Hz
+Mar 25 13:54:27 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 91861.106008 Hz FPS, for frame 53
+Mar 25 13:54:27 suraj-desktop capture: frame 54:
+Mar 25 13:54:27 suraj-desktop capture: Transformation duration: 0.046710 s, Frame rate: 21.408715 Hz FPS, for frame 54
+Mar 25 13:54:27 suraj-desktop capture: Write back duration: 0.008793 s, Frame rate: 113.725418 Hz FPS, for frame 54
+Mar 25 13:54:27 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:27 suraj-desktop capture: SIMPCAP: read at 2317.937110, @ 0.023728 FPS Hz
+Mar 25 13:54:27 suraj-desktop capture: Acquision duration: 0.000021 s, Frame rate: 47290.267663 Hz FPS, for frame 54
+Mar 25 13:54:27 suraj-desktop capture: frame 55:
+Mar 25 13:54:28 suraj-desktop capture: Transformation duration: 0.036871 s, Frame rate: 27.121627 Hz FPS, for frame 55
+Mar 25 13:54:28 suraj-desktop capture: Write back duration: 0.002556 s, Frame rate: 391.202023 Hz FPS, for frame 55
+Mar 25 13:54:28 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:28 suraj-desktop capture: SIMPCAP: read at 2318.010330, @ 0.024159 FPS Hz
+Mar 25 13:54:28 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 98960.910440 Hz FPS, for frame 55
+Mar 25 13:54:28 suraj-desktop capture: frame 56:
+Mar 25 13:54:28 suraj-desktop capture: Transformation duration: 0.051264 s, Frame rate: 19.506705 Hz FPS, for frame 56
+Mar 25 13:54:28 suraj-desktop capture: Write back duration: 0.003843 s, Frame rate: 260.209312 Hz FPS, for frame 56
+Mar 25 13:54:28 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:28 suraj-desktop capture: SIMPCAP: read at 2318.099145, @ 0.024589 FPS Hz
+Mar 25 13:54:28 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 99482.690012 Hz FPS, for frame 56
+Mar 25 13:54:28 suraj-desktop capture: frame 57:
+Mar 25 13:54:28 suraj-desktop capture: Transformation duration: 0.027730 s, Frame rate: 36.061798 Hz FPS, for frame 57
+Mar 25 13:54:28 suraj-desktop capture: Write back duration: 0.002517 s, Frame rate: 397.346994 Hz FPS, for frame 57
+Mar 25 13:54:28 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:28 suraj-desktop capture: SIMPCAP: read at 2318.163103, @ 0.025020 FPS Hz
+Mar 25 13:54:28 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 102669.404517 Hz FPS, for frame 57
+Mar 25 13:54:28 suraj-desktop capture: frame 58:
+Mar 25 13:54:28 suraj-desktop capture: Transformation duration: 0.032213 s, Frame rate: 31.043585 Hz FPS, for frame 58
+Mar 25 13:54:28 suraj-desktop capture: Write back duration: 0.002361 s, Frame rate: 423.602989 Hz FPS, for frame 58
+Mar 25 13:54:28 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:28 suraj-desktop capture: SIMPCAP: read at 2318.233073, @ 0.025450 FPS Hz
+Mar 25 13:54:28 suraj-desktop capture: Acquision duration: 0.000012 s, Frame rate: 84210.526316 Hz FPS, for frame 58
+Mar 25 13:54:28 suraj-desktop capture: frame 59:
+Mar 25 13:54:28 suraj-desktop capture: Transformation duration: 0.027184 s, Frame rate: 36.785959 Hz FPS, for frame 59
+Mar 25 13:54:28 suraj-desktop capture: Write back duration: 0.002412 s, Frame rate: 414.539217 Hz FPS, for frame 59
+Mar 25 13:54:28 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:28 suraj-desktop capture: SIMPCAP: read at 2318.296354, @ 0.025881 FPS Hz
+Mar 25 13:54:28 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 93205.331345 Hz FPS, for frame 59
+Mar 25 13:54:28 suraj-desktop capture: frame 60:
+Mar 25 13:54:28 suraj-desktop capture: Transformation duration: 0.046020 s, Frame rate: 21.729881 Hz FPS, for frame 60
+Mar 25 13:54:28 suraj-desktop capture: Write back duration: 0.002493 s, Frame rate: 401.132638 Hz FPS, for frame 60
+Mar 25 13:54:28 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:28 suraj-desktop capture: SIMPCAP: read at 2318.378599, @ 0.026311 FPS Hz
+Mar 25 13:54:28 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 90991.810737 Hz FPS, for frame 60
+Mar 25 13:54:28 suraj-desktop capture: frame 61:
+Mar 25 13:54:28 suraj-desktop capture: Transformation duration: 0.051069 s, Frame rate: 19.581348 Hz FPS, for frame 61
+Mar 25 13:54:28 suraj-desktop capture: Write back duration: 0.004461 s, Frame rate: 224.160614 Hz FPS, for frame 61
+Mar 25 13:54:28 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:28 suraj-desktop capture: SIMPCAP: read at 2318.467923, @ 0.026742 FPS Hz
+Mar 25 13:54:28 suraj-desktop capture: Acquision duration: 0.000043 s, Frame rate: 23500.658018 Hz FPS, for frame 61
+Mar 25 13:54:28 suraj-desktop capture: frame 62:
+Mar 25 13:54:28 suraj-desktop capture: Transformation duration: 0.043644 s, Frame rate: 22.912830 Hz FPS, for frame 62
+Mar 25 13:54:28 suraj-desktop capture: Write back duration: 0.002440 s, Frame rate: 409.770569 Hz FPS, for frame 62
+Mar 25 13:54:28 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:28 suraj-desktop capture: SIMPCAP: read at 2318.547738, @ 0.027172 FPS Hz
+Mar 25 13:54:28 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 102679.946606 Hz FPS, for frame 62
+Mar 25 13:54:28 suraj-desktop capture: frame 63:
+Mar 25 13:54:28 suraj-desktop capture: Transformation duration: 0.078367 s, Frame rate: 12.760466 Hz FPS, for frame 63
+Mar 25 13:54:28 suraj-desktop capture: Write back duration: 0.015175 s, Frame rate: 65.898323 Hz FPS, for frame 63
+Mar 25 13:54:28 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:28 suraj-desktop capture: SIMPCAP: read at 2318.674964, @ 0.027602 FPS Hz
+Mar 25 13:54:28 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 104920.784807 Hz FPS, for frame 63
+Mar 25 13:54:28 suraj-desktop capture: frame 64:
+Mar 25 13:54:28 suraj-desktop capture: Transformation duration: 0.080238 s, Frame rate: 12.462923 Hz FPS, for frame 64
+Mar 25 13:54:28 suraj-desktop capture: Write back duration: 0.002436 s, Frame rate: 410.462694 Hz FPS, for frame 64
+Mar 25 13:54:28 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:28 suraj-desktop capture: SIMPCAP: read at 2318.794542, @ 0.028032 FPS Hz
+Mar 25 13:54:28 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 90991.810737 Hz FPS, for frame 64
+Mar 25 13:54:28 suraj-desktop capture: frame 65:
+Mar 25 13:54:28 suraj-desktop capture: Transformation duration: 0.081639 s, Frame rate: 12.249055 Hz FPS, for frame 65
+Mar 25 13:54:28 suraj-desktop capture: Write back duration: 0.002490 s, Frame rate: 401.560464 Hz FPS, for frame 65
+Mar 25 13:54:28 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:28 suraj-desktop capture: SIMPCAP: read at 2318.912373, @ 0.028462 FPS Hz
+Mar 25 13:54:28 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 92302.012184 Hz FPS, for frame 65
+Mar 25 13:54:28 suraj-desktop capture: frame 66:
+Mar 25 13:54:28 suraj-desktop capture: Transformation duration: 0.031802 s, Frame rate: 31.445038 Hz FPS, for frame 66
+Mar 25 13:54:28 suraj-desktop capture: Write back duration: 0.002461 s, Frame rate: 406.284902 Hz FPS, for frame 66
+Mar 25 13:54:28 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:29 suraj-desktop capture: SIMPCAP: read at 2318.980320, @ 0.028892 FPS Hz
+Mar 25 13:54:29 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 106666.666667 Hz FPS, for frame 66
+Mar 25 13:54:29 suraj-desktop capture: frame 67:
+Mar 25 13:54:29 suraj-desktop capture: Transformation duration: 0.064820 s, Frame rate: 15.427354 Hz FPS, for frame 67
+Mar 25 13:54:29 suraj-desktop capture: Write back duration: 0.002500 s, Frame rate: 399.962564 Hz FPS, for frame 67
+Mar 25 13:54:29 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:29 suraj-desktop capture: SIMPCAP: read at 2319.081390, @ 0.029322 FPS Hz
+Mar 25 13:54:29 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 95520.106983 Hz FPS, for frame 67
+Mar 25 13:54:29 suraj-desktop capture: frame 68:
+Mar 25 13:54:29 suraj-desktop capture: Transformation duration: 0.031514 s, Frame rate: 31.731543 Hz FPS, for frame 68
+Mar 25 13:54:29 suraj-desktop capture: Write back duration: 0.002486 s, Frame rate: 402.258602 Hz FPS, for frame 68
+Mar 25 13:54:29 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:29 suraj-desktop capture: SIMPCAP: read at 2319.152118, @ 0.029752 FPS Hz
+Mar 25 13:54:29 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 92755.774047 Hz FPS, for frame 68
+Mar 25 13:54:29 suraj-desktop capture: frame 69:
+Mar 25 13:54:29 suraj-desktop capture: Transformation duration: 0.030508 s, Frame rate: 32.778659 Hz FPS, for frame 69
+Mar 25 13:54:29 suraj-desktop capture: Write back duration: 0.006648 s, Frame rate: 150.420365 Hz FPS, for frame 69
+Mar 25 13:54:29 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:29 suraj-desktop capture: SIMPCAP: read at 2319.223073, @ 0.030183 FPS Hz
+Mar 25 13:54:29 suraj-desktop capture: Acquision duration: 0.000012 s, Frame rate: 85331.512928 Hz FPS, for frame 69
+Mar 25 13:54:29 suraj-desktop capture: frame 70:
+Mar 25 13:54:29 suraj-desktop capture: Transformation duration: 0.030752 s, Frame rate: 32.517956 Hz FPS, for frame 70
+Mar 25 13:54:29 suraj-desktop capture: Write back duration: 0.003082 s, Frame rate: 324.419686 Hz FPS, for frame 70
+Mar 25 13:54:29 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:29 suraj-desktop capture: SIMPCAP: read at 2319.290751, @ 0.030613 FPS Hz
+Mar 25 13:54:29 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 87275.266190 Hz FPS, for frame 70
+Mar 25 13:54:29 suraj-desktop capture: frame 71:
+Mar 25 13:54:29 suraj-desktop capture: Transformation duration: 0.066868 s, Frame rate: 14.954866 Hz FPS, for frame 71
+Mar 25 13:54:29 suraj-desktop capture: Write back duration: 0.002584 s, Frame rate: 386.944643 Hz FPS, for frame 71
+Mar 25 13:54:29 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:29 suraj-desktop capture: SIMPCAP: read at 2319.393941, @ 0.031043 FPS Hz
+Mar 25 13:54:29 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 97465.886940 Hz FPS, for frame 71
+Mar 25 13:54:29 suraj-desktop capture: frame 72:
+Mar 25 13:54:29 suraj-desktop capture: Transformation duration: 0.040237 s, Frame rate: 24.852443 Hz FPS, for frame 72
+Mar 25 13:54:29 suraj-desktop capture: Write back duration: 0.003577 s, Frame rate: 279.534184 Hz FPS, for frame 72
+Mar 25 13:54:29 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:29 suraj-desktop capture: SIMPCAP: read at 2319.472449, @ 0.031473 FPS Hz
+Mar 25 13:54:29 suraj-desktop capture: Acquision duration: 0.000014 s, Frame rate: 71372.493041 Hz FPS, for frame 72
+Mar 25 13:54:29 suraj-desktop capture: frame 73:
+Mar 25 13:54:29 suraj-desktop capture: Transformation duration: 0.034301 s, Frame rate: 29.154046 Hz FPS, for frame 73
+Mar 25 13:54:29 suraj-desktop capture: Write back duration: 0.002704 s, Frame rate: 369.781733 Hz FPS, for frame 73
+Mar 25 13:54:29 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:29 suraj-desktop capture: SIMPCAP: read at 2319.543886, @ 0.031903 FPS Hz
+Mar 25 13:54:29 suraj-desktop capture: Acquision duration: 0.000012 s, Frame rate: 83111.702128 Hz FPS, for frame 73
+Mar 25 13:54:29 suraj-desktop capture: frame 74:
+Mar 25 13:54:29 suraj-desktop capture: Transformation duration: 0.060378 s, Frame rate: 16.562350 Hz FPS, for frame 74
+Mar 25 13:54:29 suraj-desktop capture: Write back duration: 0.005819 s, Frame rate: 171.853403 Hz FPS, for frame 74
+Mar 25 13:54:29 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:29 suraj-desktop capture: SIMPCAP: read at 2319.643842, @ 0.032333 FPS Hz
+Mar 25 13:54:29 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 101595.042162 Hz FPS, for frame 74
+Mar 25 13:54:29 suraj-desktop capture: frame 75:
+Mar 25 13:54:29 suraj-desktop capture: Transformation duration: 0.028047 s, Frame rate: 35.653902 Hz FPS, for frame 75
+Mar 25 13:54:29 suraj-desktop capture: Write back duration: 0.002756 s, Frame rate: 362.814951 Hz FPS, for frame 75
+Mar 25 13:54:29 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:29 suraj-desktop capture: SIMPCAP: read at 2319.708864, @ 0.032763 FPS Hz
+Mar 25 13:54:29 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 95047.999240 Hz FPS, for frame 75
+Mar 25 13:54:29 suraj-desktop capture: frame 76:
+Mar 25 13:54:29 suraj-desktop capture: Transformation duration: 0.037080 s, Frame rate: 26.968556 Hz FPS, for frame 76
+Mar 25 13:54:29 suraj-desktop capture: Write back duration: 0.002471 s, Frame rate: 404.734585 Hz FPS, for frame 76
+Mar 25 13:54:29 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:29 suraj-desktop capture: SIMPCAP: read at 2319.782116, @ 0.033193 FPS Hz
+Mar 25 13:54:29 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 101584.721658 Hz FPS, for frame 76
+Mar 25 13:54:29 suraj-desktop capture: frame 77:
+Mar 25 13:54:29 suraj-desktop capture: Transformation duration: 0.041274 s, Frame rate: 24.228503 Hz FPS, for frame 77
+Mar 25 13:54:29 suraj-desktop capture: Write back duration: 0.002369 s, Frame rate: 422.187115 Hz FPS, for frame 77
+Mar 25 13:54:29 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:29 suraj-desktop capture: SIMPCAP: read at 2319.861237, @ 0.033623 FPS Hz
+Mar 25 13:54:29 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 97456.388266 Hz FPS, for frame 77
+Mar 25 13:54:29 suraj-desktop capture: frame 78:
+Mar 25 13:54:29 suraj-desktop capture: Transformation duration: 0.038857 s, Frame rate: 25.735244 Hz FPS, for frame 78
+Mar 25 13:54:29 suraj-desktop capture: Write back duration: 0.004180 s, Frame rate: 239.235022 Hz FPS, for frame 78
+Mar 25 13:54:29 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:29 suraj-desktop capture: SIMPCAP: read at 2319.940157, @ 0.034053 FPS Hz
+Mar 25 13:54:29 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 98463.962190 Hz FPS, for frame 78
+Mar 25 13:54:29 suraj-desktop capture: frame 79:
+Mar 25 13:54:30 suraj-desktop capture: Transformation duration: 0.030271 s, Frame rate: 33.034707 Hz FPS, for frame 79
+Mar 25 13:54:30 suraj-desktop capture: Write back duration: 0.009333 s, Frame rate: 107.142953 Hz FPS, for frame 79
+Mar 25 13:54:30 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:30 suraj-desktop capture: SIMPCAP: read at 2320.014356, @ 0.034483 FPS Hz
+Mar 25 13:54:30 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 96974.398759 Hz FPS, for frame 79
+Mar 25 13:54:30 suraj-desktop capture: frame 80:
+Mar 25 13:54:30 suraj-desktop capture: Transformation duration: 0.028709 s, Frame rate: 34.832672 Hz FPS, for frame 80
+Mar 25 13:54:30 suraj-desktop capture: Write back duration: 0.003013 s, Frame rate: 331.900959 Hz FPS, for frame 80
+Mar 25 13:54:30 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:30 suraj-desktop capture: SIMPCAP: read at 2320.082349, @ 0.034913 FPS Hz
+Mar 25 13:54:30 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 94117.647059 Hz FPS, for frame 80
+Mar 25 13:54:30 suraj-desktop capture: frame 81:
+Mar 25 13:54:30 suraj-desktop capture: Transformation duration: 0.046563 s, Frame rate: 21.476051 Hz FPS, for frame 81
+Mar 25 13:54:30 suraj-desktop capture: Write back duration: 0.004006 s, Frame rate: 249.623630 Hz FPS, for frame 81
+Mar 25 13:54:30 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:30 suraj-desktop capture: SIMPCAP: read at 2320.166641, @ 0.035342 FPS Hz
+Mar 25 13:54:30 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 90991.810737 Hz FPS, for frame 81
+Mar 25 13:54:30 suraj-desktop capture: frame 82:
+Mar 25 13:54:30 suraj-desktop capture: Transformation duration: 0.031606 s, Frame rate: 31.639718 Hz FPS, for frame 82
+Mar 25 13:54:30 suraj-desktop capture: Write back duration: 0.007396 s, Frame rate: 135.205113 Hz FPS, for frame 82
+Mar 25 13:54:30 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:30 suraj-desktop capture: SIMPCAP: read at 2320.242695, @ 0.035772 FPS Hz
+Mar 25 13:54:30 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 102124.183007 Hz FPS, for frame 82
+Mar 25 13:54:30 suraj-desktop capture: frame 83:
+Mar 25 13:54:30 suraj-desktop capture: Transformation duration: 0.033764 s, Frame rate: 29.617444 Hz FPS, for frame 83
+Mar 25 13:54:30 suraj-desktop capture: Write back duration: 0.006430 s, Frame rate: 155.511829 Hz FPS, for frame 83
+Mar 25 13:54:30 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:30 suraj-desktop capture: SIMPCAP: read at 2320.316568, @ 0.036202 FPS Hz
+Mar 25 13:54:30 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 95520.106983 Hz FPS, for frame 83
+Mar 25 13:54:30 suraj-desktop capture: frame 84:
+Mar 25 13:54:30 suraj-desktop capture: Transformation duration: 0.058363 s, Frame rate: 17.134008 Hz FPS, for frame 84
+Mar 25 13:54:30 suraj-desktop capture: Write back duration: 0.004429 s, Frame rate: 225.781747 Hz FPS, for frame 84
+Mar 25 13:54:30 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:30 suraj-desktop capture: SIMPCAP: read at 2320.415428, @ 0.036631 FPS Hz
+Mar 25 13:54:30 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 105496.360376 Hz FPS, for frame 84
+Mar 25 13:54:30 suraj-desktop capture: frame 85:
+Mar 25 13:54:30 suraj-desktop capture: Transformation duration: 0.026207 s, Frame rate: 38.157157 Hz FPS, for frame 85
+Mar 25 13:54:30 suraj-desktop capture: Write back duration: 0.002342 s, Frame rate: 427.022861 Hz FPS, for frame 85
+Mar 25 13:54:30 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:30 suraj-desktop capture: SIMPCAP: read at 2320.478483, @ 0.037061 FPS Hz
+Mar 25 13:54:30 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 97465.886940 Hz FPS, for frame 85
+Mar 25 13:54:30 suraj-desktop capture: frame 86:
+Mar 25 13:54:30 suraj-desktop capture: Transformation duration: 0.025071 s, Frame rate: 39.886911 Hz FPS, for frame 86
+Mar 25 13:54:30 suraj-desktop capture: Write back duration: 0.002292 s, Frame rate: 436.269910 Hz FPS, for frame 86
+Mar 25 13:54:30 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:30 suraj-desktop capture: SIMPCAP: read at 2320.539554, @ 0.037491 FPS Hz
+Mar 25 13:54:30 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 120743.781695 Hz FPS, for frame 86
+Mar 25 13:54:30 suraj-desktop capture: frame 87:
+Mar 25 13:54:30 suraj-desktop capture: Transformation duration: 0.025545 s, Frame rate: 39.147082 Hz FPS, for frame 87
+Mar 25 13:54:30 suraj-desktop capture: Write back duration: 0.002330 s, Frame rate: 429.208865 Hz FPS, for frame 87
+Mar 25 13:54:30 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:30 suraj-desktop capture: SIMPCAP: read at 2320.601094, @ 0.037921 FPS Hz
+Mar 25 13:54:30 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 96478.533526 Hz FPS, for frame 87
+Mar 25 13:54:30 suraj-desktop capture: frame 88:
+Mar 25 13:54:30 suraj-desktop capture: Transformation duration: 0.025562 s, Frame rate: 39.119804 Hz FPS, for frame 88
+Mar 25 13:54:30 suraj-desktop capture: Write back duration: 0.041818 s, Frame rate: 23.913249 Hz FPS, for frame 88
+Mar 25 13:54:30 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:30 suraj-desktop capture: SIMPCAP: read at 2320.702193, @ 0.038350 FPS Hz
+Mar 25 13:54:30 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 101050.929669 Hz FPS, for frame 88
+Mar 25 13:54:30 suraj-desktop capture: frame 89:
+Mar 25 13:54:30 suraj-desktop capture: Transformation duration: 0.033826 s, Frame rate: 29.562629 Hz FPS, for frame 89
+Mar 25 13:54:30 suraj-desktop capture: Write back duration: 0.007586 s, Frame rate: 131.824227 Hz FPS, for frame 89
+Mar 25 13:54:30 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:30 suraj-desktop capture: SIMPCAP: read at 2320.777312, @ 0.038780 FPS Hz
+Mar 25 13:54:30 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 99482.690012 Hz FPS, for frame 89
+Mar 25 13:54:30 suraj-desktop capture: frame 90:
+Mar 25 13:54:30 suraj-desktop capture: Transformation duration: 0.027249 s, Frame rate: 36.698485 Hz FPS, for frame 90
+Mar 25 13:54:30 suraj-desktop capture: Write back duration: 0.002394 s, Frame rate: 417.768357 Hz FPS, for frame 90
+Mar 25 13:54:30 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:30 suraj-desktop capture: SIMPCAP: read at 2320.840666, @ 0.039210 FPS Hz
+Mar 25 13:54:30 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 96964.995637 Hz FPS, for frame 90
+Mar 25 13:54:30 suraj-desktop capture: frame 91:
+Mar 25 13:54:30 suraj-desktop capture: Transformation duration: 0.029489 s, Frame rate: 33.910592 Hz FPS, for frame 91
+Mar 25 13:54:30 suraj-desktop capture: Write back duration: 0.002979 s, Frame rate: 335.678495 Hz FPS, for frame 91
+Mar 25 13:54:30 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:30 suraj-desktop capture: SIMPCAP: read at 2320.906842, @ 0.039640 FPS Hz
+Mar 25 13:54:30 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 97465.886940 Hz FPS, for frame 91
+Mar 25 13:54:30 suraj-desktop capture: frame 92:
+Mar 25 13:54:30 suraj-desktop capture: Transformation duration: 0.047144 s, Frame rate: 21.211643 Hz FPS, for frame 92
+Mar 25 13:54:31 suraj-desktop capture: Write back duration: 0.004406 s, Frame rate: 226.977553 Hz FPS, for frame 92
+Mar 25 13:54:31 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:31 suraj-desktop capture: SIMPCAP: read at 2320.992100, @ 0.040069 FPS Hz
+Mar 25 13:54:31 suraj-desktop capture: Acquision duration: 0.000014 s, Frame rate: 70846.617074 Hz FPS, for frame 92
+Mar 25 13:54:31 suraj-desktop capture: frame 93:
+Mar 25 13:54:31 suraj-desktop capture: Transformation duration: 0.044796 s, Frame rate: 22.323223 Hz FPS, for frame 93
+Mar 25 13:54:31 suraj-desktop capture: Write back duration: 0.002606 s, Frame rate: 383.735155 Hz FPS, for frame 93
+Mar 25 13:54:31 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:31 suraj-desktop capture: SIMPCAP: read at 2321.073240, @ 0.040499 FPS Hz
+Mar 25 13:54:31 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 97465.886940 Hz FPS, for frame 93
+Mar 25 13:54:31 suraj-desktop capture: frame 94:
+Mar 25 13:54:31 suraj-desktop capture: Transformation duration: 0.065436 s, Frame rate: 15.282026 Hz FPS, for frame 94
+Mar 25 13:54:31 suraj-desktop capture: Write back duration: 0.003808 s, Frame rate: 262.586562 Hz FPS, for frame 94
+Mar 25 13:54:31 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:31 suraj-desktop capture: SIMPCAP: read at 2321.178441, @ 0.040927 FPS Hz
+Mar 25 13:54:31 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 93205.331345 Hz FPS, for frame 94
+Mar 25 13:54:31 suraj-desktop capture: frame 95:
+Mar 25 13:54:31 suraj-desktop capture: Transformation duration: 0.036429 s, Frame rate: 27.450760 Hz FPS, for frame 95
+Mar 25 13:54:31 suraj-desktop capture: Write back duration: 0.016992 s, Frame rate: 58.852675 Hz FPS, for frame 95
+Mar 25 13:54:31 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:31 suraj-desktop capture: SIMPCAP: read at 2321.266325, @ 0.041357 FPS Hz
+Mar 25 13:54:31 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 94117.647059 Hz FPS, for frame 95
+Mar 25 13:54:31 suraj-desktop capture: frame 96:
+Mar 25 13:54:31 suraj-desktop capture: Transformation duration: 0.035284 s, Frame rate: 28.341577 Hz FPS, for frame 96
+Mar 25 13:54:31 suraj-desktop capture: Write back duration: 0.003240 s, Frame rate: 308.643785 Hz FPS, for frame 96
+Mar 25 13:54:31 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:31 suraj-desktop capture: SIMPCAP: read at 2321.338578, @ 0.041786 FPS Hz
+Mar 25 13:54:31 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 96964.995637 Hz FPS, for frame 96
+Mar 25 13:54:31 suraj-desktop capture: frame 97:
+Mar 25 13:54:31 suraj-desktop capture: Transformation duration: 0.028546 s, Frame rate: 35.030894 Hz FPS, for frame 97
+Mar 25 13:54:31 suraj-desktop capture: Write back duration: 0.003194 s, Frame rate: 313.062338 Hz FPS, for frame 97
+Mar 25 13:54:31 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:31 suraj-desktop capture: SIMPCAP: read at 2321.405721, @ 0.042216 FPS Hz
+Mar 25 13:54:31 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 104909.777591 Hz FPS, for frame 97
+Mar 25 13:54:31 suraj-desktop capture: frame 98:
+Mar 25 13:54:31 suraj-desktop capture: Transformation duration: 0.024956 s, Frame rate: 40.070047 Hz FPS, for frame 98
+Mar 25 13:54:31 suraj-desktop capture: Write back duration: 0.002302 s, Frame rate: 434.355241 Hz FPS, for frame 98
+Mar 25 13:54:31 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:31 suraj-desktop capture: SIMPCAP: read at 2321.467374, @ 0.042645 FPS Hz
+Mar 25 13:54:31 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 112930.547713 Hz FPS, for frame 98
+Mar 25 13:54:31 suraj-desktop capture: frame 99:
+Mar 25 13:54:31 suraj-desktop capture: Transformation duration: 0.025248 s, Frame rate: 39.606821 Hz FPS, for frame 99
+Mar 25 13:54:31 suraj-desktop capture: Write back duration: 0.002246 s, Frame rate: 445.274833 Hz FPS, for frame 99
+Mar 25 13:54:31 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:31 suraj-desktop capture: SIMPCAP: read at 2321.528511, @ 0.043075 FPS Hz
+Mar 25 13:54:31 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 108471.634668 Hz FPS, for frame 99
+Mar 25 13:54:31 suraj-desktop capture: frame 100:
+Mar 25 13:54:31 suraj-desktop capture: Transformation duration: 0.024980 s, Frame rate: 40.031282 Hz FPS, for frame 100
+Mar 25 13:54:31 suraj-desktop capture: Write back duration: 0.002247 s, Frame rate: 444.996042 Hz FPS, for frame 100
+Mar 25 13:54:31 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:31 suraj-desktop capture: SIMPCAP: read at 2321.590092, @ 0.043505 FPS Hz
+Mar 25 13:54:31 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 95520.106983 Hz FPS, for frame 100
+Mar 25 13:54:31 suraj-desktop capture: frame 101:
+Mar 25 13:54:31 suraj-desktop capture: Transformation duration: 0.026028 s, Frame rate: 38.420198 Hz FPS, for frame 101
+Mar 25 13:54:31 suraj-desktop capture: Write back duration: 0.002371 s, Frame rate: 421.843744 Hz FPS, for frame 101
+Mar 25 13:54:31 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:31 suraj-desktop capture: SIMPCAP: read at 2321.652156, @ 0.043934 FPS Hz
+Mar 25 13:54:31 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 101584.721658 Hz FPS, for frame 101
+Mar 25 13:54:31 suraj-desktop capture: frame 102:
+Mar 25 13:54:31 suraj-desktop capture: Transformation duration: 0.025706 s, Frame rate: 38.901434 Hz FPS, for frame 102
+Mar 25 13:54:31 suraj-desktop capture: Write back duration: 0.002511 s, Frame rate: 398.270074 Hz FPS, for frame 102
+Mar 25 13:54:31 suraj-desktop capture: wrote 921600 bytes
+Mar 25 13:54:31 suraj-desktop capture: SIMPCAP: read at 2321.714801, @ 0.044364 FPS Hz
+Mar 25 13:54:31 suraj-desktop capture: Acquisition -- 101 frames, Lowest FPS=23500.658018 hz,  Average FPS=103047.475176 hz
+Mar 25 13:54:31 suraj-desktop capture: Transformation -- 102 frames, 11.711443 lowest FPS hz, Average FPS is 31.583236 hz
+Mar 25 13:54:31 suraj-desktop capture: Write back --102 total frames, 23.913249 lowest FPS hz, Average FPS is 353.149291 hz

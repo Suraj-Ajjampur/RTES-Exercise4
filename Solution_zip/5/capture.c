@@ -171,7 +171,7 @@ void write_ppm(const unsigned char *transformed_data, int size, unsigned int tag
     write_back_total += writeback_frame_rate;
 
     // Log transformation time and frame rate
-    syslog(LOG_INFO, "Write back duration: %lf s, Frame rate: %lf FPS, for frame %d\n", writeback_duration, writeback_frame_rate, framecnt);
+    syslog(LOG_INFO, "Write back duration: %lf s, Frame rate: %lf Hz FPS, for frame %d\n", writeback_duration, writeback_frame_rate, framecnt);
 
     // Log the total bytes written to the file.
     syslog(LOG_INFO,"wrote %d bytes\n", total);
@@ -263,7 +263,7 @@ void process_and_transform_image(const void *p, int size, unsigned char *transfo
     // Log transformation process
     transform_duration = (transform_end.tv_sec - transform_start.tv_sec) +
                          (transform_end.tv_nsec - transform_start.tv_nsec) / 1e9;
-        frame_rate = 1.0 / transform_duration;
+    frame_rate = 1.0 / transform_duration;
     trans_total +=  frame_rate;
 
     // Update worst frame rate 
@@ -272,7 +272,7 @@ void process_and_transform_image(const void *p, int size, unsigned char *transfo
     }
 
     // Log transformation time and frame rate
-    syslog(LOG_INFO, "Transformation duration: %lf s, Frame rate: %lf FPS, for frame %d\n", transform_duration, frame_rate, framecnt);
+    syslog(LOG_INFO, "Transformation duration: %lf s, Frame rate: %lf Hz FPS, for frame %d\n", transform_duration, frame_rate, framecnt);
 }
 
 
@@ -288,17 +288,9 @@ void process_image(const void *p, int size) {
 
     // Check for the frame format and process accordingly
     if(fmt.fmt.pix.pixelformat == V4L2_PIX_FMT_YUYV) {
-        // Start timing for transformation
-        clock_gettime(CLOCK_MONOTONIC, &transform_start);
 
         // Process and transform the image (including YUYV to RGB conversion and brightness adjustment)
         process_and_transform_image(p, size, transformed_data);
-
-        // End timing for transformation and log
-        clock_gettime(CLOCK_MONOTONIC, &transform_end);
-        transform_duration = (transform_end.tv_sec - transform_start.tv_sec) + 
-                             (transform_end.tv_nsec - transform_start.tv_nsec) / 1e9;
-        syslog(LOG_INFO, "Transformation duration: %lf s for frame %d\n", transform_duration, framecnt);
 
         // Perform writeback
         write_ppm(transformed_data, ((size*6)/4), framecnt, &frame_time); // Make sure the size is correct based on the conversion ratio
@@ -317,14 +309,12 @@ static int read_frame(void)
     struct v4l2_buffer buf;
     unsigned int i;
 
+    // Start timing transformation
+    clock_gettime(CLOCK_MONOTONIC, &acquisition_start);
+    CLEAR(buf);
 
-
-            // Start timing transformation
-            clock_gettime(CLOCK_MONOTONIC, &acquisition_start);
-            CLEAR(buf);
-
-            buf.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
-            buf.memory = V4L2_MEMORY_MMAP;
+    buf.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
+    buf.memory = V4L2_MEMORY_MMAP;
 
             if (-1 == xioctl(fd, VIDIOC_DQBUF, &buf))
             {
@@ -346,28 +336,30 @@ static int read_frame(void)
                 }
             }
 
-            assert(buf.index < n_buffers);
-            // End timing for acquisition
-            clock_gettime(CLOCK_MONOTONIC, &acquisition_end);
-            // Calculate acquisition duration and frame rate
-            acquisition_duration = (acquisition_end.tv_sec - acquisition_start.tv_sec) +
-                                (acquisition_end.tv_nsec - acquisition_start.tv_nsec) / 1e9;
-            acquisition_frame_rate = 1.0 / acquisition_duration;
+    assert(buf.index < n_buffers);
+    // End timing for acquisition
+    clock_gettime(CLOCK_MONOTONIC, &acquisition_end);
+    // Calculate acquisition duration and frame rate
+    acquisition_duration = (acquisition_end.tv_sec - acquisition_start.tv_sec) +
+                        (acquisition_end.tv_nsec - acquisition_start.tv_nsec) / 1e9;
+    acquisition_frame_rate = 1.0 / acquisition_duration;
+    acq_total += acquisition_frame_rate;
+            
 
-            // Update worst frame rate 
-            if (acquisition.worst_frame_rate == 0 || acquisition_frame_rate < acquisition.worst_frame_rate) {
-                acquisition.worst_frame_rate = acquisition_frame_rate;
-            }
+    // Update worst frame rate 
+    if (acquisition.worst_frame_rate == 0 || acquisition_frame_rate < acquisition.worst_frame_rate) {
+        acquisition.worst_frame_rate = acquisition_frame_rate;
+    }
 
-            // Log acquisition time and frame rate
-            syslog(LOG_INFO, "Acquision duration: %lf s, Frame rate: %lf FPS, for frame %d\n", acquisition_duration, frame_rate, framecnt);
+    // Log acquisition time and frame rate
+    syslog(LOG_INFO, "Acquision duration: %lf s, Frame rate: %lf Hz FPS, for frame %d\n", acquisition_duration, acquisition_frame_rate, framecnt);
 
-            process_image(buffers[buf.index].start, buf.bytesused);
+    process_image(buffers[buf.index].start, buf.bytesused);
 
-            if (-1 == xioctl(fd, VIDIOC_QBUF, &buf))
-                    errno_exit("VIDIOC_QBUF");
-    //printf("R");
-        return 1;
+    if (-1 == xioctl(fd, VIDIOC_QBUF, &buf))
+        errno_exit("VIDIOC_QBUF");
+    
+    return 1;
 }
 
 
@@ -424,15 +416,12 @@ static void mainloop(void)
                     perror("nanosleep");
                 else
                 {
-                    //syslog(LOG_INFO,"time_error.tv_sec=%ld, time_error.tv_nsec=%ld\n", time_error.tv_sec, time_error.tv_nsec);
 
                     if(framecnt>1)
                     {	
 
                         clock_gettime(CLOCK_MONOTONIC, &time_now);
                         fnow = (double)time_now.tv_sec + (double)time_now.tv_nsec / 1000000000.0;
-                        //printf("REPLACE read at %lf, @ %lf FPS\n", (fnow-fstart), (double)(framecnt+1) / (fnow-fstart));
-                        // syslog(LOG_CRIT, "SIMPCAP: read at %lf, @ %lf FPS\n", (fnow-fstart), (double)(framecnt+1) / (fnow-fstart));
 
                         calculated_frame_rate = (double)(framecnt+1) / (fnow-fstart);
                         if(framecnt==2)
@@ -447,7 +436,7 @@ static void mainloop(void)
                             }
                         }
 
-                        syslog(LOG_INFO,"SIMPCAP: read at %lf, @ %lf FPS\n", (fnow-fstart), calculated_frame_rate);
+                        syslog(LOG_INFO,"SIMPCAP: read at %lf, @ %lf FPS Hz\n", (fnow-fstart), calculated_frame_rate);
                     }
                     else
                     {
@@ -474,20 +463,6 @@ static void stop_capturing(void)
 {
     enum v4l2_buf_type type;
 
-    // End timing for acquisition phase
-    clock_gettime(CLOCK_MONOTONIC, &acquisition.time_stop);
-    acquisition.fstop = (double)acquisition.time_stop.tv_sec +
-                        (double)acquisition.time_stop.tv_nsec / 1e9;
-
-    // Calculate total acquisition time
-    double total_acquisition_time = acquisition.fstop - acquisition.fstart;
-    double average_fps = CAPTURE_FRAMES / total_acquisition_time;
-
-    // Log the total acquisition time, average FPS, and worst frame rate
-    syslog(LOG_INFO, "Acquisition -- Total capture time=%lf seconds, for %d frames, Average FPS=%lf, Lowest FPS=%lf\n",
-        total_acquisition_time, CAPTURE_FRAMES, average_fps, acquisition.worst_frame_rate);
-
-
     type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
     if (-1 == xioctl(fd, VIDIOC_STREAMOFF, &type))
         errno_exit("VIDIOC_STREAMOFF");
@@ -498,11 +473,6 @@ static void start_capturing(void)
 {
         unsigned int i;
         enum v4l2_buf_type type;
-        clock_gettime(CLOCK_MONOTONIC, &acquisition.time_start);
-        acquisition.fstart = (double)acquisition.time_start.tv_sec +
-                         (double)acquisition.time_start.tv_nsec / 1e9;
-
-
         for (i = 0; i < n_buffers; ++i) 
         {
             syslog(LOG_INFO,"allocated buffer %d\n", i);
@@ -745,18 +715,9 @@ static void init_device(void)
         fmt.fmt.pix.height      = VRES;
 
         // Specify the Pixel Coding Formate here
-
         // This one works for Logitech C200
         fmt.fmt.pix.pixelformat = V4L2_PIX_FMT_YUYV;
 
-        //fmt.fmt.pix.pixelformat = V4L2_PIX_FMT_UYVY;
-        //fmt.fmt.pix.pixelformat = V4L2_PIX_FMT_VYUY;
-
-        // Would be nice if camera supported
-        //fmt.fmt.pix.pixelformat = V4L2_PIX_FMT_GREY;
-        //fmt.fmt.pix.pixelformat = V4L2_PIX_FMT_RGB24;
-
-        //fmt.fmt.pix.field       = V4L2_FIELD_INTERLACED;
         fmt.fmt.pix.field       = V4L2_FIELD_NONE;
 
         if (-1 == xioctl(fd, VIDIOC_S_FMT, &fmt))
@@ -925,14 +886,16 @@ int main(int argc, char **argv)
     // shutdown of frame acquisition service
     stop_capturing();
 
-    syslog(LOG_INFO,"Total capture time=%lf, for %d frames, %lf average FPS, %lf lowest FPS\n", (fstop-fstart), CAPTURE_FRAMES+1, ((double)CAPTURE_FRAMES / (fstop-fstart)), worst_frame_rate);
-    // Calculate average fps time
+    // Calculate average fps freq
     double average_transformation_fps = trans_total /(CAPTURE_FRAMES-LAST_FRAMES) ;
     double average_writeback_fps = write_back_total /(CAPTURE_FRAMES-LAST_FRAMES) ;
-
-    syslog(LOG_INFO, "Transformation -- %d frames, %lf lowest FPS, Average FPS is %lf", 
+    double average_aquisition_fps = acq_total/ (CAPTURE_FRAMES-LAST_FRAMES);
+    // Log the total acquisition time, average FPS, and worst frame rate
+    syslog(LOG_INFO, "Acquisition -- %d frames, Lowest FPS=%lf hz,  Average FPS=%lf hz\n",
+        CAPTURE_FRAMES, acquisition.worst_frame_rate, average_aquisition_fps);
+    syslog(LOG_INFO, "Transformation -- %d frames, %lf lowest FPS hz, Average FPS is %lf hz", 
          CAPTURE_FRAMES + 1, transform.worst_frame_rate, average_transformation_fps);
-    syslog(LOG_INFO, "Write back --%d total frames, %lf lowest FPS, Average FPS is %lf", 
+    syslog(LOG_INFO, "Write back --%d total frames, %lf lowest FPS hz, Average FPS is %lf hz", 
     CAPTURE_FRAMES + 1, write_back.worst_frame_rate, average_writeback_fps);
 
     uninit_device();
