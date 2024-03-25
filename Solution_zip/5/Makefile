@@ -6,8 +6,8 @@ CDEFS=
 CFLAGS= -O0 -g $(INCLUDE_DIRS) $(CDEFS)
 LIBS= -lrt
 
-HFILES= brighten.h
-CFILES= capture.c brighten.c
+HFILES= 
+CFILES= capture.c
 
 SRCS= ${HFILES} ${CFILES}
 OBJS= ${CFILES:.c=.o}

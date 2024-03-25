@@ -28,13 +28,14 @@
 #include <sys/time.h>
 #include <sys/mman.h>
 #include <sys/ioctl.h>
+#include <syslog.h>
 
 #include <linux/videodev2.h>
 
 #include <time.h>
 
 #define CLEAR(x) memset(&(x), 0, sizeof(x))
-//#define COLOR_CONVERT_RGB
+#define COLOR_CONVERT_RGB
 #define HRES 640
 #define VRES 480
 #define HRES_STR "640"
@@ -44,6 +45,14 @@
 //#define HRES_STR "320"
 //#define VRES_STR "240"
 
+#define START_UP_FRAMES (8)
+#define LAST_FRAMES (1)
+#define CAPTURE_FRAMES (100+LAST_FRAMES)
+#define FRAMES_TO_ACQUIRE (CAPTURE_FRAMES + START_UP_FRAMES + LAST_FRAMES)
+// always ignore first 8 frames
+int framecnt=-8;
+
+unsigned char bigbuffer[(1280*960)];
 // Format is used by a number of functions, so made as a file global
 static struct v4l2_format fmt;
 
@@ -69,7 +78,30 @@ struct buffer          *buffers;
 static unsigned int     n_buffers;
 static int              out_buf;
 static int              force_format=1;
-static int              frame_count = (189);
+static int              frame_count = (FRAMES_TO_ACQUIRE);
+
+static double worst_frame_rate;
+static double fstart, fnow, fstop;
+static struct timespec time_now, time_start, time_stop;
+
+struct time_measure{
+    double worst_frame_rate;
+    double fstart, fnow, fstop;
+    struct timespec time_now, time_start, time_stop;
+};
+
+struct timespec acquisition_start, acquisition_end;
+double acquisition_duration, acquisition_frame_rate, acq_total;
+struct time_measure acquisition;
+
+struct timespec transform_start, transform_end;
+double transform_duration, frame_rate, trans_total;
+struct time_measure transform;
+
+struct timespec writeback_start, writeback_end;
+double writeback_duration, writeback_frame_rate, write_back_total = 0;
+struct time_measure write_back;
+
 
 static void errno_exit(const char *s)
 {
@@ -87,91 +119,114 @@ static int xioctl(int fh, int request, void *arg)
 
         } while (-1 == r && EINTR == errno);
 
-        return r;
+        return r;/* low-level i/o */
 }
 
 char ppm_header[]="P6\n#9999999999 sec 9999999999 msec \n"HRES_STR" "VRES_STR"\n255\n";
 char ppm_dumpname[]="frames/test0000.ppm";
 
+#define SAT (255)
+
+/**
+ * @brief Dumps image data to a PPM file with timestamp and resolution in the header.
+ *
+ * This function generates a PPM file for the provided image data. It creates a unique filename
+ * based on a tag, writes a header including a timestamp and image resolution, and then writes
+ * the image data itself. The PPM format is chosen for its simplicity, supporting easy image data
+ * dumps without needing complex encoding.
+ *
+ * @param p Pointer to the image data to be dumped.
+ * @param size Size of the image data in bytes.
+ * @param tag An unsigned integer used to generate a unique filename.
+ * @param time A pointer to a timespec structure containing the timestamp to be included in the header.
+ */
 static void dump_ppm(const void *p, int size, unsigned int tag, struct timespec *time)
 {
-    int written, i, total, dumpfd;
-   
+    int written, total, dumpfd;
+    double alpha=1.25;  unsigned char beta=25;
+    unsigned char *img = (unsigned char *)p;
+    unsigned char transformed_data[size]; // Buffer to hold transformed data
+
+    if(framecnt == 0)
+        clock_gettime(CLOCK_MONOTONIC, &transform.time_start);
+
+    // Start timing transformation
+    clock_gettime(CLOCK_MONOTONIC, &transform_start);
+
+    // Apply brightness transformation to each pixel component
+    for (int i = 0; i < size; i += 3) {
+        for (int j = 0; j < 3; j++) { // Loop over each component of the pixel
+            int pixel_value = img[i + j];
+            int transformed_value = (int)(pixel_value * alpha) + beta;
+            transformed_data[i + j] = transformed_value > SAT ? SAT : transformed_value;
+        }
+    }
+
+    // End timing transformation
+    clock_gettime(CLOCK_MONOTONIC, &transform_end);
+    // Calculate transformation duration and frame rate
+    transform_duration = (transform_end.tv_sec - transform_start.tv_sec) +
+                         (transform_end.tv_nsec - transform_start.tv_nsec) / 1e9;
+    frame_rate = 1.0 / transform_duration;
+    trans_total +=  frame_rate;
+
+    // Update worst frame rate 
+    if (transform.worst_frame_rate == 0 || frame_rate < transform.worst_frame_rate) {
+        transform.worst_frame_rate = frame_rate;
+    }
+    if(framecnt == CAPTURE_FRAMES)
+        clock_gettime(CLOCK_MONOTONIC, &transform.time_stop);
+
+    // Log transformation time and frame rate
+    syslog(LOG_INFO, "Transformation duration: %lf s, Frame rate: %lf FPS, for frame %d\n", transform_duration, frame_rate, framecnt);
+
+    // Start timing writeback
+    clock_gettime(CLOCK_MONOTONIC, &writeback_start);
+
+    // Create filename using the tag.
     snprintf(&ppm_dumpname[11], 9, "%04d", tag);
     strncat(&ppm_dumpname[15], ".ppm", 5);
+    // Open or create the file with write permissions.
     dumpfd = open(ppm_dumpname, O_WRONLY | O_NONBLOCK | O_CREAT, 00666);
 
+    // Prepare the PPM header including the timestamp and resolution.
     snprintf(&ppm_header[4], 11, "%010d", (int)time->tv_sec);
     strncat(&ppm_header[14], " sec ", 5);
     snprintf(&ppm_header[19], 11, "%010d", (int)((time->tv_nsec)/1000000));
     strncat(&ppm_header[29], " msec \n"HRES_STR" "VRES_STR"\n255\n", 19);
+    // Write the header to the file, excluding the null terminator.
     written=write(dumpfd, ppm_header, sizeof(ppm_header));
 
     total=0;
 
+    // Write the image data to the file in chunks until all data is written.
     do
     {
-        written=write(dumpfd, p, size);
+        written=write(dumpfd, transformed_data + total, size-total);
         total+=written;
     } while(total < size);
 
-    printf("wrote %d bytes\n", total);
+    // End timing writeback
+    clock_gettime(CLOCK_MONOTONIC, &writeback_end);
+    // Calculate write back duration and frame rate
+    writeback_duration = (writeback_end.tv_sec - writeback_start.tv_sec) +
+                         (writeback_end.tv_nsec - writeback_start.tv_nsec) / 1e9;
+    writeback_frame_rate = 1.0 / writeback_duration;
+    write_back_total += writeback_frame_rate;
+
+    // Log transformation time and frame rate
+    syslog(LOG_INFO, "Write back duration: %lf s, Frame rate: %lf FPS, for frame %d\n", writeback_duration, writeback_frame_rate, framecnt);
+
+    // Log the total bytes written to the file.
+    syslog(LOG_INFO,"wrote %d bytes\n", total);
+    // Close the file descriptor.
+    // Update worst frame rate 
+    if (write_back.worst_frame_rate == 0 || writeback_frame_rate < write_back.worst_frame_rate) {
+        write_back.worst_frame_rate = writeback_frame_rate;
+    }
 
     close(dumpfd);
-    
 }
-
-
-char pgm_header[]="P5\n#9999999999 sec 9999999999 msec \n"HRES_STR" "VRES_STR"\n255\n";
-char pgm_dumpname[]="frames/test0000.pgm";
-
-static void dump_pgm(const void *p, int size, unsigned int tag, struct timespec *time)
-{
-    int written, i, total, dumpfd;
-   
-    snprintf(&pgm_dumpname[11], 9, "%04d", tag);
-    strncat(&pgm_dumpname[15], ".pgm", 5);
-    dumpfd = open(pgm_dumpname, O_WRONLY | O_NONBLOCK | O_CREAT, 00666);
-
-    snprintf(&pgm_header[4], 11, "%010d", (int)time->tv_sec);
-    strncat(&pgm_header[14], " sec ", 5);
-    snprintf(&pgm_header[19], 11, "%010d", (int)((time->tv_nsec)/1000000));
-    strncat(&pgm_header[29], " msec \n"HRES_STR" "VRES_STR"\n255\n", 19);
-    written=write(dumpfd, pgm_header, sizeof(pgm_header));
-
-    total=0;
-
-    do
-    {
-        written=write(dumpfd, p, size);
-        total+=written;
-    } while(total < size);
-
-    printf("wrote %d bytes\n", total);
-
-    close(dumpfd);
-    
-}
-
-
-void yuv2rgb_float(float y, float u, float v, 
-                   unsigned char *r, unsigned char *g, unsigned char *b)
-{
-    float r_temp, g_temp, b_temp;
-
-    // R = 1.164(Y-16) + 1.1596(V-128)
-    r_temp = 1.164*(y-16.0) + 1.1596*(v-128.0);  
-    *r = r_temp > 255.0 ? 255 : (r_temp < 0.0 ? 0 : (unsigned char)r_temp);
-
-    // G = 1.164(Y-16) - 0.813*(V-128) - 0.391*(U-128)
-    g_temp = 1.164*(y-16.0) - 0.813*(v-128.0) - 0.391*(u-128.0);
-    *g = g_temp > 255.0 ? 255 : (g_temp < 0.0 ? 0 : (unsigned char)g_temp);
-
-    // B = 1.164*(Y-16) + 2.018*(U-128)
-    b_temp = 1.164*(y-16.0) + 2.018*(u-128.0);
-    *b = b_temp > 255.0 ? 255 : (b_temp < 0.0 ? 0 : (unsigned char)b_temp);
-}
-
 
 // This is probably the most acceptable conversion from camera YUYV to RGB
 //
@@ -215,11 +270,6 @@ void yuv2rgb(int y, int u, int v, unsigned char *r, unsigned char *g, unsigned c
 }
 
 
-// always ignore first 8 frames
-int framecnt=-8;
-
-unsigned char bigbuffer[(1280*960)];
-
 static void process_image(const void *p, int size)
 {
     int i, newi, newsize=0;
@@ -231,17 +281,17 @@ static void process_image(const void *p, int size)
     clock_gettime(CLOCK_REALTIME, &frame_time);    
 
     framecnt++;
-    printf("frame %d: ", framecnt);
+    syslog(LOG_INFO,"frame %d: ", framecnt);
+
+    if(framecnt == 0) 
+    {
+        clock_gettime(CLOCK_MONOTONIC, &time_start);
+        fstart = (double)time_start.tv_sec + (double)time_start.tv_nsec / 1000000000.0;
+    }
 
     // This just dumps the frame to a file now, but you could replace with whatever image
     // processing you wish.
     //
-
-    if(fmt.fmt.pix.pixelformat == V4L2_PIX_FMT_GREY)
-    {
-        printf("Dump graymap as-is size %d\n", size);
-        dump_pgm(p, size, framecnt, &frame_time);
-    }
 
     else if(fmt.fmt.pix.pixelformat == V4L2_PIX_FMT_YUYV)
     {
@@ -261,7 +311,7 @@ static void process_image(const void *p, int size)
         if(framecnt > -1) 
         {
             dump_ppm(bigbuffer, ((size*6)/4), framecnt, &frame_time);
-            printf("Dump YUYV converted to RGB size %d\n", size);
+            syslog(LOG_INFO,"Dump YUYV converted to RGB size %d\n", size);
         }
 #else
        
@@ -278,7 +328,7 @@ static void process_image(const void *p, int size)
         if(framecnt > -1)
         {
             dump_pgm(bigbuffer, (size/2), framecnt, &frame_time);
-            printf("Dump YUYV converted to YY size %d\n", size);
+            syslog(LOG_INFO,"Dump YUYV converted to YY size %d\n", size);
         }
 #endif
 
@@ -304,6 +354,7 @@ static int read_frame(void)
 {
     struct v4l2_buffer buf;
     unsigned int i;
+
 
     switch (io)
     {
@@ -331,6 +382,8 @@ static int read_frame(void)
             break;
 
         case IO_METHOD_MMAP:
+            // Start timing transformation
+            clock_gettime(CLOCK_MONOTONIC, &acquisition_start);
             CLEAR(buf);
 
             buf.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
@@ -357,6 +410,20 @@ static int read_frame(void)
             }
 
             assert(buf.index < n_buffers);
+            // End timing for acquisition
+            clock_gettime(CLOCK_MONOTONIC, &acquisition_end);
+            // Calculate acquisition duration and frame rate
+            acquisition_duration = (acquisition_end.tv_sec - acquisition_start.tv_sec) +
+                                (acquisition_end.tv_nsec - acquisition_start.tv_nsec) / 1e9;
+            acquisition_frame_rate = 1.0 / acquisition_duration;
+
+            // Update worst frame rate 
+            if (acquisition.worst_frame_rate == 0 || acquisition_frame_rate < acquisition.worst_frame_rate) {
+                acquisition.worst_frame_rate = acquisition_frame_rate;
+            }
+
+            // Log acquisition time and frame rate
+            syslog(LOG_INFO, "Acquision duration: %lf s, Frame rate: %lf FPS, for frame %d\n", acquisition_duration, frame_rate, framecnt);
 
             process_image(buffers[buf.index].start, buf.bytesused);
 
@@ -411,14 +478,15 @@ static void mainloop(void)
     unsigned int count;
     struct timespec read_delay;
     struct timespec time_error;
+    double calculated_frame_rate;
 
     // Replace this with a sequencer DELAY
     //
     // 250 million nsec is a 250 msec delay, for 4 fps
     // 1 sec for 1 fps
     //
-    read_delay.tv_sec=1;
-    read_delay.tv_nsec=0;
+    read_delay.tv_sec=0;
+    read_delay.tv_nsec=33333333;
 
     count = frame_count;
 
@@ -457,7 +525,37 @@ static void mainloop(void)
                 if(nanosleep(&read_delay, &time_error) != 0)
                     perror("nanosleep");
                 else
-                    printf("time_error.tv_sec=%ld, time_error.tv_nsec=%ld\n", time_error.tv_sec, time_error.tv_nsec);
+                {
+                    //syslog(LOG_INFO,"time_error.tv_sec=%ld, time_error.tv_nsec=%ld\n", time_error.tv_sec, time_error.tv_nsec);
+
+                    if(framecnt>1)
+                    {	
+
+                        clock_gettime(CLOCK_MONOTONIC, &time_now);
+                        fnow = (double)time_now.tv_sec + (double)time_now.tv_nsec / 1000000000.0;
+                        //printf("REPLACE read at %lf, @ %lf FPS\n", (fnow-fstart), (double)(framecnt+1) / (fnow-fstart));
+                        // syslog(LOG_CRIT, "SIMPCAP: read at %lf, @ %lf FPS\n", (fnow-fstart), (double)(framecnt+1) / (fnow-fstart));
+
+                        calculated_frame_rate = (double)(framecnt+1) / (fnow-fstart);
+                        if(framecnt==2)
+                        {
+                            worst_frame_rate = calculated_frame_rate;
+                        }
+                        else
+                        {
+                            if(calculated_frame_rate<worst_frame_rate)
+                            {
+                                worst_frame_rate = calculated_frame_rate;
+                            }
+                        }
+
+                        syslog(LOG_INFO,"SIMPCAP: read at %lf, @ %lf FPS\n", (fnow-fstart), calculated_frame_rate);
+                    }
+                    else
+                    {
+
+                    }
+                }
 
                 count--;
                 break;
@@ -469,30 +567,49 @@ static void mainloop(void)
 
         if(count <= 0) break;
     }
+
+    clock_gettime(CLOCK_MONOTONIC, &time_stop);
+    fstop = (double)time_stop.tv_sec + (double)time_stop.tv_nsec / 1000000000.0;    
 }
 
 static void stop_capturing(void)
 {
-        enum v4l2_buf_type type;
+    enum v4l2_buf_type type;
 
-        switch (io) {
-        case IO_METHOD_READ:
-                /* Nothing to do. */
-                break;
+    // End timing for acquisition phase
+    clock_gettime(CLOCK_MONOTONIC, &acquisition.time_stop);
+    acquisition.fstop = (double)acquisition.time_stop.tv_sec +
+                        (double)acquisition.time_stop.tv_nsec / 1e9;
 
-        case IO_METHOD_MMAP:
-        case IO_METHOD_USERPTR:
-                type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
-                if (-1 == xioctl(fd, VIDIOC_STREAMOFF, &type))
-                        errno_exit("VIDIOC_STREAMOFF");
-                break;
-        }
+    // Calculate total acquisition time
+    double total_acquisition_time = acquisition.fstop - acquisition.fstart;
+    double average_fps = CAPTURE_FRAMES / total_acquisition_time;
+
+    // Log the total acquisition time, average FPS, and worst frame rate
+    syslog(LOG_INFO, "Acquisition -- Total capture time=%lf seconds, for %d frames, Average FPS=%lf, Lowest FPS=%lf\n",
+        total_acquisition_time, CAPTURE_FRAMES, average_fps, acquisition.worst_frame_rate);
+
+    switch (io) {
+    case IO_METHOD_READ:
+    case IO_METHOD_USERPTR:
+        /* Nothing to do. */
+        break;
+
+    case IO_METHOD_MMAP:
+        type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
+        if (-1 == xioctl(fd, VIDIOC_STREAMOFF, &type))
+            errno_exit("VIDIOC_STREAMOFF");
+        break;
+    }
 }
 
 static void start_capturing(void)
 {
         unsigned int i;
         enum v4l2_buf_type type;
+        clock_gettime(CLOCK_MONOTONIC, &acquisition.time_start);
+        acquisition.fstart = (double)acquisition.time_start.tv_sec +
+                         (double)acquisition.time_start.tv_nsec / 1e9;
 
         switch (io) 
         {
@@ -504,7 +621,7 @@ static void start_capturing(void)
         case IO_METHOD_MMAP:
                 for (i = 0; i < n_buffers; ++i) 
                 {
-                        printf("allocated buffer %d\n", i);
+                        syslog(LOG_INFO,"allocated buffer %d\n", i);
                         struct v4l2_buffer buf;
 
                         CLEAR(buf);
@@ -773,7 +890,7 @@ static void init_device(void)
 
     if (force_format)
     {
-        printf("FORCING FORMAT\n");
+        syslog(LOG_INFO,"FORCING FORMAT\n");
         fmt.fmt.pix.width       = HRES;
         fmt.fmt.pix.height      = VRES;
 
@@ -969,6 +1086,17 @@ int main(int argc, char **argv)
 
     // shutdown of frame acquisition service
     stop_capturing();
+
+    syslog(LOG_INFO,"Total capture time=%lf, for %d frames, %lf average FPS, %lf lowest FPS\n", (fstop-fstart), CAPTURE_FRAMES+1, ((double)CAPTURE_FRAMES / (fstop-fstart)), worst_frame_rate);
+    // Calculate average fps time
+    double average_transformation_fps = trans_total /(CAPTURE_FRAMES-LAST_FRAMES) ;
+    double average_writeback_fps = write_back_total /(CAPTURE_FRAMES-LAST_FRAMES) ;
+
+    syslog(LOG_INFO, "Transformation -- Total transformation time=%lf seconds, for %d frames, %lf lowest FPS, Average FPS is %lf", 
+       trans_total, CAPTURE_FRAMES + 1, transform.worst_frame_rate, average_transformation_fps);
+    syslog(LOG_INFO, "Write back -- Total Writeback time=%lf seconds, for %d frames, %lf lowest FPS, Average FPS is %lf", 
+       write_back_total, CAPTURE_FRAMES + 1, write_back.worst_frame_rate, average_writeback_fps);
+
     uninit_device();
     close_device();
     fprintf(stderr, "\n");
