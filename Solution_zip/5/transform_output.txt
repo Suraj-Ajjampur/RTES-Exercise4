@@ -1,750 +1,740 @@
-Mar 24 21:18:55 suraj-Inspiron-14-5425 capture: frame 102: 
-Mar 24 21:18:55 suraj-Inspiron-14-5425 capture: Transformation duration: 0.004148 s, Frame rate: 241.083700 FPS, for frame 102
-Mar 24 21:18:55 suraj-Inspiron-14-5425 capture: Write back duration: 0.000626 s, Frame rate: 1596.204863 FPS, for frame 102
-Mar 24 21:18:55 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:18:55 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:18:55 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 4.567082, @ 22.552695 FPS
-Mar 24 21:18:55 suraj-Inspiron-14-5425 capture: Acquisition -- Total capture time=5.352887 seconds, for 101 frames, Average FPS=18.868322, Lowest FPS=31919.307989
-Mar 24 21:18:55 suraj-Inspiron-14-5425 capture: Total capture time=4.567120, for 102 frames, 22.114593 average FPS, 22.428301 lowest FPS
-Mar 24 21:18:55 suraj-Inspiron-14-5425 capture: Transformation -- Total transformation time=22086.752516 seconds, for 102 frames, 143.008119 lowest FPS, Average FPS is 220.867525
-Mar 24 21:18:55 suraj-Inspiron-14-5425 capture: Write back -- Total Writeback time=339961.689494 seconds, for 102 frames, 1217.888838 lowest FPS, Average FPS is 3399.616895
-Mar 24 21:19:16 suraj-Inspiron-14-5425 capture: FORCING FORMAT
-Mar 24 21:19:16 suraj-Inspiron-14-5425 capture: allocated buffer 0
-Mar 24 21:19:16 suraj-Inspiron-14-5425 capture: allocated buffer 1
-Mar 24 21:19:16 suraj-Inspiron-14-5425 capture: allocated buffer 2
-Mar 24 21:19:16 suraj-Inspiron-14-5425 capture: allocated buffer 3
-Mar 24 21:19:16 suraj-Inspiron-14-5425 capture: allocated buffer 4
-Mar 24 21:19:16 suraj-Inspiron-14-5425 capture: allocated buffer 5
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000007 s, Frame rate: 0.000000 FPS, for frame -8
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: frame -7: 
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000005 s, Frame rate: 0.000000 FPS, for frame -7
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: frame -6: 
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 0.000000 FPS, for frame -6
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: frame -5: 
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000009 s, Frame rate: 0.000000 FPS, for frame -5
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: frame -4: 
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 0.000000 FPS, for frame -4
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: frame -3: 
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000007 s, Frame rate: 0.000000 FPS, for frame -3
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: frame -2: 
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000004 s, Frame rate: 0.000000 FPS, for frame -2
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: frame -1: 
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000004 s, Frame rate: 0.000000 FPS, for frame -1
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: frame 0: 
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 0.000000 FPS, for frame 0
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: frame 1: 
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Transformation duration: 0.005091 s, Frame rate: 196.440074 FPS, for frame 1
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Write back duration: 0.000558 s, Frame rate: 1793.480698 FPS, for frame 1
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000008 s, Frame rate: 196.440074 FPS, for frame 1
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: frame 2: 
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Transformation duration: 0.004086 s, Frame rate: 244.766285 FPS, for frame 2
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Write back duration: 0.000942 s, Frame rate: 1061.692848 FPS, for frame 2
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 0.121561, @ 24.678987 FPS
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000010 s, Frame rate: 244.766285 FPS, for frame 2
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: frame 3: 
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Transformation duration: 0.006126 s, Frame rate: 163.242386 FPS, for frame 3
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Write back duration: 0.000358 s, Frame rate: 2793.163453 FPS, for frame 3
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 0.167396, @ 23.895472 FPS
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 163.242386 FPS, for frame 3
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: frame 4: 
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Transformation duration: 0.003757 s, Frame rate: 266.193410 FPS, for frame 4
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Write back duration: 0.000266 s, Frame rate: 3752.852168 FPS, for frame 4
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 0.211867, @ 23.599668 FPS
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000007 s, Frame rate: 266.193410 FPS, for frame 4
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: frame 5: 
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Transformation duration: 0.003816 s, Frame rate: 262.071745 FPS, for frame 5
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Write back duration: 0.000304 s, Frame rate: 3285.626043 FPS, for frame 5
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 0.255985, @ 23.438888 FPS
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000008 s, Frame rate: 262.071745 FPS, for frame 5
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: frame 6: 
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Transformation duration: 0.004530 s, Frame rate: 220.731987 FPS, for frame 6
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Write back duration: 0.000330 s, Frame rate: 3030.082661 FPS, for frame 6
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 0.299732, @ 23.354198 FPS
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 220.731987 FPS, for frame 6
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: frame 7: 
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Transformation duration: 0.006078 s, Frame rate: 164.516707 FPS, for frame 7
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Write back duration: 0.000369 s, Frame rate: 2712.099762 FPS, for frame 7
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 0.345867, @ 23.130269 FPS
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000008 s, Frame rate: 164.516707 FPS, for frame 7
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: frame 8: 
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Transformation duration: 0.006175 s, Frame rate: 161.939570 FPS, for frame 8
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Write back duration: 0.000385 s, Frame rate: 2600.455600 FPS, for frame 8
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 0.391761, @ 22.973172 FPS
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000007 s, Frame rate: 161.939570 FPS, for frame 8
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: frame 9: 
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Transformation duration: 0.005208 s, Frame rate: 192.024382 FPS, for frame 9
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Write back duration: 0.000376 s, Frame rate: 2659.850357 FPS, for frame 9
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 0.435840, @ 22.944216 FPS
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 192.024382 FPS, for frame 9
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: frame 10: 
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Transformation duration: 0.005553 s, Frame rate: 180.067403 FPS, for frame 10
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Write back duration: 0.000526 s, Frame rate: 1901.194901 FPS, for frame 10
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:17 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 0.482280, @ 22.808332 FPS
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000005 s, Frame rate: 180.067403 FPS, for frame 10
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: frame 11: 
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Transformation duration: 0.004073 s, Frame rate: 245.492331 FPS, for frame 11
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Write back duration: 0.000247 s, Frame rate: 4049.943908 FPS, for frame 11
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 0.527305, @ 22.757219 FPS
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 245.492331 FPS, for frame 11
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: frame 12: 
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Transformation duration: 0.005115 s, Frame rate: 195.495128 FPS, for frame 12
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Write back duration: 0.000275 s, Frame rate: 3633.707726 FPS, for frame 12
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 0.571522, @ 22.746297 FPS
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000007 s, Frame rate: 195.495128 FPS, for frame 12
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: frame 13: 
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Transformation duration: 0.006059 s, Frame rate: 165.057031 FPS, for frame 13
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Write back duration: 0.000340 s, Frame rate: 2937.340649 FPS, for frame 13
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 0.617261, @ 22.680854 FPS
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000008 s, Frame rate: 165.057031 FPS, for frame 13
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: frame 14: 
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Transformation duration: 0.006235 s, Frame rate: 160.383226 FPS, for frame 14
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Write back duration: 0.000335 s, Frame rate: 2981.559057 FPS, for frame 14
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 0.663671, @ 22.601561 FPS
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000005 s, Frame rate: 160.383226 FPS, for frame 14
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: frame 15: 
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Transformation duration: 0.003304 s, Frame rate: 302.641363 FPS, for frame 15
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Write back duration: 0.000316 s, Frame rate: 3162.275320 FPS, for frame 15
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 0.703609, @ 22.739904 FPS
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000007 s, Frame rate: 302.641363 FPS, for frame 15
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: frame 16: 
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Transformation duration: 0.006559 s, Frame rate: 152.455990 FPS, for frame 16
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Write back duration: 0.000244 s, Frame rate: 4090.765914 FPS, for frame 16
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 0.750105, @ 22.663495 FPS
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 152.455990 FPS, for frame 16
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: frame 17: 
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Transformation duration: 0.006417 s, Frame rate: 155.842375 FPS, for frame 17
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Write back duration: 0.000342 s, Frame rate: 2928.206239 FPS, for frame 17
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 0.796694, @ 22.593372 FPS
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000005 s, Frame rate: 155.842375 FPS, for frame 17
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: frame 18: 
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Transformation duration: 0.005391 s, Frame rate: 185.484709 FPS, for frame 18
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Write back duration: 0.000239 s, Frame rate: 4186.693015 FPS, for frame 18
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 0.842053, @ 22.563908 FPS
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000011 s, Frame rate: 185.484709 FPS, for frame 18
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: frame 19: 
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Transformation duration: 0.003213 s, Frame rate: 311.226016 FPS, for frame 19
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Write back duration: 0.000365 s, Frame rate: 2739.718521 FPS, for frame 19
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 0.882383, @ 22.665897 FPS
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 311.226016 FPS, for frame 19
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: frame 20: 
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Transformation duration: 0.006470 s, Frame rate: 154.569061 FPS, for frame 20
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Write back duration: 0.000273 s, Frame rate: 3656.882069 FPS, for frame 20
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 0.929182, @ 22.600521 FPS
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 154.569061 FPS, for frame 20
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: frame 21: 
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Transformation duration: 0.005872 s, Frame rate: 170.286098 FPS, for frame 21
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Write back duration: 0.000316 s, Frame rate: 3163.175575 FPS, for frame 21
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 0.973712, @ 22.593939 FPS
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000007 s, Frame rate: 170.286098 FPS, for frame 21
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: frame 22: 
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Transformation duration: 0.006790 s, Frame rate: 147.275926 FPS, for frame 22
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Write back duration: 0.000390 s, Frame rate: 2561.882266 FPS, for frame 22
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 1.020183, @ 22.544980 FPS
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000007 s, Frame rate: 147.275926 FPS, for frame 22
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: frame 23: 
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Transformation duration: 0.005588 s, Frame rate: 178.967010 FPS, for frame 23
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Write back duration: 0.000413 s, Frame rate: 2420.885463 FPS, for frame 23
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 1.066773, @ 22.497763 FPS
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 178.967010 FPS, for frame 23
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: frame 24: 
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Transformation duration: 0.003669 s, Frame rate: 272.529169 FPS, for frame 24
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Write back duration: 0.000415 s, Frame rate: 2410.713210 FPS, for frame 24
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 1.108721, @ 22.548504 FPS
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 272.529169 FPS, for frame 24
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: frame 25: 
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Transformation duration: 0.005669 s, Frame rate: 176.388122 FPS, for frame 25
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Write back duration: 0.000406 s, Frame rate: 2462.823677 FPS, for frame 25
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 1.154730, @ 22.516095 FPS
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000007 s, Frame rate: 176.388122 FPS, for frame 25
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: frame 26: 
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Transformation duration: 0.006175 s, Frame rate: 161.933276 FPS, for frame 26
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Write back duration: 0.000373 s, Frame rate: 2682.295508 FPS, for frame 26
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 1.200717, @ 22.486555 FPS
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000005 s, Frame rate: 161.933276 FPS, for frame 26
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: frame 27: 
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Transformation duration: 0.005947 s, Frame rate: 168.147994 FPS, for frame 27
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Write back duration: 0.000231 s, Frame rate: 4322.866233 FPS, for frame 27
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 1.246362, @ 22.465389 FPS
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000011 s, Frame rate: 168.147994 FPS, for frame 27
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: frame 28: 
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Transformation duration: 0.003532 s, Frame rate: 283.104627 FPS, for frame 28
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Write back duration: 0.000359 s, Frame rate: 2784.584540 FPS, for frame 28
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 1.290829, @ 22.466184 FPS
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 283.104627 FPS, for frame 28
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: frame 29: 
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Transformation duration: 0.004303 s, Frame rate: 232.421929 FPS, for frame 29
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Write back duration: 0.000232 s, Frame rate: 4313.542799 FPS, for frame 29
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 1.334545, @ 22.479577 FPS
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 232.421929 FPS, for frame 29
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: frame 30: 
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Transformation duration: 0.006849 s, Frame rate: 146.011897 FPS, for frame 30
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Write back duration: 0.000293 s, Frame rate: 3417.004381 FPS, for frame 30
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 1.381747, @ 22.435361 FPS
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 146.011897 FPS, for frame 30
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: frame 31: 
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Transformation duration: 0.004996 s, Frame rate: 200.158445 FPS, for frame 31
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Write back duration: 0.000223 s, Frame rate: 4486.880362 FPS, for frame 31
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 1.426406, @ 22.433998 FPS
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000009 s, Frame rate: 200.158445 FPS, for frame 31
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: frame 32: 
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Transformation duration: 0.005207 s, Frame rate: 192.061669 FPS, for frame 32
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Write back duration: 0.000284 s, Frame rate: 3523.893762 FPS, for frame 32
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:18 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 1.472438, @ 22.411814 FPS
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000007 s, Frame rate: 192.061669 FPS, for frame 32
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: frame 33: 
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Transformation duration: 0.006172 s, Frame rate: 162.027102 FPS, for frame 33
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Write back duration: 0.000343 s, Frame rate: 2912.819318 FPS, for frame 33
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 1.518436, @ 22.391465 FPS
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 162.027102 FPS, for frame 33
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: frame 34: 
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Transformation duration: 0.006919 s, Frame rate: 144.539375 FPS, for frame 34
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Write back duration: 0.000343 s, Frame rate: 2917.680561 FPS, for frame 34
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 1.562699, @ 22.397142 FPS
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 144.539375 FPS, for frame 34
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: frame 35: 
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Transformation duration: 0.006223 s, Frame rate: 160.702385 FPS, for frame 35
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Write back duration: 0.000336 s, Frame rate: 2977.830055 FPS, for frame 35
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 1.607984, @ 22.388277 FPS
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000008 s, Frame rate: 160.702385 FPS, for frame 35
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: frame 36: 
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Transformation duration: 0.006070 s, Frame rate: 164.732298 FPS, for frame 36
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Write back duration: 0.000333 s, Frame rate: 3007.166077 FPS, for frame 36
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 1.653704, @ 22.374015 FPS
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000009 s, Frame rate: 164.732298 FPS, for frame 36
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: frame 37: 
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Transformation duration: 0.004101 s, Frame rate: 243.837673 FPS, for frame 37
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Write back duration: 0.000275 s, Frame rate: 3639.804906 FPS, for frame 37
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 1.697239, @ 22.389305 FPS
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 243.837673 FPS, for frame 37
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: frame 38: 
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Transformation duration: 0.005628 s, Frame rate: 177.698264 FPS, for frame 38
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Write back duration: 0.000266 s, Frame rate: 3763.884027 FPS, for frame 38
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 1.742132, @ 22.386365 FPS
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000008 s, Frame rate: 177.698264 FPS, for frame 38
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: frame 39: 
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Transformation duration: 0.004809 s, Frame rate: 207.929214 FPS, for frame 39
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Write back duration: 0.000255 s, Frame rate: 3923.368761 FPS, for frame 39
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 1.787166, @ 22.381805 FPS
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 207.929214 FPS, for frame 39
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: frame 40: 
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Transformation duration: 0.005224 s, Frame rate: 191.439477 FPS, for frame 40
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Write back duration: 0.000251 s, Frame rate: 3983.524144 FPS, for frame 40
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 1.832915, @ 22.368739 FPS
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000007 s, Frame rate: 191.439477 FPS, for frame 40
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: frame 41: 
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Transformation duration: 0.005339 s, Frame rate: 187.309728 FPS, for frame 41
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Write back duration: 0.000537 s, Frame rate: 1862.211264 FPS, for frame 41
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 1.879043, @ 22.351799 FPS
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 187.309728 FPS, for frame 41
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: frame 42: 
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Transformation duration: 0.004125 s, Frame rate: 242.430472 FPS, for frame 42
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Write back duration: 0.000235 s, Frame rate: 4253.436777 FPS, for frame 42
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 1.923216, @ 22.358389 FPS
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 242.430472 FPS, for frame 42
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: frame 43: 
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Transformation duration: 0.006485 s, Frame rate: 154.199888 FPS, for frame 43
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Write back duration: 0.000240 s, Frame rate: 4171.829305 FPS, for frame 43
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 1.969778, @ 22.337538 FPS
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000005 s, Frame rate: 154.199888 FPS, for frame 43
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: frame 44: 
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Transformation duration: 0.004197 s, Frame rate: 238.290409 FPS, for frame 44
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Write back duration: 0.000354 s, Frame rate: 2826.535515 FPS, for frame 44
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 2.010944, @ 22.377549 FPS
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000007 s, Frame rate: 238.290409 FPS, for frame 44
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: frame 45: 
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Transformation duration: 0.003573 s, Frame rate: 279.891738 FPS, for frame 45
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Write back duration: 0.000236 s, Frame rate: 4245.094793 FPS, for frame 45
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 2.054343, @ 22.391582 FPS
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000007 s, Frame rate: 279.891738 FPS, for frame 45
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: frame 46: 
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Transformation duration: 0.003481 s, Frame rate: 287.252647 FPS, for frame 46
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Write back duration: 0.000313 s, Frame rate: 3195.990949 FPS, for frame 46
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 2.096386, @ 22.419539 FPS
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 287.252647 FPS, for frame 46
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: frame 47: 
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Transformation duration: 0.005708 s, Frame rate: 175.198605 FPS, for frame 47
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Write back duration: 0.000276 s, Frame rate: 3628.565519 FPS, for frame 47
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 2.142328, @ 22.405536 FPS
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 175.198605 FPS, for frame 47
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: frame 48: 
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Transformation duration: 0.007104 s, Frame rate: 140.757622 FPS, for frame 48
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Write back duration: 0.000207 s, Frame rate: 4836.502048 FPS, for frame 48
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 2.189777, @ 22.376712 FPS
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 140.757622 FPS, for frame 48
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: frame 49: 
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Transformation duration: 0.005253 s, Frame rate: 190.354400 FPS, for frame 49
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Write back duration: 0.000201 s, Frame rate: 4963.468869 FPS, for frame 49
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 2.234845, @ 22.372915 FPS
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 190.354400 FPS, for frame 49
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: frame 50: 
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Transformation duration: 0.007263 s, Frame rate: 137.687167 FPS, for frame 50
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Write back duration: 0.000351 s, Frame rate: 2846.934563 FPS, for frame 50
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 2.282001, @ 22.348805 FPS
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000007 s, Frame rate: 137.687167 FPS, for frame 50
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: frame 51: 
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Transformation duration: 0.006074 s, Frame rate: 164.623876 FPS, for frame 51
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Write back duration: 0.000343 s, Frame rate: 2912.997504 FPS, for frame 51
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 2.327816, @ 22.338536 FPS
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000005 s, Frame rate: 164.623876 FPS, for frame 51
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: frame 52: 
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Transformation duration: 0.005918 s, Frame rate: 168.987856 FPS, for frame 52
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Write back duration: 0.000247 s, Frame rate: 4055.215819 FPS, for frame 52
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 2.373620, @ 22.328762 FPS
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 168.987856 FPS, for frame 52
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: frame 53: 
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Transformation duration: 0.004753 s, Frame rate: 210.396844 FPS, for frame 53
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Write back duration: 0.000247 s, Frame rate: 4051.913111 FPS, for frame 53
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 2.418429, @ 22.328544 FPS
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 210.396844 FPS, for frame 53
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: frame 54: 
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Transformation duration: 0.004464 s, Frame rate: 224.017549 FPS, for frame 54
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Write back duration: 0.000250 s, Frame rate: 4001.552602 FPS, for frame 54
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:19 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 2.462668, @ 22.333497 FPS
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000008 s, Frame rate: 224.017549 FPS, for frame 54
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: frame 55: 
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Transformation duration: 0.006231 s, Frame rate: 160.482243 FPS, for frame 55
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Write back duration: 0.000372 s, Frame rate: 2690.602264 FPS, for frame 55
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 2.509308, @ 22.316913 FPS
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 160.482243 FPS, for frame 55
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: frame 56: 
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Transformation duration: 0.005969 s, Frame rate: 167.530790 FPS, for frame 56
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Write back duration: 0.000376 s, Frame rate: 2657.658975 FPS, for frame 56
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 2.554855, @ 22.310467 FPS
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 167.530790 FPS, for frame 56
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: frame 57: 
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Transformation duration: 0.006545 s, Frame rate: 152.796512 FPS, for frame 57
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Write back duration: 0.000271 s, Frame rate: 3687.546786 FPS, for frame 57
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 2.601843, @ 22.291893 FPS
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 152.796512 FPS, for frame 57
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: frame 58: 
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Transformation duration: 0.005958 s, Frame rate: 167.841501 FPS, for frame 58
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Write back duration: 0.000352 s, Frame rate: 2840.860667 FPS, for frame 58
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 2.647405, @ 22.285978 FPS
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000012 s, Frame rate: 167.841501 FPS, for frame 58
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: frame 59: 
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Transformation duration: 0.002601 s, Frame rate: 384.538477 FPS, for frame 59
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Write back duration: 0.000434 s, Frame rate: 2306.326253 FPS, for frame 59
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 2.690394, @ 22.301564 FPS
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000007 s, Frame rate: 384.538477 FPS, for frame 59
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: frame 60: 
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Transformation duration: 0.004770 s, Frame rate: 209.660133 FPS, for frame 60
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Write back duration: 0.000289 s, Frame rate: 3463.251439 FPS, for frame 60
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 2.735271, @ 22.301262 FPS
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 209.660133 FPS, for frame 60
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: frame 61: 
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Transformation duration: 0.003927 s, Frame rate: 254.622675 FPS, for frame 61
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Write back duration: 0.000293 s, Frame rate: 3410.001535 FPS, for frame 61
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 2.780569, @ 22.297597 FPS
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000008 s, Frame rate: 254.622675 FPS, for frame 61
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: frame 62: 
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Transformation duration: 0.003354 s, Frame rate: 298.145594 FPS, for frame 62
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Write back duration: 0.000254 s, Frame rate: 3937.302397 FPS, for frame 62
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 2.824082, @ 22.308138 FPS
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000007 s, Frame rate: 298.145594 FPS, for frame 62
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: frame 63: 
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Transformation duration: 0.005767 s, Frame rate: 173.415116 FPS, for frame 63
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Write back duration: 0.000239 s, Frame rate: 4188.639572 FPS, for frame 63
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 2.869807, @ 22.301148 FPS
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000007 s, Frame rate: 173.415116 FPS, for frame 63
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: frame 64: 
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Transformation duration: 0.005805 s, Frame rate: 172.260452 FPS, for frame 64
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Write back duration: 0.000267 s, Frame rate: 3739.911588 FPS, for frame 64
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 2.915266, @ 22.296420 FPS
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000005 s, Frame rate: 172.260452 FPS, for frame 64
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: frame 65: 
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Transformation duration: 0.006025 s, Frame rate: 165.968217 FPS, for frame 65
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Write back duration: 0.000314 s, Frame rate: 3188.745006 FPS, for frame 65
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 2.960931, @ 22.290285 FPS
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000005 s, Frame rate: 165.968217 FPS, for frame 65
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: frame 66: 
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Transformation duration: 0.006210 s, Frame rate: 161.036586 FPS, for frame 66
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Write back duration: 0.000338 s, Frame rate: 2957.967285 FPS, for frame 66
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 3.006881, @ 22.282226 FPS
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000004 s, Frame rate: 161.036586 FPS, for frame 66
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: frame 67: 
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Transformation duration: 0.005484 s, Frame rate: 182.341469 FPS, for frame 67
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Write back duration: 0.000223 s, Frame rate: 4492.746461 FPS, for frame 67
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 3.049510, @ 22.298664 FPS
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000007 s, Frame rate: 182.341469 FPS, for frame 67
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: frame 68: 
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Transformation duration: 0.004468 s, Frame rate: 223.834677 FPS, for frame 68
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Write back duration: 0.000378 s, Frame rate: 2644.488225 FPS, for frame 68
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 3.094268, @ 22.299300 FPS
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 223.834677 FPS, for frame 68
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: frame 69: 
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Transformation duration: 0.006074 s, Frame rate: 164.646699 FPS, for frame 69
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Write back duration: 0.000325 s, Frame rate: 3073.839779 FPS, for frame 69
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 3.140212, @ 22.291491 FPS
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 164.646699 FPS, for frame 69
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: frame 70: 
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Transformation duration: 0.006105 s, Frame rate: 163.810628 FPS, for frame 70
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Write back duration: 0.000341 s, Frame rate: 2930.617628 FPS, for frame 70
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 3.185384, @ 22.289307 FPS
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000007 s, Frame rate: 163.810628 FPS, for frame 70
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: frame 71: 
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Transformation duration: 0.002827 s, Frame rate: 353.739629 FPS, for frame 71
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Write back duration: 0.000256 s, Frame rate: 3908.937394 FPS, for frame 71
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 3.227982, @ 22.304955 FPS
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 353.739629 FPS, for frame 71
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: frame 72: 
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Transformation duration: 0.005435 s, Frame rate: 183.991185 FPS, for frame 72
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Write back duration: 0.000238 s, Frame rate: 4204.153704 FPS, for frame 72
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 3.273408, @ 22.300918 FPS
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 183.991185 FPS, for frame 72
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: frame 73: 
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Transformation duration: 0.005589 s, Frame rate: 178.909632 FPS, for frame 73
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Write back duration: 0.000369 s, Frame rate: 2711.371764 FPS, for frame 73
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 3.316923, @ 22.309831 FPS
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 178.909632 FPS, for frame 73
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: frame 74: 
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Transformation duration: 0.005347 s, Frame rate: 187.012155 FPS, for frame 74
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Write back duration: 0.000332 s, Frame rate: 3010.796717 FPS, for frame 74
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 3.362118, @ 22.307367 FPS
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000007 s, Frame rate: 187.012155 FPS, for frame 74
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: frame 75: 
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Transformation duration: 0.004133 s, Frame rate: 241.983158 FPS, for frame 75
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Write back duration: 0.000322 s, Frame rate: 3110.236098 FPS, for frame 75
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 3.403570, @ 22.329497 FPS
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000005 s, Frame rate: 241.983158 FPS, for frame 75
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: frame 76: 
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Transformation duration: 0.006618 s, Frame rate: 151.094125 FPS, for frame 76
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Write back duration: 0.000381 s, Frame rate: 2623.487559 FPS, for frame 76
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 3.448106, @ 22.331097 FPS
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000010 s, Frame rate: 151.094125 FPS, for frame 76
-Mar 24 21:19:20 suraj-Inspiron-14-5425 capture: frame 77: 
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Transformation duration: 0.005562 s, Frame rate: 179.782618 FPS, for frame 77
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Write back duration: 0.000351 s, Frame rate: 2847.834507 FPS, for frame 77
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 3.491775, @ 22.338208 FPS
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000007 s, Frame rate: 179.782618 FPS, for frame 77
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: frame 78: 
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Transformation duration: 0.005206 s, Frame rate: 192.091626 FPS, for frame 78
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Write back duration: 0.000515 s, Frame rate: 1941.766425 FPS, for frame 78
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 3.536998, @ 22.335322 FPS
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000009 s, Frame rate: 192.091626 FPS, for frame 78
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: frame 79: 
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Transformation duration: 0.004844 s, Frame rate: 206.445049 FPS, for frame 79
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Write back duration: 0.000520 s, Frame rate: 1921.469540 FPS, for frame 79
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 3.578921, @ 22.353107 FPS
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000004 s, Frame rate: 206.445049 FPS, for frame 79
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: frame 80: 
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Transformation duration: 0.002609 s, Frame rate: 383.346655 FPS, for frame 80
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Write back duration: 0.000250 s, Frame rate: 4007.341450 FPS, for frame 80
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 3.618065, @ 22.387655 FPS
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000007 s, Frame rate: 383.346655 FPS, for frame 80
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: frame 81: 
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Transformation duration: 0.003342 s, Frame rate: 299.224440 FPS, for frame 81
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Write back duration: 0.000429 s, Frame rate: 2333.226783 FPS, for frame 81
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 3.658668, @ 22.412527 FPS
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 299.224440 FPS, for frame 81
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: frame 82: 
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Transformation duration: 0.004004 s, Frame rate: 249.743701 FPS, for frame 82
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Write back duration: 0.000393 s, Frame rate: 2542.950433 FPS, for frame 82
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 3.700636, @ 22.428575 FPS
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000005 s, Frame rate: 249.743701 FPS, for frame 82
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: frame 83: 
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Transformation duration: 0.006516 s, Frame rate: 153.475028 FPS, for frame 83
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Write back duration: 0.000346 s, Frame rate: 2893.819958 FPS, for frame 83
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 3.746621, @ 22.420201 FPS
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 153.475028 FPS, for frame 83
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: frame 84: 
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Transformation duration: 0.004287 s, Frame rate: 233.263844 FPS, for frame 84
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Write back duration: 0.000210 s, Frame rate: 4751.090375 FPS, for frame 84
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 3.791253, @ 22.420027 FPS
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000005 s, Frame rate: 233.263844 FPS, for frame 84
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: frame 85: 
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Transformation duration: 0.006122 s, Frame rate: 163.340963 FPS, for frame 85
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Write back duration: 0.000313 s, Frame rate: 3193.031528 FPS, for frame 85
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 3.836966, @ 22.413542 FPS
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000005 s, Frame rate: 163.340963 FPS, for frame 85
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: frame 86: 
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Transformation duration: 0.005179 s, Frame rate: 193.099474 FPS, for frame 86
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Write back duration: 0.000332 s, Frame rate: 3012.883088 FPS, for frame 86
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 3.882008, @ 22.411079 FPS
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000007 s, Frame rate: 193.099474 FPS, for frame 86
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: frame 87: 
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Transformation duration: 0.004430 s, Frame rate: 225.748412 FPS, for frame 87
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Write back duration: 0.000202 s, Frame rate: 4954.615720 FPS, for frame 87
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 3.926524, @ 22.411682 FPS
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000007 s, Frame rate: 225.748412 FPS, for frame 87
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: frame 88: 
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Transformation duration: 0.006288 s, Frame rate: 159.037960 FPS, for frame 88
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Write back duration: 0.000363 s, Frame rate: 2755.830649 FPS, for frame 88
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 3.972646, @ 22.403202 FPS
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000008 s, Frame rate: 159.037960 FPS, for frame 88
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: frame 89: 
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Transformation duration: 0.005027 s, Frame rate: 198.931737 FPS, for frame 89
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Write back duration: 0.000461 s, Frame rate: 2167.208830 FPS, for frame 89
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 4.016946, @ 22.405081 FPS
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 198.931737 FPS, for frame 89
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: frame 90: 
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Transformation duration: 0.005295 s, Frame rate: 188.872501 FPS, for frame 90
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Write back duration: 0.000239 s, Frame rate: 4191.079706 FPS, for frame 90
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 4.062404, @ 22.400530 FPS
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000009 s, Frame rate: 188.872501 FPS, for frame 90
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: frame 91: 
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Transformation duration: 0.004030 s, Frame rate: 248.124551 FPS, for frame 91
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Write back duration: 0.000357 s, Frame rate: 2800.924305 FPS, for frame 91
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 4.104652, @ 22.413594 FPS
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 248.124551 FPS, for frame 91
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: frame 92: 
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Transformation duration: 0.006128 s, Frame rate: 163.173822 FPS, for frame 92
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Write back duration: 0.000549 s, Frame rate: 1821.798917 FPS, for frame 92
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 4.150306, @ 22.407988 FPS
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000008 s, Frame rate: 163.173822 FPS, for frame 92
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: frame 93: 
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Transformation duration: 0.004549 s, Frame rate: 219.809834 FPS, for frame 93
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Write back duration: 0.000298 s, Frame rate: 3361.321941 FPS, for frame 93
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 4.193160, @ 22.417461 FPS
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 219.809834 FPS, for frame 93
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: frame 94: 
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Transformation duration: 0.002837 s, Frame rate: 352.499060 FPS, for frame 94
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Write back duration: 0.000241 s, Frame rate: 4152.375574 FPS, for frame 94
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 4.236071, @ 22.426441 FPS
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000005 s, Frame rate: 352.499060 FPS, for frame 94
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: frame 95: 
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Transformation duration: 0.006543 s, Frame rate: 152.833246 FPS, for frame 95
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Write back duration: 0.000437 s, Frame rate: 2290.814293 FPS, for frame 95
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 4.282585, @ 22.416369 FPS
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 152.833246 FPS, for frame 95
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: frame 96: 
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Transformation duration: 0.004806 s, Frame rate: 208.052722 FPS, for frame 96
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Write back duration: 0.000252 s, Frame rate: 3962.781556 FPS, for frame 96
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 4.326183, @ 22.421613 FPS
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000005 s, Frame rate: 208.052722 FPS, for frame 96
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: frame 97: 
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Transformation duration: 0.007470 s, Frame rate: 133.865529 FPS, for frame 97
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Write back duration: 0.000371 s, Frame rate: 2693.290743 FPS, for frame 97
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 4.373604, @ 22.407149 FPS
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 133.865529 FPS, for frame 97
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: frame 98: 
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Transformation duration: 0.005536 s, Frame rate: 180.645203 FPS, for frame 98
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Write back duration: 0.000300 s, Frame rate: 3334.700561 FPS, for frame 98
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 4.418625, @ 22.405160 FPS
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 180.645203 FPS, for frame 98
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: frame 99: 
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Transformation duration: 0.006077 s, Frame rate: 164.558751 FPS, for frame 99
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Write back duration: 0.000383 s, Frame rate: 2611.068319 FPS, for frame 99
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:21 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:22 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 4.462535, @ 22.408789 FPS
-Mar 24 21:19:22 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000010 s, Frame rate: 164.558751 FPS, for frame 99
-Mar 24 21:19:22 suraj-Inspiron-14-5425 capture: frame 100: 
-Mar 24 21:19:22 suraj-Inspiron-14-5425 capture: Transformation duration: 0.003411 s, Frame rate: 293.211107 FPS, for frame 100
-Mar 24 21:19:22 suraj-Inspiron-14-5425 capture: Write back duration: 0.000398 s, Frame rate: 2509.511047 FPS, for frame 100
-Mar 24 21:19:22 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:22 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:22 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 4.503571, @ 22.426649 FPS
-Mar 24 21:19:22 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 293.211107 FPS, for frame 100
-Mar 24 21:19:22 suraj-Inspiron-14-5425 capture: frame 101: 
-Mar 24 21:19:22 suraj-Inspiron-14-5425 capture: Transformation duration: 0.005894 s, Frame rate: 169.662309 FPS, for frame 101
-Mar 24 21:19:22 suraj-Inspiron-14-5425 capture: Write back duration: 0.000264 s, Frame rate: 3789.759312 FPS, for frame 101
-Mar 24 21:19:22 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:22 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:22 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 4.549426, @ 22.420410 FPS
-Mar 24 21:19:22 suraj-Inspiron-14-5425 capture: Acquision duration: 0.000006 s, Frame rate: 169.662309 FPS, for frame 101
-Mar 24 21:19:22 suraj-Inspiron-14-5425 capture: frame 102: 
-Mar 24 21:19:22 suraj-Inspiron-14-5425 capture: Transformation duration: 0.005172 s, Frame rate: 193.352353 FPS, for frame 102
-Mar 24 21:19:22 suraj-Inspiron-14-5425 capture: Write back duration: 0.000415 s, Frame rate: 2407.921097 FPS, for frame 102
-Mar 24 21:19:22 suraj-Inspiron-14-5425 capture: wrote 921600 bytes
-Mar 24 21:19:22 suraj-Inspiron-14-5425 capture: Dump YUYV converted to RGB size 614400
-Mar 24 21:19:22 suraj-Inspiron-14-5425 capture: SIMPCAP: read at 4.592180, @ 22.429436 FPS
-Mar 24 21:19:22 suraj-Inspiron-14-5425 capture: Acquisition -- Total capture time=5.375686 seconds, for 101 frames, Average FPS=18.788298, Lowest FPS=85164.367229
-Mar 24 21:19:22 suraj-Inspiron-14-5425 capture: Total capture time=4.592203, for 102 frames, 21.993800 average FPS, 22.282226 lowest FPS
-Mar 24 21:19:22 suraj-Inspiron-14-5425 capture: Transformation -- Total transformation time=20670.086078 seconds, for 102 frames, 133.865529 lowest FPS, Average FPS is 206.700861
-Mar 24 21:19:22 suraj-Inspiron-14-5425 capture: Write back -- Total Writeback time=328516.370925 seconds, for 102 frames, 1061.692848 lowest FPS, Average FPS is 3285.163709
+Mar 24 21:34:38 suraj-desktop capture: FORCING FORMAT
+Mar 24 21:34:38 suraj-desktop capture: allocated buffer 0
+Mar 24 21:34:38 suraj-desktop capture: allocated buffer 1
+Mar 24 21:34:38 suraj-desktop capture: allocated buffer 2
+Mar 24 21:34:38 suraj-desktop capture: allocated buffer 3
+Mar 24 21:34:38 suraj-desktop capture: allocated buffer 4
+Mar 24 21:34:38 suraj-desktop capture: allocated buffer 5
+Mar 24 21:34:39 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 0.000000 FPS, for frame -8
+Mar 24 21:34:39 suraj-desktop capture: frame -7:
+Mar 24 21:34:39 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 0.000000 FPS, for frame -7
+Mar 24 21:34:39 suraj-desktop capture: frame -6:
+Mar 24 21:34:39 suraj-desktop capture: Acquision duration: 0.000011 s, Frame rate: 0.000000 FPS, for frame -6
+Mar 24 21:34:39 suraj-desktop capture: frame -5:
+Mar 24 21:34:39 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 0.000000 FPS, for frame -5
+Mar 24 21:34:39 suraj-desktop capture: frame -4:
+Mar 24 21:34:39 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 0.000000 FPS, for frame -4
+Mar 24 21:34:39 suraj-desktop capture: frame -3:
+Mar 24 21:34:39 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 0.000000 FPS, for frame -3
+Mar 24 21:34:39 suraj-desktop capture: frame -2:
+Mar 24 21:34:39 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 0.000000 FPS, for frame -2
+Mar 24 21:34:39 suraj-desktop capture: frame -1:
+Mar 24 21:34:39 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 0.000000 FPS, for frame -1
+Mar 24 21:34:39 suraj-desktop capture: frame 0:
+Mar 24 21:34:39 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 0.000000 FPS, for frame 0
+Mar 24 21:34:39 suraj-desktop capture: frame 1:
+Mar 24 21:34:39 suraj-desktop capture: Transformation duration: 0.027813 s, Frame rate: 35.954615 FPS, for frame 1
+Mar 24 21:34:39 suraj-desktop capture: Write back duration: 0.002231 s, Frame rate: 448.295603 FPS, for frame 1
+Mar 24 21:34:39 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:39 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:39 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 35.954615 FPS, for frame 1
+Mar 24 21:34:39 suraj-desktop capture: frame 2:
+Mar 24 21:34:39 suraj-desktop capture: Transformation duration: 0.026448 s, Frame rate: 37.809519 FPS, for frame 2
+Mar 24 21:34:39 suraj-desktop capture: Write back duration: 0.002548 s, Frame rate: 392.502573 FPS, for frame 2
+Mar 24 21:34:39 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:39 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:39 suraj-desktop capture: SIMPCAP: read at 0.191614, @ 15.656445 FPS
+Mar 24 21:34:39 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 37.809519 FPS, for frame 2
+Mar 24 21:34:39 suraj-desktop capture: frame 3:
+Mar 24 21:34:39 suraj-desktop capture: Transformation duration: 0.026853 s, Frame rate: 37.240075 FPS, for frame 3
+Mar 24 21:34:39 suraj-desktop capture: Write back duration: 0.002594 s, Frame rate: 385.566399 FPS, for frame 3
+Mar 24 21:34:39 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:39 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:39 suraj-desktop capture: SIMPCAP: read at 0.270250, @ 14.801101 FPS
+Mar 24 21:34:39 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 37.240075 FPS, for frame 3
+Mar 24 21:34:39 suraj-desktop capture: frame 4:
+Mar 24 21:34:39 suraj-desktop capture: Transformation duration: 0.026796 s, Frame rate: 37.318972 FPS, for frame 4
+Mar 24 21:34:39 suraj-desktop capture: Write back duration: 0.002465 s, Frame rate: 405.732020 FPS, for frame 4
+Mar 24 21:34:39 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:39 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:39 suraj-desktop capture: SIMPCAP: read at 0.348361, @ 14.352942 FPS
+Mar 24 21:34:39 suraj-desktop capture: Acquision duration: 0.000007 s, Frame rate: 37.318972 FPS, for frame 4
+Mar 24 21:34:39 suraj-desktop capture: frame 5:
+Mar 24 21:34:39 suraj-desktop capture: Transformation duration: 0.026463 s, Frame rate: 37.789053 FPS, for frame 5
+Mar 24 21:34:39 suraj-desktop capture: Write back duration: 0.002527 s, Frame rate: 395.697815 FPS, for frame 5
+Mar 24 21:34:39 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:39 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:39 suraj-desktop capture: SIMPCAP: read at 0.426499, @ 14.068025 FPS
+Mar 24 21:34:39 suraj-desktop capture: Acquision duration: 0.000007 s, Frame rate: 37.789053 FPS, for frame 5
+Mar 24 21:34:39 suraj-desktop capture: frame 6:
+Mar 24 21:34:39 suraj-desktop capture: Transformation duration: 0.027084 s, Frame rate: 36.922396 FPS, for frame 6
+Mar 24 21:34:39 suraj-desktop capture: Write back duration: 0.002260 s, Frame rate: 442.417973 FPS, for frame 6
+Mar 24 21:34:39 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:39 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:39 suraj-desktop capture: SIMPCAP: read at 0.504957, @ 13.862557 FPS
+Mar 24 21:34:39 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 36.922396 FPS, for frame 6
+Mar 24 21:34:39 suraj-desktop capture: frame 7:
+Mar 24 21:34:39 suraj-desktop capture: Transformation duration: 0.026511 s, Frame rate: 37.719493 FPS, for frame 7
+Mar 24 21:34:39 suraj-desktop capture: Write back duration: 0.002340 s, Frame rate: 427.437193 FPS, for frame 7
+Mar 24 21:34:39 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:39 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:39 suraj-desktop capture: SIMPCAP: read at 0.582703, @ 13.729128 FPS
+Mar 24 21:34:39 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 37.719493 FPS, for frame 7
+Mar 24 21:34:39 suraj-desktop capture: frame 8:
+Mar 24 21:34:40 suraj-desktop capture: Transformation duration: 0.026944 s, Frame rate: 37.114458 FPS, for frame 8
+Mar 24 21:34:40 suraj-desktop capture: Write back duration: 0.002268 s, Frame rate: 440.995273 FPS, for frame 8
+Mar 24 21:34:40 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:40 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:40 suraj-desktop capture: SIMPCAP: read at 0.661027, @ 13.615183 FPS
+Mar 24 21:34:40 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 37.114458 FPS, for frame 8
+Mar 24 21:34:40 suraj-desktop capture: frame 9:
+Mar 24 21:34:40 suraj-desktop capture: Transformation duration: 0.026442 s, Frame rate: 37.818083 FPS, for frame 9
+Mar 24 21:34:40 suraj-desktop capture: Write back duration: 0.002450 s, Frame rate: 408.155769 FPS, for frame 9
+Mar 24 21:34:40 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:40 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:40 suraj-desktop capture: SIMPCAP: read at 0.738920, @ 13.533266 FPS
+Mar 24 21:34:40 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 37.818083 FPS, for frame 9
+Mar 24 21:34:40 suraj-desktop capture: frame 10:
+Mar 24 21:34:40 suraj-desktop capture: Transformation duration: 0.026957 s, Frame rate: 37.096386 FPS, for frame 10
+Mar 24 21:34:40 suraj-desktop capture: Write back duration: 0.002301 s, Frame rate: 434.577035 FPS, for frame 10
+Mar 24 21:34:40 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:40 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:40 suraj-desktop capture: SIMPCAP: read at 0.817258, @ 13.459637 FPS
+Mar 24 21:34:40 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 37.096386 FPS, for frame 10
+Mar 24 21:34:40 suraj-desktop capture: frame 11:
+Mar 24 21:34:40 suraj-desktop capture: Transformation duration: 0.026644 s, Frame rate: 37.531767 FPS, for frame 11
+Mar 24 21:34:40 suraj-desktop capture: Write back duration: 0.002482 s, Frame rate: 402.846189 FPS, for frame 11
+Mar 24 21:34:40 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:40 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:40 suraj-desktop capture: SIMPCAP: read at 0.895754, @ 13.396530 FPS
+Mar 24 21:34:40 suraj-desktop capture: Acquision duration: 0.000007 s, Frame rate: 37.531767 FPS, for frame 11
+Mar 24 21:34:40 suraj-desktop capture: frame 12:
+Mar 24 21:34:40 suraj-desktop capture: Transformation duration: 0.026401 s, Frame rate: 37.877917 FPS, for frame 12
+Mar 24 21:34:40 suraj-desktop capture: Write back duration: 0.002224 s, Frame rate: 449.628764 FPS, for frame 12
+Mar 24 21:34:40 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:40 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:40 suraj-desktop capture: SIMPCAP: read at 0.973896, @ 13.348452 FPS
+Mar 24 21:34:40 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 37.877917 FPS, for frame 12
+Mar 24 21:34:40 suraj-desktop capture: frame 13:
+Mar 24 21:34:40 suraj-desktop capture: Transformation duration: 0.026813 s, Frame rate: 37.295340 FPS, for frame 13
+Mar 24 21:34:40 suraj-desktop capture: Write back duration: 0.002471 s, Frame rate: 404.748510 FPS, for frame 13
+Mar 24 21:34:40 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:40 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:40 suraj-desktop capture: SIMPCAP: read at 1.052355, @ 13.303490 FPS
+Mar 24 21:34:40 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 37.295340 FPS, for frame 13
+Mar 24 21:34:40 suraj-desktop capture: frame 14:
+Mar 24 21:34:40 suraj-desktop capture: Transformation duration: 0.027163 s, Frame rate: 36.815065 FPS, for frame 14
+Mar 24 21:34:40 suraj-desktop capture: Write back duration: 0.002330 s, Frame rate: 429.118616 FPS, for frame 14
+Mar 24 21:34:40 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:40 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:40 suraj-desktop capture: SIMPCAP: read at 1.131130, @ 13.261080 FPS
+Mar 24 21:34:40 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 36.815065 FPS, for frame 14
+Mar 24 21:34:40 suraj-desktop capture: frame 15:
+Mar 24 21:34:40 suraj-desktop capture: Transformation duration: 0.026240 s, Frame rate: 38.109630 FPS, for frame 15
+Mar 24 21:34:40 suraj-desktop capture: Write back duration: 0.002242 s, Frame rate: 446.118479 FPS, for frame 15
+Mar 24 21:34:40 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:40 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:40 suraj-desktop capture: SIMPCAP: read at 1.208577, @ 13.238712 FPS
+Mar 24 21:34:40 suraj-desktop capture: Acquision duration: 0.000007 s, Frame rate: 38.109630 FPS, for frame 15
+Mar 24 21:34:40 suraj-desktop capture: frame 16:
+Mar 24 21:34:40 suraj-desktop capture: Transformation duration: 0.025160 s, Frame rate: 39.745159 FPS, for frame 16
+Mar 24 21:34:40 suraj-desktop capture: Write back duration: 0.002274 s, Frame rate: 439.772884 FPS, for frame 16
+Mar 24 21:34:40 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:40 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:40 suraj-desktop capture: SIMPCAP: read at 1.284478, @ 13.234949 FPS
+Mar 24 21:34:40 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.745159 FPS, for frame 16
+Mar 24 21:34:40 suraj-desktop capture: frame 17:
+Mar 24 21:34:40 suraj-desktop capture: Transformation duration: 0.025038 s, Frame rate: 39.938949 FPS, for frame 17
+Mar 24 21:34:40 suraj-desktop capture: Write back duration: 0.002237 s, Frame rate: 447.032664 FPS, for frame 17
+Mar 24 21:34:40 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:40 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:40 suraj-desktop capture: SIMPCAP: read at 1.360644, @ 13.229028 FPS
+Mar 24 21:34:40 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.938949 FPS, for frame 17
+Mar 24 21:34:40 suraj-desktop capture: frame 18:
+Mar 24 21:34:40 suraj-desktop capture: Transformation duration: 0.025069 s, Frame rate: 39.889745 FPS, for frame 18
+Mar 24 21:34:40 suraj-desktop capture: Write back duration: 0.002227 s, Frame rate: 449.029535 FPS, for frame 18
+Mar 24 21:34:40 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:40 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:40 suraj-desktop capture: SIMPCAP: read at 1.436972, @ 13.222249 FPS
+Mar 24 21:34:40 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.889745 FPS, for frame 18
+Mar 24 21:34:40 suraj-desktop capture: frame 19:
+Mar 24 21:34:40 suraj-desktop capture: Transformation duration: 0.025150 s, Frame rate: 39.761784 FPS, for frame 19
+Mar 24 21:34:40 suraj-desktop capture: Write back duration: 0.002228 s, Frame rate: 448.872119 FPS, for frame 19
+Mar 24 21:34:40 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:40 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:40 suraj-desktop capture: SIMPCAP: read at 1.513359, @ 13.215638 FPS
+Mar 24 21:34:40 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.761784 FPS, for frame 19
+Mar 24 21:34:40 suraj-desktop capture: frame 20:
+Mar 24 21:34:40 suraj-desktop capture: Transformation duration: 0.025044 s, Frame rate: 39.930478 FPS, for frame 20
+Mar 24 21:34:40 suraj-desktop capture: Write back duration: 0.002218 s, Frame rate: 450.832440 FPS, for frame 20
+Mar 24 21:34:40 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:40 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:40 suraj-desktop capture: SIMPCAP: read at 1.589397, @ 13.212558 FPS
+Mar 24 21:34:40 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.930478 FPS, for frame 20
+Mar 24 21:34:40 suraj-desktop capture: frame 21:
+Mar 24 21:34:41 suraj-desktop capture: Transformation duration: 0.025013 s, Frame rate: 39.979283 FPS, for frame 21
+Mar 24 21:34:41 suraj-desktop capture: Write back duration: 0.002268 s, Frame rate: 440.944521 FPS, for frame 21
+Mar 24 21:34:41 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:41 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:41 suraj-desktop capture: SIMPCAP: read at 1.665525, @ 13.209045 FPS
+Mar 24 21:34:41 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 39.979283 FPS, for frame 21
+Mar 24 21:34:41 suraj-desktop capture: frame 22:
+Mar 24 21:34:41 suraj-desktop capture: Transformation duration: 0.025141 s, Frame rate: 39.775703 FPS, for frame 22
+Mar 24 21:34:41 suraj-desktop capture: Write back duration: 0.002226 s, Frame rate: 449.176570 FPS, for frame 22
+Mar 24 21:34:41 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:41 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:41 suraj-desktop capture: SIMPCAP: read at 1.741656, @ 13.205825 FPS
+Mar 24 21:34:41 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.775703 FPS, for frame 22
+Mar 24 21:34:41 suraj-desktop capture: frame 23:
+Mar 24 21:34:41 suraj-desktop capture: Transformation duration: 0.025076 s, Frame rate: 39.879139 FPS, for frame 23
+Mar 24 21:34:41 suraj-desktop capture: Write back duration: 0.002179 s, Frame rate: 458.957918 FPS, for frame 23
+Mar 24 21:34:41 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:41 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:41 suraj-desktop capture: SIMPCAP: read at 1.817929, @ 13.201839 FPS
+Mar 24 21:34:41 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.879139 FPS, for frame 23
+Mar 24 21:34:41 suraj-desktop capture: frame 24:
+Mar 24 21:34:41 suraj-desktop capture: Transformation duration: 0.025046 s, Frame rate: 39.926326 FPS, for frame 24
+Mar 24 21:34:41 suraj-desktop capture: Write back duration: 0.002212 s, Frame rate: 452.159696 FPS, for frame 24
+Mar 24 21:34:41 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:41 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:41 suraj-desktop capture: SIMPCAP: read at 1.894112, @ 13.198797 FPS
+Mar 24 21:34:41 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 39.926326 FPS, for frame 24
+Mar 24 21:34:41 suraj-desktop capture: frame 25:
+Mar 24 21:34:41 suraj-desktop capture: Transformation duration: 0.025062 s, Frame rate: 39.901268 FPS, for frame 25
+Mar 24 21:34:41 suraj-desktop capture: Write back duration: 0.002207 s, Frame rate: 453.130657 FPS, for frame 25
+Mar 24 21:34:41 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:41 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:41 suraj-desktop capture: SIMPCAP: read at 1.970268, @ 13.196172 FPS
+Mar 24 21:34:41 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 39.901268 FPS, for frame 25
+Mar 24 21:34:41 suraj-desktop capture: frame 26:
+Mar 24 21:34:41 suraj-desktop capture: Transformation duration: 0.025142 s, Frame rate: 39.774716 FPS, for frame 26
+Mar 24 21:34:41 suraj-desktop capture: Write back duration: 0.002205 s, Frame rate: 453.440914 FPS, for frame 26
+Mar 24 21:34:41 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:41 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:41 suraj-desktop capture: SIMPCAP: read at 2.045751, @ 13.198088 FPS
+Mar 24 21:34:41 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.774716 FPS, for frame 26
+Mar 24 21:34:41 suraj-desktop capture: frame 27:
+Mar 24 21:34:41 suraj-desktop capture: Transformation duration: 0.025058 s, Frame rate: 39.906740 FPS, for frame 27
+Mar 24 21:34:41 suraj-desktop capture: Write back duration: 0.002203 s, Frame rate: 453.923373 FPS, for frame 27
+Mar 24 21:34:41 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:41 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:41 suraj-desktop capture: SIMPCAP: read at 2.121881, @ 13.195841 FPS
+Mar 24 21:34:41 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.906740 FPS, for frame 27
+Mar 24 21:34:41 suraj-desktop capture: frame 28:
+Mar 24 21:34:41 suraj-desktop capture: Transformation duration: 0.025054 s, Frame rate: 39.913294 FPS, for frame 28
+Mar 24 21:34:41 suraj-desktop capture: Write back duration: 0.002178 s, Frame rate: 459.144623 FPS, for frame 28
+Mar 24 21:34:41 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:41 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:41 suraj-desktop capture: SIMPCAP: read at 2.197803, @ 13.194993 FPS
+Mar 24 21:34:41 suraj-desktop capture: Acquision duration: 0.000007 s, Frame rate: 39.913294 FPS, for frame 28
+Mar 24 21:34:41 suraj-desktop capture: frame 29:
+Mar 24 21:34:41 suraj-desktop capture: Transformation duration: 0.025029 s, Frame rate: 39.953577 FPS, for frame 29
+Mar 24 21:34:41 suraj-desktop capture: Write back duration: 0.002214 s, Frame rate: 451.734026 FPS, for frame 29
+Mar 24 21:34:41 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:41 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:41 suraj-desktop capture: SIMPCAP: read at 2.273749, @ 13.194068 FPS
+Mar 24 21:34:41 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.953577 FPS, for frame 29
+Mar 24 21:34:41 suraj-desktop capture: frame 30:
+Mar 24 21:34:41 suraj-desktop capture: Transformation duration: 0.025179 s, Frame rate: 39.715888 FPS, for frame 30
+Mar 24 21:34:41 suraj-desktop capture: Write back duration: 0.002196 s, Frame rate: 455.365941 FPS, for frame 30
+Mar 24 21:34:41 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:41 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:41 suraj-desktop capture: SIMPCAP: read at 2.350494, @ 13.188718 FPS
+Mar 24 21:34:41 suraj-desktop capture: Acquision duration: 0.000007 s, Frame rate: 39.715888 FPS, for frame 30
+Mar 24 21:34:41 suraj-desktop capture: frame 31:
+Mar 24 21:34:41 suraj-desktop capture: Transformation duration: 0.025027 s, Frame rate: 39.956320 FPS, for frame 31
+Mar 24 21:34:41 suraj-desktop capture: Write back duration: 0.002197 s, Frame rate: 455.257933 FPS, for frame 31
+Mar 24 21:34:41 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:41 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:41 suraj-desktop capture: SIMPCAP: read at 2.426877, @ 13.185671 FPS
+Mar 24 21:34:41 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 39.956320 FPS, for frame 31
+Mar 24 21:34:41 suraj-desktop capture: frame 32:
+Mar 24 21:34:41 suraj-desktop capture: Transformation duration: 0.025161 s, Frame rate: 39.744088 FPS, for frame 32
+Mar 24 21:34:41 suraj-desktop capture: Write back duration: 0.002198 s, Frame rate: 455.052838 FPS, for frame 32
+Mar 24 21:34:41 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:41 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:41 suraj-desktop capture: SIMPCAP: read at 2.503403, @ 13.182059 FPS
+Mar 24 21:34:41 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 39.744088 FPS, for frame 32
+Mar 24 21:34:41 suraj-desktop capture: frame 33:
+Mar 24 21:34:41 suraj-desktop capture: Transformation duration: 0.025026 s, Frame rate: 39.957734 FPS, for frame 33
+Mar 24 21:34:41 suraj-desktop capture: Write back duration: 0.002281 s, Frame rate: 438.377303 FPS, for frame 33
+Mar 24 21:34:41 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:41 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:41 suraj-desktop capture: SIMPCAP: read at 2.579767, @ 13.179484 FPS
+Mar 24 21:34:41 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 39.957734 FPS, for frame 33
+Mar 24 21:34:41 suraj-desktop capture: frame 34:
+Mar 24 21:34:42 suraj-desktop capture: Transformation duration: 0.025035 s, Frame rate: 39.944681 FPS, for frame 34
+Mar 24 21:34:42 suraj-desktop capture: Write back duration: 0.002382 s, Frame rate: 419.856879 FPS, for frame 34
+Mar 24 21:34:42 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:42 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:42 suraj-desktop capture: SIMPCAP: read at 2.656137, @ 13.177031 FPS
+Mar 24 21:34:42 suraj-desktop capture: Acquision duration: 0.000007 s, Frame rate: 39.944681 FPS, for frame 34
+Mar 24 21:34:42 suraj-desktop capture: frame 35:
+Mar 24 21:34:42 suraj-desktop capture: Transformation duration: 0.025130 s, Frame rate: 39.792522 FPS, for frame 35
+Mar 24 21:34:42 suraj-desktop capture: Write back duration: 0.002243 s, Frame rate: 445.766290 FPS, for frame 35
+Mar 24 21:34:42 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:42 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:42 suraj-desktop capture: SIMPCAP: read at 2.732485, @ 13.174822 FPS
+Mar 24 21:34:42 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.792522 FPS, for frame 35
+Mar 24 21:34:42 suraj-desktop capture: frame 36:
+Mar 24 21:34:42 suraj-desktop capture: Transformation duration: 0.025031 s, Frame rate: 39.949917 FPS, for frame 36
+Mar 24 21:34:42 suraj-desktop capture: Write back duration: 0.002226 s, Frame rate: 449.229033 FPS, for frame 36
+Mar 24 21:34:42 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:42 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:42 suraj-desktop capture: SIMPCAP: read at 2.808622, @ 13.173720 FPS
+Mar 24 21:34:42 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.949917 FPS, for frame 36
+Mar 24 21:34:42 suraj-desktop capture: frame 37:
+Mar 24 21:34:42 suraj-desktop capture: Transformation duration: 0.025035 s, Frame rate: 39.944764 FPS, for frame 37
+Mar 24 21:34:42 suraj-desktop capture: Write back duration: 0.002251 s, Frame rate: 444.250356 FPS, for frame 37
+Mar 24 21:34:42 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:42 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:42 suraj-desktop capture: SIMPCAP: read at 2.884753, @ 13.172703 FPS
+Mar 24 21:34:42 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.944764 FPS, for frame 37
+Mar 24 21:34:42 suraj-desktop capture: frame 38:
+Mar 24 21:34:42 suraj-desktop capture: Transformation duration: 0.025030 s, Frame rate: 39.951829 FPS, for frame 38
+Mar 24 21:34:42 suraj-desktop capture: Write back duration: 0.002215 s, Frame rate: 451.415300 FPS, for frame 38
+Mar 24 21:34:42 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:42 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:42 suraj-desktop capture: SIMPCAP: read at 2.960721, @ 13.172467 FPS
+Mar 24 21:34:42 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.951829 FPS, for frame 38
+Mar 24 21:34:42 suraj-desktop capture: frame 39:
+Mar 24 21:34:42 suraj-desktop capture: Transformation duration: 0.025038 s, Frame rate: 39.939946 FPS, for frame 39
+Mar 24 21:34:42 suraj-desktop capture: Write back duration: 0.002228 s, Frame rate: 448.788115 FPS, for frame 39
+Mar 24 21:34:42 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:42 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:42 suraj-desktop capture: SIMPCAP: read at 3.036906, @ 13.171300 FPS
+Mar 24 21:34:42 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.939946 FPS, for frame 39
+Mar 24 21:34:42 suraj-desktop capture: frame 40:
+Mar 24 21:34:42 suraj-desktop capture: Transformation duration: 0.025055 s, Frame rate: 39.911800 FPS, for frame 40
+Mar 24 21:34:42 suraj-desktop capture: Write back duration: 0.002220 s, Frame rate: 450.462219 FPS, for frame 40
+Mar 24 21:34:42 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:42 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:42 suraj-desktop capture: SIMPCAP: read at 3.113016, @ 13.170507 FPS
+Mar 24 21:34:42 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.911800 FPS, for frame 40
+Mar 24 21:34:42 suraj-desktop capture: frame 41:
+Mar 24 21:34:42 suraj-desktop capture: Transformation duration: 0.025031 s, Frame rate: 39.950832 FPS, for frame 41
+Mar 24 21:34:42 suraj-desktop capture: Write back duration: 0.002239 s, Frame rate: 446.679031 FPS, for frame 41
+Mar 24 21:34:42 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:42 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:42 suraj-desktop capture: SIMPCAP: read at 3.189035, @ 13.170129 FPS
+Mar 24 21:34:42 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.950832 FPS, for frame 41
+Mar 24 21:34:42 suraj-desktop capture: frame 42:
+Mar 24 21:34:42 suraj-desktop capture: Transformation duration: 0.025034 s, Frame rate: 39.946259 FPS, for frame 42
+Mar 24 21:34:42 suraj-desktop capture: Write back duration: 0.002220 s, Frame rate: 450.388167 FPS, for frame 42
+Mar 24 21:34:42 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:42 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:42 suraj-desktop capture: SIMPCAP: read at 3.265033, @ 13.169850 FPS
+Mar 24 21:34:42 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.946259 FPS, for frame 42
+Mar 24 21:34:42 suraj-desktop capture: frame 43:
+Mar 24 21:34:42 suraj-desktop capture: Transformation duration: 0.025027 s, Frame rate: 39.957484 FPS, for frame 43
+Mar 24 21:34:42 suraj-desktop capture: Write back duration: 0.002230 s, Frame rate: 448.483990 FPS, for frame 43
+Mar 24 21:34:42 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:42 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:42 suraj-desktop capture: SIMPCAP: read at 3.341074, @ 13.169417 FPS
+Mar 24 21:34:42 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.957484 FPS, for frame 43
+Mar 24 21:34:42 suraj-desktop capture: frame 44:
+Mar 24 21:34:42 suraj-desktop capture: Transformation duration: 0.025030 s, Frame rate: 39.951995 FPS, for frame 44
+Mar 24 21:34:42 suraj-desktop capture: Write back duration: 0.002232 s, Frame rate: 448.054971 FPS, for frame 44
+Mar 24 21:34:42 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:42 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:42 suraj-desktop capture: SIMPCAP: read at 3.417049, @ 13.169258 FPS
+Mar 24 21:34:42 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.951995 FPS, for frame 44
+Mar 24 21:34:42 suraj-desktop capture: frame 45:
+Mar 24 21:34:42 suraj-desktop capture: Transformation duration: 0.025059 s, Frame rate: 39.905579 FPS, for frame 45
+Mar 24 21:34:42 suraj-desktop capture: Write back duration: 0.002211 s, Frame rate: 452.308583 FPS, for frame 45
+Mar 24 21:34:42 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:42 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:42 suraj-desktop capture: SIMPCAP: read at 3.493051, @ 13.169005 FPS
+Mar 24 21:34:42 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 39.905579 FPS, for frame 45
+Mar 24 21:34:42 suraj-desktop capture: frame 46:
+Mar 24 21:34:42 suraj-desktop capture: Transformation duration: 0.025331 s, Frame rate: 39.478089 FPS, for frame 46
+Mar 24 21:34:42 suraj-desktop capture: Write back duration: 0.002234 s, Frame rate: 447.678875 FPS, for frame 46
+Mar 24 21:34:42 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:42 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:42 suraj-desktop capture: SIMPCAP: read at 3.569685, @ 13.166429 FPS
+Mar 24 21:34:42 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 39.478089 FPS, for frame 46
+Mar 24 21:34:42 suraj-desktop capture: frame 47:
+Mar 24 21:34:43 suraj-desktop capture: Transformation duration: 0.025127 s, Frame rate: 39.798377 FPS, for frame 47
+Mar 24 21:34:43 suraj-desktop capture: Write back duration: 0.002211 s, Frame rate: 452.330065 FPS, for frame 47
+Mar 24 21:34:43 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:43 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:43 suraj-desktop capture: SIMPCAP: read at 3.645622, @ 13.166478 FPS
+Mar 24 21:34:43 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.798377 FPS, for frame 47
+Mar 24 21:34:43 suraj-desktop capture: frame 48:
+Mar 24 21:34:43 suraj-desktop capture: Transformation duration: 0.025081 s, Frame rate: 39.870027 FPS, for frame 48
+Mar 24 21:34:43 suraj-desktop capture: Write back duration: 0.002235 s, Frame rate: 447.365843 FPS, for frame 48
+Mar 24 21:34:43 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:43 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:43 suraj-desktop capture: SIMPCAP: read at 3.721559, @ 13.166526 FPS
+Mar 24 21:34:43 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.870027 FPS, for frame 48
+Mar 24 21:34:43 suraj-desktop capture: frame 49:
+Mar 24 21:34:43 suraj-desktop capture: Transformation duration: 0.025030 s, Frame rate: 39.951745 FPS, for frame 49
+Mar 24 21:34:43 suraj-desktop capture: Write back duration: 0.002243 s, Frame rate: 445.807824 FPS, for frame 49
+Mar 24 21:34:43 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:43 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:43 suraj-desktop capture: SIMPCAP: read at 3.797776, @ 13.165600 FPS
+Mar 24 21:34:43 suraj-desktop capture: Acquision duration: 0.000007 s, Frame rate: 39.951745 FPS, for frame 49
+Mar 24 21:34:43 suraj-desktop capture: frame 50:
+Mar 24 21:34:43 suraj-desktop capture: Transformation duration: 0.025082 s, Frame rate: 39.869200 FPS, for frame 50
+Mar 24 21:34:43 suraj-desktop capture: Write back duration: 0.002190 s, Frame rate: 456.578682 FPS, for frame 50
+Mar 24 21:34:43 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:43 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:43 suraj-desktop capture: SIMPCAP: read at 3.873946, @ 13.164872 FPS
+Mar 24 21:34:43 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.869200 FPS, for frame 50
+Mar 24 21:34:43 suraj-desktop capture: frame 51:
+Mar 24 21:34:43 suraj-desktop capture: Transformation duration: 0.025048 s, Frame rate: 39.922754 FPS, for frame 51
+Mar 24 21:34:43 suraj-desktop capture: Write back duration: 0.002198 s, Frame rate: 455.053046 FPS, for frame 51
+Mar 24 21:34:43 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:43 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:43 suraj-desktop capture: SIMPCAP: read at 3.949994, @ 13.164577 FPS
+Mar 24 21:34:43 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 39.922754 FPS, for frame 51
+Mar 24 21:34:43 suraj-desktop capture: frame 52:
+Mar 24 21:34:43 suraj-desktop capture: Transformation duration: 0.025162 s, Frame rate: 39.742687 FPS, for frame 52
+Mar 24 21:34:43 suraj-desktop capture: Write back duration: 0.002204 s, Frame rate: 453.773009 FPS, for frame 52
+Mar 24 21:34:43 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:43 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:43 suraj-desktop capture: SIMPCAP: read at 4.025519, @ 13.166003 FPS
+Mar 24 21:34:43 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.742687 FPS, for frame 52
+Mar 24 21:34:43 suraj-desktop capture: frame 53:
+Mar 24 21:34:43 suraj-desktop capture: Transformation duration: 0.025045 s, Frame rate: 39.927984 FPS, for frame 53
+Mar 24 21:34:43 suraj-desktop capture: Write back duration: 0.002120 s, Frame rate: 471.595119 FPS, for frame 53
+Mar 24 21:34:43 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:43 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:43 suraj-desktop capture: SIMPCAP: read at 4.101288, @ 13.166594 FPS
+Mar 24 21:34:43 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 39.927984 FPS, for frame 53
+Mar 24 21:34:43 suraj-desktop capture: frame 54:
+Mar 24 21:34:43 suraj-desktop capture: Transformation duration: 0.025041 s, Frame rate: 39.934047 FPS, for frame 54
+Mar 24 21:34:43 suraj-desktop capture: Write back duration: 0.002250 s, Frame rate: 444.425087 FPS, for frame 54
+Mar 24 21:34:43 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:43 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:43 suraj-desktop capture: SIMPCAP: read at 4.177227, @ 13.166628 FPS
+Mar 24 21:34:43 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 39.934047 FPS, for frame 54
+Mar 24 21:34:43 suraj-desktop capture: frame 55:
+Mar 24 21:34:43 suraj-desktop capture: Transformation duration: 0.025041 s, Frame rate: 39.934212 FPS, for frame 55
+Mar 24 21:34:43 suraj-desktop capture: Write back duration: 0.002239 s, Frame rate: 446.720535 FPS, for frame 55
+Mar 24 21:34:43 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:43 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:43 suraj-desktop capture: SIMPCAP: read at 4.253169, @ 13.166652 FPS
+Mar 24 21:34:43 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.934212 FPS, for frame 55
+Mar 24 21:34:43 suraj-desktop capture: frame 56:
+Mar 24 21:34:43 suraj-desktop capture: Transformation duration: 0.025037 s, Frame rate: 39.941441 FPS, for frame 56
+Mar 24 21:34:43 suraj-desktop capture: Write back duration: 0.002226 s, Frame rate: 449.239527 FPS, for frame 56
+Mar 24 21:34:43 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:43 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:43 suraj-desktop capture: SIMPCAP: read at 4.329074, @ 13.166789 FPS
+Mar 24 21:34:43 suraj-desktop capture: Acquision duration: 0.000007 s, Frame rate: 39.941441 FPS, for frame 56
+Mar 24 21:34:43 suraj-desktop capture: frame 57:
+Mar 24 21:34:43 suraj-desktop capture: Transformation duration: 0.025146 s, Frame rate: 39.768123 FPS, for frame 57
+Mar 24 21:34:43 suraj-desktop capture: Write back duration: 0.002121 s, Frame rate: 471.398153 FPS, for frame 57
+Mar 24 21:34:43 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:43 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:43 suraj-desktop capture: SIMPCAP: read at 4.405285, @ 13.166005 FPS
+Mar 24 21:34:43 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.768123 FPS, for frame 57
+Mar 24 21:34:43 suraj-desktop capture: frame 58:
+Mar 24 21:34:43 suraj-desktop capture: Transformation duration: 0.025038 s, Frame rate: 39.939197 FPS, for frame 58
+Mar 24 21:34:43 suraj-desktop capture: Write back duration: 0.002202 s, Frame rate: 454.073631 FPS, for frame 58
+Mar 24 21:34:43 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:43 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:43 suraj-desktop capture: SIMPCAP: read at 4.481188, @ 13.166152 FPS
+Mar 24 21:34:43 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.939197 FPS, for frame 58
+Mar 24 21:34:43 suraj-desktop capture: frame 59:
+Mar 24 21:34:43 suraj-desktop capture: Transformation duration: 0.025034 s, Frame rate: 39.945013 FPS, for frame 59
+Mar 24 21:34:43 suraj-desktop capture: Write back duration: 0.002217 s, Frame rate: 451.012591 FPS, for frame 59
+Mar 24 21:34:43 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:43 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:43 suraj-desktop capture: SIMPCAP: read at 4.557125, @ 13.166195 FPS
+Mar 24 21:34:43 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.945013 FPS, for frame 59
+Mar 24 21:34:43 suraj-desktop capture: frame 60:
+Mar 24 21:34:44 suraj-desktop capture: Transformation duration: 0.024911 s, Frame rate: 40.142525 FPS, for frame 60
+Mar 24 21:34:44 suraj-desktop capture: Write back duration: 0.002235 s, Frame rate: 447.418084 FPS, for frame 60
+Mar 24 21:34:44 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:44 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:44 suraj-desktop capture: SIMPCAP: read at 4.632922, @ 13.166638 FPS
+Mar 24 21:34:44 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 40.142525 FPS, for frame 60
+Mar 24 21:34:44 suraj-desktop capture: frame 61:
+Mar 24 21:34:44 suraj-desktop capture: Transformation duration: 0.025036 s, Frame rate: 39.942851 FPS, for frame 61
+Mar 24 21:34:44 suraj-desktop capture: Write back duration: 0.002220 s, Frame rate: 450.430567 FPS, for frame 61
+Mar 24 21:34:44 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:44 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:44 suraj-desktop capture: SIMPCAP: read at 4.708971, @ 13.166358 FPS
+Mar 24 21:34:44 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 39.942851 FPS, for frame 61
+Mar 24 21:34:44 suraj-desktop capture: frame 62:
+Mar 24 21:34:44 suraj-desktop capture: Transformation duration: 0.025031 s, Frame rate: 39.949667 FPS, for frame 62
+Mar 24 21:34:44 suraj-desktop capture: Write back duration: 0.002278 s, Frame rate: 438.898330 FPS, for frame 62
+Mar 24 21:34:44 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:44 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:44 suraj-desktop capture: SIMPCAP: read at 4.784985, @ 13.166185 FPS
+Mar 24 21:34:44 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.949667 FPS, for frame 62
+Mar 24 21:34:44 suraj-desktop capture: frame 63:
+Mar 24 21:34:44 suraj-desktop capture: Transformation duration: 0.025030 s, Frame rate: 39.952742 FPS, for frame 63
+Mar 24 21:34:44 suraj-desktop capture: Write back duration: 0.002238 s, Frame rate: 446.886830 FPS, for frame 63
+Mar 24 21:34:44 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:44 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:44 suraj-desktop capture: SIMPCAP: read at 4.861215, @ 13.165433 FPS
+Mar 24 21:34:44 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.952742 FPS, for frame 63
+Mar 24 21:34:44 suraj-desktop capture: frame 64:
+Mar 24 21:34:44 suraj-desktop capture: Transformation duration: 0.025040 s, Frame rate: 39.936372 FPS, for frame 64
+Mar 24 21:34:44 suraj-desktop capture: Write back duration: 0.002223 s, Frame rate: 449.828998 FPS, for frame 64
+Mar 24 21:34:44 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:44 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:44 suraj-desktop capture: SIMPCAP: read at 4.937400, @ 13.164824 FPS
+Mar 24 21:34:44 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.936372 FPS, for frame 64
+Mar 24 21:34:44 suraj-desktop capture: frame 65:
+Mar 24 21:34:44 suraj-desktop capture: Transformation duration: 0.025034 s, Frame rate: 39.945677 FPS, for frame 65
+Mar 24 21:34:44 suraj-desktop capture: Write back duration: 0.002272 s, Frame rate: 440.044973 FPS, for frame 65
+Mar 24 21:34:44 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:44 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:44 suraj-desktop capture: SIMPCAP: read at 5.013302, @ 13.164977 FPS
+Mar 24 21:34:44 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 39.945677 FPS, for frame 65
+Mar 24 21:34:44 suraj-desktop capture: frame 66:
+Mar 24 21:34:44 suraj-desktop capture: Transformation duration: 0.025038 s, Frame rate: 39.939444 FPS, for frame 66
+Mar 24 21:34:44 suraj-desktop capture: Write back duration: 0.002217 s, Frame rate: 451.065484 FPS, for frame 66
+Mar 24 21:34:44 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:44 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:44 suraj-desktop capture: SIMPCAP: read at 5.089240, @ 13.165030 FPS
+Mar 24 21:34:44 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 39.939444 FPS, for frame 66
+Mar 24 21:34:44 suraj-desktop capture: frame 67:
+Mar 24 21:34:44 suraj-desktop capture: Transformation duration: 0.025033 s, Frame rate: 39.946840 FPS, for frame 67
+Mar 24 21:34:44 suraj-desktop capture: Write back duration: 0.002231 s, Frame rate: 448.222261 FPS, for frame 67
+Mar 24 21:34:44 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:44 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:44 suraj-desktop capture: SIMPCAP: read at 5.165176, @ 13.165087 FPS
+Mar 24 21:34:44 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.946840 FPS, for frame 67
+Mar 24 21:34:44 suraj-desktop capture: frame 68:
+Mar 24 21:34:44 suraj-desktop capture: Transformation duration: 0.025027 s, Frame rate: 39.956068 FPS, for frame 68
+Mar 24 21:34:44 suraj-desktop capture: Write back duration: 0.002251 s, Frame rate: 444.311941 FPS, for frame 68
+Mar 24 21:34:44 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:44 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:44 suraj-desktop capture: SIMPCAP: read at 5.241144, @ 13.165065 FPS
+Mar 24 21:34:44 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 39.956068 FPS, for frame 68
+Mar 24 21:34:44 suraj-desktop capture: frame 69:
+Mar 24 21:34:44 suraj-desktop capture: Transformation duration: 0.025035 s, Frame rate: 39.944429 FPS, for frame 69
+Mar 24 21:34:44 suraj-desktop capture: Write back duration: 0.002246 s, Frame rate: 445.311515 FPS, for frame 69
+Mar 24 21:34:44 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:44 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:44 suraj-desktop capture: SIMPCAP: read at 5.317118, @ 13.165027 FPS
+Mar 24 21:34:44 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.944429 FPS, for frame 69
+Mar 24 21:34:44 suraj-desktop capture: frame 70:
+Mar 24 21:34:44 suraj-desktop capture: Transformation duration: 0.025036 s, Frame rate: 39.941771 FPS, for frame 70
+Mar 24 21:34:44 suraj-desktop capture: Write back duration: 0.002226 s, Frame rate: 449.155587 FPS, for frame 70
+Mar 24 21:34:44 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:44 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:44 suraj-desktop capture: SIMPCAP: read at 5.392981, @ 13.165261 FPS
+Mar 24 21:34:44 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.941771 FPS, for frame 70
+Mar 24 21:34:44 suraj-desktop capture: frame 71:
+Mar 24 21:34:44 suraj-desktop capture: Transformation duration: 0.025080 s, Frame rate: 39.872097 FPS, for frame 71
+Mar 24 21:34:44 suraj-desktop capture: Write back duration: 0.002136 s, Frame rate: 468.202496 FPS, for frame 71
+Mar 24 21:34:44 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:44 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:44 suraj-desktop capture: SIMPCAP: read at 5.468868, @ 13.165431 FPS
+Mar 24 21:34:44 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 39.872097 FPS, for frame 71
+Mar 24 21:34:44 suraj-desktop capture: frame 72:
+Mar 24 21:34:44 suraj-desktop capture: Transformation duration: 0.025037 s, Frame rate: 39.940275 FPS, for frame 72
+Mar 24 21:34:44 suraj-desktop capture: Write back duration: 0.002247 s, Frame rate: 445.084377 FPS, for frame 72
+Mar 24 21:34:44 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:44 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:44 suraj-desktop capture: SIMPCAP: read at 5.544166, @ 13.166995 FPS
+Mar 24 21:34:44 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 39.940275 FPS, for frame 72
+Mar 24 21:34:44 suraj-desktop capture: frame 73:
+Mar 24 21:34:44 suraj-desktop capture: Transformation duration: 0.025047 s, Frame rate: 39.925159 FPS, for frame 73
+Mar 24 21:34:44 suraj-desktop capture: Write back duration: 0.002189 s, Frame rate: 456.926457 FPS, for frame 73
+Mar 24 21:34:44 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:44 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:45 suraj-desktop capture: SIMPCAP: read at 5.619354, @ 13.168773 FPS
+Mar 24 21:34:45 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 39.925159 FPS, for frame 73
+Mar 24 21:34:45 suraj-desktop capture: frame 74:
+Mar 24 21:34:45 suraj-desktop capture: Transformation duration: 0.025063 s, Frame rate: 39.898692 FPS, for frame 74
+Mar 24 21:34:45 suraj-desktop capture: Write back duration: 0.002192 s, Frame rate: 456.144864 FPS, for frame 74
+Mar 24 21:34:45 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:45 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:45 suraj-desktop capture: SIMPCAP: read at 5.695186, @ 13.169017 FPS
+Mar 24 21:34:45 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.898692 FPS, for frame 74
+Mar 24 21:34:45 suraj-desktop capture: frame 75:
+Mar 24 21:34:45 suraj-desktop capture: Transformation duration: 0.025035 s, Frame rate: 39.943432 FPS, for frame 75
+Mar 24 21:34:45 suraj-desktop capture: Write back duration: 0.002212 s, Frame rate: 452.159491 FPS, for frame 75
+Mar 24 21:34:45 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:45 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:45 suraj-desktop capture: SIMPCAP: read at 5.771449, @ 13.168269 FPS
+Mar 24 21:34:45 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 39.943432 FPS, for frame 75
+Mar 24 21:34:45 suraj-desktop capture: frame 76:
+Mar 24 21:34:45 suraj-desktop capture: Transformation duration: 0.025045 s, Frame rate: 39.928231 FPS, for frame 76
+Mar 24 21:34:45 suraj-desktop capture: Write back duration: 0.002237 s, Frame rate: 446.970124 FPS, for frame 76
+Mar 24 21:34:45 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:45 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:45 suraj-desktop capture: SIMPCAP: read at 5.847714, @ 13.167539 FPS
+Mar 24 21:34:45 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.928231 FPS, for frame 76
+Mar 24 21:34:45 suraj-desktop capture: frame 77:
+Mar 24 21:34:45 suraj-desktop capture: Transformation duration: 0.025042 s, Frame rate: 39.932135 FPS, for frame 77
+Mar 24 21:34:45 suraj-desktop capture: Write back duration: 0.002262 s, Frame rate: 442.010440 FPS, for frame 77
+Mar 24 21:34:45 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:45 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:45 suraj-desktop capture: SIMPCAP: read at 5.924058, @ 13.166651 FPS
+Mar 24 21:34:45 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.932135 FPS, for frame 77
+Mar 24 21:34:45 suraj-desktop capture: frame 78:
+Mar 24 21:34:45 suraj-desktop capture: Transformation duration: 0.025042 s, Frame rate: 39.933629 FPS, for frame 78
+Mar 24 21:34:45 suraj-desktop capture: Write back duration: 0.002255 s, Frame rate: 443.480613 FPS, for frame 78
+Mar 24 21:34:45 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:45 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:45 suraj-desktop capture: SIMPCAP: read at 6.000170, @ 13.166294 FPS
+Mar 24 21:34:45 suraj-desktop capture: Acquision duration: 0.000007 s, Frame rate: 39.933629 FPS, for frame 78
+Mar 24 21:34:45 suraj-desktop capture: frame 79:
+Mar 24 21:34:45 suraj-desktop capture: Transformation duration: 0.025150 s, Frame rate: 39.761039 FPS, for frame 79
+Mar 24 21:34:45 suraj-desktop capture: Write back duration: 0.002244 s, Frame rate: 445.569855 FPS, for frame 79
+Mar 24 21:34:45 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:45 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:45 suraj-desktop capture: SIMPCAP: read at 6.076417, @ 13.165653 FPS
+Mar 24 21:34:45 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.761039 FPS, for frame 79
+Mar 24 21:34:45 suraj-desktop capture: frame 80:
+Mar 24 21:34:45 suraj-desktop capture: Transformation duration: 0.025033 s, Frame rate: 39.946839 FPS, for frame 80
+Mar 24 21:34:45 suraj-desktop capture: Write back duration: 0.002228 s, Frame rate: 448.882597 FPS, for frame 80
+Mar 24 21:34:45 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:45 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:45 suraj-desktop capture: SIMPCAP: read at 6.152469, @ 13.165447 FPS
+Mar 24 21:34:45 suraj-desktop capture: Acquision duration: 0.000007 s, Frame rate: 39.946839 FPS, for frame 80
+Mar 24 21:34:45 suraj-desktop capture: frame 81:
+Mar 24 21:34:45 suraj-desktop capture: Transformation duration: 0.025030 s, Frame rate: 39.951328 FPS, for frame 81
+Mar 24 21:34:45 suraj-desktop capture: Write back duration: 0.002222 s, Frame rate: 450.071539 FPS, for frame 81
+Mar 24 21:34:45 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:45 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:45 suraj-desktop capture: SIMPCAP: read at 6.228526, @ 13.165234 FPS
+Mar 24 21:34:45 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.951328 FPS, for frame 81
+Mar 24 21:34:45 suraj-desktop capture: frame 82:
+Mar 24 21:34:45 suraj-desktop capture: Transformation duration: 0.025036 s, Frame rate: 39.942850 FPS, for frame 82
+Mar 24 21:34:45 suraj-desktop capture: Write back duration: 0.002357 s, Frame rate: 424.207485 FPS, for frame 82
+Mar 24 21:34:45 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:45 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:45 suraj-desktop capture: SIMPCAP: read at 6.304683, @ 13.164817 FPS
+Mar 24 21:34:45 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.942850 FPS, for frame 82
+Mar 24 21:34:45 suraj-desktop capture: frame 83:
+Mar 24 21:34:45 suraj-desktop capture: Transformation duration: 0.025037 s, Frame rate: 39.940940 FPS, for frame 83
+Mar 24 21:34:45 suraj-desktop capture: Write back duration: 0.002237 s, Frame rate: 447.053448 FPS, for frame 83
+Mar 24 21:34:45 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:45 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:45 suraj-desktop capture: SIMPCAP: read at 6.380635, @ 13.164833 FPS
+Mar 24 21:34:45 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.940940 FPS, for frame 83
+Mar 24 21:34:45 suraj-desktop capture: frame 84:
+Mar 24 21:34:45 suraj-desktop capture: Transformation duration: 0.025034 s, Frame rate: 39.945261 FPS, for frame 84
+Mar 24 21:34:45 suraj-desktop capture: Write back duration: 0.002242 s, Frame rate: 446.056393 FPS, for frame 84
+Mar 24 21:34:45 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:45 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:45 suraj-desktop capture: SIMPCAP: read at 6.456674, @ 13.164673 FPS
+Mar 24 21:34:45 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.945261 FPS, for frame 84
+Mar 24 21:34:45 suraj-desktop capture: frame 85:
+Mar 24 21:34:45 suraj-desktop capture: Transformation duration: 0.025036 s, Frame rate: 39.942685 FPS, for frame 85
+Mar 24 21:34:45 suraj-desktop capture: Write back duration: 0.002290 s, Frame rate: 436.742061 FPS, for frame 85
+Mar 24 21:34:45 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:45 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:45 suraj-desktop capture: SIMPCAP: read at 6.533207, @ 13.163521 FPS
+Mar 24 21:34:45 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 39.942685 FPS, for frame 85
+Mar 24 21:34:45 suraj-desktop capture: frame 86:
+Mar 24 21:34:45 suraj-desktop capture: Transformation duration: 0.025032 s, Frame rate: 39.948751 FPS, for frame 86
+Mar 24 21:34:45 suraj-desktop capture: Write back duration: 0.002220 s, Frame rate: 450.356525 FPS, for frame 86
+Mar 24 21:34:45 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:45 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:46 suraj-desktop capture: SIMPCAP: read at 6.609421, @ 13.163030 FPS
+Mar 24 21:34:46 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.948751 FPS, for frame 86
+Mar 24 21:34:46 suraj-desktop capture: frame 87:
+Mar 24 21:34:46 suraj-desktop capture: Transformation duration: 0.025032 s, Frame rate: 39.949082 FPS, for frame 87
+Mar 24 21:34:46 suraj-desktop capture: Write back duration: 0.002229 s, Frame rate: 448.641133 FPS, for frame 87
+Mar 24 21:34:46 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:46 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:46 suraj-desktop capture: SIMPCAP: read at 6.685576, @ 13.162665 FPS
+Mar 24 21:34:46 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.949082 FPS, for frame 87
+Mar 24 21:34:46 suraj-desktop capture: frame 88:
+Mar 24 21:34:46 suraj-desktop capture: Transformation duration: 0.025048 s, Frame rate: 39.923000 FPS, for frame 88
+Mar 24 21:34:46 suraj-desktop capture: Write back duration: 0.002236 s, Frame rate: 447.240793 FPS, for frame 88
+Mar 24 21:34:46 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:46 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:46 suraj-desktop capture: SIMPCAP: read at 6.761487, @ 13.162784 FPS
+Mar 24 21:34:46 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.923000 FPS, for frame 88
+Mar 24 21:34:46 suraj-desktop capture: frame 89:
+Mar 24 21:34:46 suraj-desktop capture: Transformation duration: 0.025024 s, Frame rate: 39.961139 FPS, for frame 89
+Mar 24 21:34:46 suraj-desktop capture: Write back duration: 0.002256 s, Frame rate: 443.275969 FPS, for frame 89
+Mar 24 21:34:46 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:46 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:46 suraj-desktop capture: SIMPCAP: read at 6.837419, @ 13.162862 FPS
+Mar 24 21:34:46 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.961139 FPS, for frame 89
+Mar 24 21:34:46 suraj-desktop capture: frame 90:
+Mar 24 21:34:46 suraj-desktop capture: Transformation duration: 0.025034 s, Frame rate: 39.945178 FPS, for frame 90
+Mar 24 21:34:46 suraj-desktop capture: Write back duration: 0.002223 s, Frame rate: 449.881614 FPS, for frame 90
+Mar 24 21:34:46 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:46 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:46 suraj-desktop capture: SIMPCAP: read at 6.913311, @ 13.163014 FPS
+Mar 24 21:34:46 suraj-desktop capture: Acquision duration: 0.000007 s, Frame rate: 39.945178 FPS, for frame 90
+Mar 24 21:34:46 suraj-desktop capture: frame 91:
+Mar 24 21:34:46 suraj-desktop capture: Transformation duration: 0.025589 s, Frame rate: 39.079296 FPS, for frame 91
+Mar 24 21:34:46 suraj-desktop capture: Write back duration: 0.002187 s, Frame rate: 457.176714 FPS, for frame 91
+Mar 24 21:34:46 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:46 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:46 suraj-desktop capture: SIMPCAP: read at 6.989780, @ 13.162075 FPS
+Mar 24 21:34:46 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 39.079296 FPS, for frame 91
+Mar 24 21:34:46 suraj-desktop capture: frame 92:
+Mar 24 21:34:46 suraj-desktop capture: Transformation duration: 0.025064 s, Frame rate: 39.898444 FPS, for frame 92
+Mar 24 21:34:46 suraj-desktop capture: Write back duration: 0.002216 s, Frame rate: 451.362324 FPS, for frame 92
+Mar 24 21:34:46 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:46 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:46 suraj-desktop capture: SIMPCAP: read at 7.066269, @ 13.161117 FPS
+Mar 24 21:34:46 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.898444 FPS, for frame 92
+Mar 24 21:34:46 suraj-desktop capture: frame 93:
+Mar 24 21:34:46 suraj-desktop capture: Transformation duration: 0.025047 s, Frame rate: 39.925325 FPS, for frame 93
+Mar 24 21:34:46 suraj-desktop capture: Write back duration: 0.002226 s, Frame rate: 449.197352 FPS, for frame 93
+Mar 24 21:34:46 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:46 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:46 suraj-desktop capture: SIMPCAP: read at 7.142731, @ 13.160232 FPS
+Mar 24 21:34:46 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.925325 FPS, for frame 93
+Mar 24 21:34:46 suraj-desktop capture: frame 94:
+Mar 24 21:34:46 suraj-desktop capture: Transformation duration: 0.025032 s, Frame rate: 39.948419 FPS, for frame 94
+Mar 24 21:34:46 suraj-desktop capture: Write back duration: 0.002205 s, Frame rate: 453.515973 FPS, for frame 94
+Mar 24 21:34:46 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:46 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:46 suraj-desktop capture: SIMPCAP: read at 7.219077, @ 13.159577 FPS
+Mar 24 21:34:46 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.948419 FPS, for frame 94
+Mar 24 21:34:46 suraj-desktop capture: frame 95:
+Mar 24 21:34:46 suraj-desktop capture: Transformation duration: 0.025033 s, Frame rate: 39.947254 FPS, for frame 95
+Mar 24 21:34:46 suraj-desktop capture: Write back duration: 0.002183 s, Frame rate: 457.983453 FPS, for frame 95
+Mar 24 21:34:46 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:46 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:46 suraj-desktop capture: SIMPCAP: read at 7.295337, @ 13.159090 FPS
+Mar 24 21:34:46 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.947254 FPS, for frame 95
+Mar 24 21:34:46 suraj-desktop capture: frame 96:
+Mar 24 21:34:46 suraj-desktop capture: Transformation duration: 0.025036 s, Frame rate: 39.942019 FPS, for frame 96
+Mar 24 21:34:46 suraj-desktop capture: Write back duration: 0.002250 s, Frame rate: 444.425087 FPS, for frame 96
+Mar 24 21:34:46 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:46 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:46 suraj-desktop capture: SIMPCAP: read at 7.371646, @ 13.158526 FPS
+Mar 24 21:34:46 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.942019 FPS, for frame 96
+Mar 24 21:34:46 suraj-desktop capture: frame 97:
+Mar 24 21:34:46 suraj-desktop capture: Transformation duration: 0.025034 s, Frame rate: 39.945924 FPS, for frame 97
+Mar 24 21:34:46 suraj-desktop capture: Write back duration: 0.002215 s, Frame rate: 451.542696 FPS, for frame 97
+Mar 24 21:34:46 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:46 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:46 suraj-desktop capture: SIMPCAP: read at 7.447834, @ 13.158188 FPS
+Mar 24 21:34:46 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.945924 FPS, for frame 97
+Mar 24 21:34:46 suraj-desktop capture: frame 98:
+Mar 24 21:34:46 suraj-desktop capture: Transformation duration: 0.025042 s, Frame rate: 39.933378 FPS, for frame 98
+Mar 24 21:34:46 suraj-desktop capture: Write back duration: 0.002249 s, Frame rate: 444.630794 FPS, for frame 98
+Mar 24 21:34:46 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:46 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:46 suraj-desktop capture: SIMPCAP: read at 7.524029, @ 13.157843 FPS
+Mar 24 21:34:46 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.933378 FPS, for frame 98
+Mar 24 21:34:46 suraj-desktop capture: frame 99:
+Mar 24 21:34:46 suraj-desktop capture: Transformation duration: 0.025034 s, Frame rate: 39.946422 FPS, for frame 99
+Mar 24 21:34:46 suraj-desktop capture: Write back duration: 0.002220 s, Frame rate: 450.525538 FPS, for frame 99
+Mar 24 21:34:46 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:46 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:47 suraj-desktop capture: SIMPCAP: read at 7.600117, @ 13.157692 FPS
+Mar 24 21:34:47 suraj-desktop capture: Acquision duration: 0.000008 s, Frame rate: 39.946422 FPS, for frame 99
+Mar 24 21:34:47 suraj-desktop capture: frame 100:
+Mar 24 21:34:47 suraj-desktop capture: Transformation duration: 0.025032 s, Frame rate: 39.949414 FPS, for frame 100
+Mar 24 21:34:47 suraj-desktop capture: Write back duration: 0.002163 s, Frame rate: 462.417695 FPS, for frame 100
+Mar 24 21:34:47 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:47 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:47 suraj-desktop capture: SIMPCAP: read at 7.676201, @ 13.157550 FPS
+Mar 24 21:34:47 suraj-desktop capture: Acquision duration: 0.000010 s, Frame rate: 39.949414 FPS, for frame 100
+Mar 24 21:34:47 suraj-desktop capture: frame 101:
+Mar 24 21:34:47 suraj-desktop capture: Transformation duration: 0.025032 s, Frame rate: 39.949333 FPS, for frame 101
+Mar 24 21:34:47 suraj-desktop capture: Write back duration: 0.002198 s, Frame rate: 455.052838 FPS, for frame 101
+Mar 24 21:34:47 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:47 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:47 suraj-desktop capture: SIMPCAP: read at 7.751552, @ 13.158655 FPS
+Mar 24 21:34:47 suraj-desktop capture: Acquision duration: 0.000009 s, Frame rate: 39.949333 FPS, for frame 101
+Mar 24 21:34:47 suraj-desktop capture: frame 102:
+Mar 24 21:34:47 suraj-desktop capture: Transformation duration: 0.026017 s, Frame rate: 38.435766 FPS, for frame 102
+Mar 24 21:34:47 suraj-desktop capture: Write back duration: 0.002232 s, Frame rate: 448.044331 FPS, for frame 102
+Mar 24 21:34:47 suraj-desktop capture: wrote 921600 bytes
+Mar 24 21:34:47 suraj-desktop capture: Dump YUYV converted to RGB size 614400
+Mar 24 21:34:47 suraj-desktop capture: SIMPCAP: read at 7.829243, @ 13.155806 FPS
+Mar 24 21:34:47 suraj-desktop capture: Acquisition -- Total capture time=8.401701 seconds, for 101 frames, Average FPS=12.021375, Lowest FPS=94117.647059
+Mar 24 21:34:47 suraj-desktop capture: Total capture time=7.829287, for 102 frames, 12.900281 average FPS, 13.155806 lowest FPS
+Mar 24 21:34:47 suraj-desktop capture: Transformation -- Total transformation time=4030.264588 seconds, for 102 frames, 35.954615 lowest FPS, Average FPS is 40.302646
+Mar 24 21:34:47 suraj-desktop capture: Write back -- Total Writeback time=45415.186725 seconds, for 102 frames, 385.566399 lowest FPS, Average FPS is 454.151867
