@@ -65,7 +65,7 @@ struct buffer
         void   *start;
         size_t  length;
 };
-#define SAT 255
+
 static char            *dev_name;
 //static enum io_method   io = IO_METHOD_USERPTR;
 //static enum io_method   io = IO_METHOD_READ;
@@ -103,45 +103,33 @@ static int xioctl(int fh, int request, void *arg)
 char ppm_header[]="P6\n#9999999999 sec 9999999999 msec \n"HRES_STR" "VRES_STR"\n255\n";
 char ppm_dumpname[]="frames/test0000.ppm";
 
-static void dump_ppm(const void *p, int size, unsigned int tag, struct timespec *time) {
-    int written, total, dumpfd;
-    double alpha = 1.25;  
-    unsigned char beta = 25;
-    unsigned char *img = (unsigned char *)p;
-    unsigned char transformed_data[size]; // Buffer to hold transformed data
-
-    // Apply brightness transformation to each pixel component
-    for (int i = 0; i < size; i += 3) {
-        for (int j = 0; j < 3; j++) { // Loop over each component of the pixel
-            int pixel_value = img[i + j];
-            int transformed_value = (int)(pixel_value * alpha) + beta;
-            transformed_data[i + j] = transformed_value > SAT ? SAT : transformed_value;
-        }
-    }
-
-    // Create filename using the tag
+static void dump_ppm(const void *p, int size, unsigned int tag, struct timespec *time)
+{
+    int written, i, total, dumpfd;
+   
     snprintf(&ppm_dumpname[11], 9, "%04d", tag);
     strncat(&ppm_dumpname[15], ".ppm", 5);
     dumpfd = open(ppm_dumpname, O_WRONLY | O_NONBLOCK | O_CREAT, 00666);
 
-    // Prepare and write the PPM header
     snprintf(&ppm_header[4], 11, "%010d", (int)time->tv_sec);
     strncat(&ppm_header[14], " sec ", 5);
     snprintf(&ppm_header[19], 11, "%010d", (int)((time->tv_nsec)/1000000));
-    strncat(&ppm_header[29], " msec \n" HRES_STR " " VRES_STR "\n255\n", 19);
-    written = write(dumpfd, ppm_header, strlen(ppm_header)); // Use strlen for the correct length
+    strncat(&ppm_header[29], " msec \n"HRES_STR" "VRES_STR"\n255\n", 19);
+    written=write(dumpfd, ppm_header, sizeof(ppm_header));
 
-    // Write the transformed image data to the file
-    total = 0;
-    do {
-        written = write(dumpfd, transformed_data + total, size - total);
-        total += written;
-    } while (total < size);
+    total=0;
 
-    syslog(LOG_INFO, "wrote %d bytes\n", total);
+    do
+    {
+        written=write(dumpfd, p, size);
+        total+=written;
+    } while(total < size);
+
+    syslog(LOG_INFO,"wrote %d bytes\n", total);
+
     close(dumpfd);
+    
 }
-
 
 
 char pgm_header[]="P5\n#9999999999 sec 9999999999 msec \n"HRES_STR" "VRES_STR"\n255\n";
