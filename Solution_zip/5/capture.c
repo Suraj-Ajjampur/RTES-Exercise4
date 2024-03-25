@@ -140,76 +140,32 @@ char ppm_dumpname[]="frames/test0000.ppm";
  * @param tag An unsigned integer used to generate a unique filename.
  * @param time A pointer to a timespec structure containing the timestamp to be included in the header.
  */
-static void dump_ppm(const void *p, int size, unsigned int tag, struct timespec *time)
-{
+void write_ppm(const unsigned char *transformed_data, int size, unsigned int tag, struct timespec *time) {
     int written, total, dumpfd;
-    double alpha=1.25;  unsigned char beta=25;
-    unsigned char *img = (unsigned char *)p;
-    unsigned char transformed_data[size]; // Buffer to hold transformed data
-
-    if(framecnt == 0)
-        clock_gettime(CLOCK_MONOTONIC, &transform.time_start);
-
-    // Start timing transformation
-    clock_gettime(CLOCK_MONOTONIC, &transform_start);
-
-    // Apply brightness transformation to each pixel component
-    for (int i = 0; i < size; i += 3) {
-        for (int j = 0; j < 3; j++) { // Loop over each component of the pixel
-            int pixel_value = img[i + j];
-            int transformed_value = (int)(pixel_value * alpha) + beta;
-            transformed_data[i + j] = transformed_value > SAT ? SAT : transformed_value;
-        }
-    }
-
-    // End timing transformation
-    clock_gettime(CLOCK_MONOTONIC, &transform_end);
-    // Calculate transformation duration and frame rate
-    transform_duration = (transform_end.tv_sec - transform_start.tv_sec) +
-                         (transform_end.tv_nsec - transform_start.tv_nsec) / 1e9;
-    frame_rate = 1.0 / transform_duration;
-    trans_total +=  frame_rate;
-
-    // Update worst frame rate 
-    if (transform.worst_frame_rate == 0 || frame_rate < transform.worst_frame_rate) {
-        transform.worst_frame_rate = frame_rate;
-    }
-    if(framecnt == CAPTURE_FRAMES)
-        clock_gettime(CLOCK_MONOTONIC, &transform.time_stop);
-
-    // Log transformation time and frame rate
-    syslog(LOG_INFO, "Transformation duration: %lf s, Frame rate: %lf FPS, for frame %d\n", transform_duration, frame_rate, framecnt);
+    char filename[255]; // Buffer for filename
+    char header[1024]; // Buffer for header
 
     // Start timing writeback
     clock_gettime(CLOCK_MONOTONIC, &writeback_start);
 
-    // Create filename using the tag.
-    snprintf(&ppm_dumpname[11], 9, "%04d", tag);
-    strncat(&ppm_dumpname[15], ".ppm", 5);
-    // Open or create the file with write permissions.
-    dumpfd = open(ppm_dumpname, O_WRONLY | O_NONBLOCK | O_CREAT, 00666);
+    // Format the filename and header
+    snprintf(filename, sizeof(filename), "/home/suraj/RTES/RTES-Exercise4/Solution_zip/5/frames/test%04d.ppm", tag);
+    snprintf(header, sizeof(header), "P6\n# timestamp %ld.%ld\n%d %d\n255\n", time->tv_sec, time->tv_nsec, HRES, VRES);
 
-    // Prepare the PPM header including the timestamp and resolution.
-    snprintf(&ppm_header[4], 11, "%010d", (int)time->tv_sec);
-    strncat(&ppm_header[14], " sec ", 5);
-    snprintf(&ppm_header[19], 11, "%010d", (int)((time->tv_nsec)/1000000));
-    strncat(&ppm_header[29], " msec \n"HRES_STR" "VRES_STR"\n255\n", 19);
-    // Write the header to the file, excluding the null terminator.
-    written=write(dumpfd, ppm_header, sizeof(ppm_header));
+    // Open or create the file with write permissions
+    dumpfd = open(filename,O_WRONLY | O_NONBLOCK | O_CREAT, 0666);
+    if (dumpfd < 0) {
+        syslog(LOG_ERR, "Failed to open file for writing: %s", strerror(errno));
+        return;
+    }
 
-    total=0;
+    // Write the header and the image data
+    write(dumpfd, header, strlen(header));
+    total = write(dumpfd, transformed_data, size);
 
-    // Write the image data to the file in chunks until all data is written.
-    do
-    {
-        written=write(dumpfd, transformed_data + total, size-total);
-        total+=written;
-    } while(total < size);
-
-    // End timing writeback
+    // End timing writeback and calculate duration
     clock_gettime(CLOCK_MONOTONIC, &writeback_end);
-    // Calculate write back duration and frame rate
-    writeback_duration = (writeback_end.tv_sec - writeback_start.tv_sec) +
+    writeback_duration = (writeback_end.tv_sec - writeback_start.tv_sec) + 
                          (writeback_end.tv_nsec - writeback_start.tv_nsec) / 1e9;
     writeback_frame_rate = 1.0 / writeback_duration;
     write_back_total += writeback_frame_rate;
@@ -225,8 +181,11 @@ static void dump_ppm(const void *p, int size, unsigned int tag, struct timespec 
         write_back.worst_frame_rate = writeback_frame_rate;
     }
 
+    // Close the file descriptor
     close(dumpfd);
 }
+
+
 
 // This is probably the most acceptable conversion from camera YUYV to RGB
 //
@@ -268,14 +227,58 @@ void yuv2rgb(int y, int u, int v, unsigned char *r, unsigned char *g, unsigned c
    *g = g1 ;
    *b = b1 ;
 }
-
-
-static void process_image(const void *p, int size)
-{
-    int i, newi, newsize=0;
-    struct timespec frame_time;
+void process_and_transform_image(const void *p, int size, unsigned char *transformed_data) {
+    int i, newi;
     int y_temp, y2_temp, u_temp, v_temp;
     unsigned char *pptr = (unsigned char *)p;
+    double alpha = 1.25;
+    unsigned char beta = 25;
+
+    // Start timing processing and transformation
+    clock_gettime(CLOCK_MONOTONIC, &transform_start);
+
+    // Process YUYV to RGB and apply brightness transformation
+    for (i = 0, newi = 0; i < size; i = i + 4, newi = newi + 6) {
+        y_temp = pptr[i];
+        u_temp = pptr[i + 1];
+        y2_temp = pptr[i + 2];
+        v_temp = pptr[i + 3];
+
+        unsigned char r, g, b;
+        yuv2rgb(y_temp, u_temp, v_temp, &r, &g, &b);
+        // Apply brightness transformation
+        transformed_data[newi] = (r * alpha) + beta > SAT ? SAT : (r * alpha) + beta;
+        transformed_data[newi + 1] = (g * alpha) + beta > SAT ? SAT : (g * alpha) + beta;
+        transformed_data[newi + 2] = (b * alpha) + beta > SAT ? SAT : (b * alpha) + beta;
+
+        yuv2rgb(y2_temp, u_temp, v_temp, &r, &g, &b);
+        transformed_data[newi + 3] = (r * alpha) + beta > SAT ? SAT : (r * alpha) + beta;
+        transformed_data[newi + 4] = (g * alpha) + beta > SAT ? SAT : (g * alpha) + beta;
+        transformed_data[newi + 5] = (b * alpha) + beta > SAT ? SAT : (b * alpha) + beta;
+    }
+
+    // End timing transformation
+    clock_gettime(CLOCK_MONOTONIC, &transform_end);
+
+    // Log transformation process
+    transform_duration = (transform_end.tv_sec - transform_start.tv_sec) +
+                         (transform_end.tv_nsec - transform_start.tv_nsec) / 1e9;
+        frame_rate = 1.0 / transform_duration;
+    trans_total +=  frame_rate;
+
+    // Update worst frame rate 
+    if (transform.worst_frame_rate == 0 || frame_rate < transform.worst_frame_rate) {
+        transform.worst_frame_rate = frame_rate;
+    }
+
+    // Log transformation time and frame rate
+    syslog(LOG_INFO, "Transformation duration: %lf s, Frame rate: %lf FPS, for frame %d\n", transform_duration, frame_rate, framecnt);
+}
+
+
+void process_image(const void *p, int size) {
+    struct timespec frame_time;
+    unsigned char transformed_data[(1280*960)*3]; // Adjust size accordingly
 
     // record when process was called
     clock_gettime(CLOCK_REALTIME, &frame_time);    
@@ -283,71 +286,30 @@ static void process_image(const void *p, int size)
     framecnt++;
     syslog(LOG_INFO,"frame %d: ", framecnt);
 
-    if(framecnt == 0) 
-    {
-        clock_gettime(CLOCK_MONOTONIC, &time_start);
-        fstart = (double)time_start.tv_sec + (double)time_start.tv_nsec / 1000000000.0;
-    }
+    // Check for the frame format and process accordingly
+    if(fmt.fmt.pix.pixelformat == V4L2_PIX_FMT_YUYV) {
+        // Start timing for transformation
+        clock_gettime(CLOCK_MONOTONIC, &transform_start);
 
-    // This just dumps the frame to a file now, but you could replace with whatever image
-    // processing you wish.
-    //
+        // Process and transform the image (including YUYV to RGB conversion and brightness adjustment)
+        process_and_transform_image(p, size, transformed_data);
 
-    else if(fmt.fmt.pix.pixelformat == V4L2_PIX_FMT_YUYV)
-    {
+        // End timing for transformation and log
+        clock_gettime(CLOCK_MONOTONIC, &transform_end);
+        transform_duration = (transform_end.tv_sec - transform_start.tv_sec) + 
+                             (transform_end.tv_nsec - transform_start.tv_nsec) / 1e9;
+        syslog(LOG_INFO, "Transformation duration: %lf s for frame %d\n", transform_duration, framecnt);
 
-#if defined(COLOR_CONVERT_RGB)
-       
-        // Pixels are YU and YV alternating, so YUYV which is 4 bytes
-        // We want RGB, so RGBRGB which is 6 bytes
-        //
-        for(i=0, newi=0; i<size; i=i+4, newi=newi+6)
-        {
-            y_temp=(int)pptr[i]; u_temp=(int)pptr[i+1]; y2_temp=(int)pptr[i+2]; v_temp=(int)pptr[i+3];
-            yuv2rgb(y_temp, u_temp, v_temp, &bigbuffer[newi], &bigbuffer[newi+1], &bigbuffer[newi+2]);
-            yuv2rgb(y2_temp, u_temp, v_temp, &bigbuffer[newi+3], &bigbuffer[newi+4], &bigbuffer[newi+5]);
-        }
-
-        if(framecnt > -1) 
-        {
-            dump_ppm(bigbuffer, ((size*6)/4), framecnt, &frame_time);
-            syslog(LOG_INFO,"Dump YUYV converted to RGB size %d\n", size);
-        }
-#else
-       
-        // Pixels are YU and YV alternating, so YUYV which is 4 bytes
-        // We want Y, so YY which is 2 bytes
-        //
-        for(i=0, newi=0; i<size; i=i+4, newi=newi+2)
-        {
-            // Y1=first byte and Y2=third byte
-            bigbuffer[newi]=pptr[i];
-            bigbuffer[newi+1]=pptr[i+2];
-        }
-
-        if(framecnt > -1)
-        {
-            dump_pgm(bigbuffer, (size/2), framecnt, &frame_time);
-            syslog(LOG_INFO,"Dump YUYV converted to YY size %d\n", size);
-        }
-#endif
-
-    }
-
-    else if(fmt.fmt.pix.pixelformat == V4L2_PIX_FMT_RGB24)
-    {
-        printf("Dump RGB as-is size %d\n", size);
-        dump_ppm(p, size, framecnt, &frame_time);
-    }
-    else
-    {
+        // Perform writeback
+        write_ppm(transformed_data, ((size*6)/4), framecnt, &frame_time); // Make sure the size is correct based on the conversion ratio
+    } else {
         printf("ERROR - unknown dump format\n");
     }
 
     fflush(stderr);
-    //fprintf(stderr, ".");
     fflush(stdout);
 }
+
 
 
 static int read_frame(void)
@@ -356,32 +318,7 @@ static int read_frame(void)
     unsigned int i;
 
 
-    switch (io)
-    {
 
-        case IO_METHOD_READ:
-            if (-1 == read(fd, buffers[0].start, buffers[0].length))
-            {
-                switch (errno)
-                {
-
-                    case EAGAIN:
-                        return 0;
-
-                    case EIO:
-                        /* Could ignore EIO, see spec. */
-
-                        /* fall through */
-
-                    default:
-                        errno_exit("read");
-                }
-            }
-
-            process_image(buffers[0].start, buffers[0].length);
-            break;
-
-        case IO_METHOD_MMAP:
             // Start timing transformation
             clock_gettime(CLOCK_MONOTONIC, &acquisition_start);
             CLEAR(buf);
@@ -429,47 +366,8 @@ static int read_frame(void)
 
             if (-1 == xioctl(fd, VIDIOC_QBUF, &buf))
                     errno_exit("VIDIOC_QBUF");
-            break;
-
-        case IO_METHOD_USERPTR:
-            CLEAR(buf);
-
-            buf.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
-            buf.memory = V4L2_MEMORY_USERPTR;
-
-            if (-1 == xioctl(fd, VIDIOC_DQBUF, &buf))
-            {
-                switch (errno)
-                {
-                    case EAGAIN:
-                        return 0;
-
-                    case EIO:
-                        /* Could ignore EIO, see spec. */
-
-                        /* fall through */
-
-                    default:
-                        errno_exit("VIDIOC_DQBUF");
-                }
-            }
-
-            for (i = 0; i < n_buffers; ++i)
-                    if (buf.m.userptr == (unsigned long)buffers[i].start
-                        && buf.length == buffers[i].length)
-                            break;
-
-            assert(i < n_buffers);
-
-            process_image((void *)buf.m.userptr, buf.bytesused);
-
-            if (-1 == xioctl(fd, VIDIOC_QBUF, &buf))
-                    errno_exit("VIDIOC_QBUF");
-            break;
-    }
-
     //printf("R");
-    return 1;
+        return 1;
 }
 
 
@@ -589,18 +487,11 @@ static void stop_capturing(void)
     syslog(LOG_INFO, "Acquisition -- Total capture time=%lf seconds, for %d frames, Average FPS=%lf, Lowest FPS=%lf\n",
         total_acquisition_time, CAPTURE_FRAMES, average_fps, acquisition.worst_frame_rate);
 
-    switch (io) {
-    case IO_METHOD_READ:
-    case IO_METHOD_USERPTR:
-        /* Nothing to do. */
-        break;
 
-    case IO_METHOD_MMAP:
-        type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
-        if (-1 == xioctl(fd, VIDIOC_STREAMOFF, &type))
-            errno_exit("VIDIOC_STREAMOFF");
-        break;
-    }
+    type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
+    if (-1 == xioctl(fd, VIDIOC_STREAMOFF, &type))
+        errno_exit("VIDIOC_STREAMOFF");
+        
 }
 
 static void start_capturing(void)
@@ -611,156 +502,115 @@ static void start_capturing(void)
         acquisition.fstart = (double)acquisition.time_start.tv_sec +
                          (double)acquisition.time_start.tv_nsec / 1e9;
 
-        switch (io) 
+
+        for (i = 0; i < n_buffers; ++i) 
         {
+            syslog(LOG_INFO,"allocated buffer %d\n", i);
+            struct v4l2_buffer buf;
 
-        case IO_METHOD_READ:
-                /* Nothing to do. */
-                break;
+            CLEAR(buf);
+            buf.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
+            buf.memory = V4L2_MEMORY_MMAP;
+            buf.index = i;
 
-        case IO_METHOD_MMAP:
-                for (i = 0; i < n_buffers; ++i) 
-                {
-                        syslog(LOG_INFO,"allocated buffer %d\n", i);
-                        struct v4l2_buffer buf;
-
-                        CLEAR(buf);
-                        buf.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
-                        buf.memory = V4L2_MEMORY_MMAP;
-                        buf.index = i;
-
-                        if (-1 == xioctl(fd, VIDIOC_QBUF, &buf))
-                                errno_exit("VIDIOC_QBUF");
-                }
-                type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
-                if (-1 == xioctl(fd, VIDIOC_STREAMON, &type))
-                        errno_exit("VIDIOC_STREAMON");
-                break;
-
-        case IO_METHOD_USERPTR:
-                for (i = 0; i < n_buffers; ++i) {
-                        struct v4l2_buffer buf;
-
-                        CLEAR(buf);
-                        buf.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
-                        buf.memory = V4L2_MEMORY_USERPTR;
-                        buf.index = i;
-                        buf.m.userptr = (unsigned long)buffers[i].start;
-                        buf.length = buffers[i].length;
-
-                        if (-1 == xioctl(fd, VIDIOC_QBUF, &buf))
-                                errno_exit("VIDIOC_QBUF");
-                }
-                type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
-                if (-1 == xioctl(fd, VIDIOC_STREAMON, &type))
-                        errno_exit("VIDIOC_STREAMON");
-                break;
+            if (-1 == xioctl(fd, VIDIOC_QBUF, &buf))
+                    errno_exit("VIDIOC_QBUF");
         }
+        type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
+        if (-1 == xioctl(fd, VIDIOC_STREAMON, &type))
+        errno_exit("VIDIOC_STREAMON");
 }
 
 static void uninit_device(void)
 {
-        unsigned int i;
+    unsigned int i;
 
-        switch (io) {
-        case IO_METHOD_READ:
-                free(buffers[0].start);
-                break;
-
-        case IO_METHOD_MMAP:
-                for (i = 0; i < n_buffers; ++i)
-                        if (-1 == munmap(buffers[i].start, buffers[i].length))
-                                errno_exit("munmap");
-                break;
-
-        case IO_METHOD_USERPTR:
-                for (i = 0; i < n_buffers; ++i)
-                        free(buffers[i].start);
-                break;
-        }
+    for (i = 0; i < n_buffers; ++i)
+    if (-1 == munmap(buffers[i].start, buffers[i].length))
+            errno_exit("munmap");
 
         free(buffers);
 }
 
 static void init_read(unsigned int buffer_size)
 {
-        buffers = calloc(1, sizeof(*buffers));
+    buffers = calloc(1, sizeof(*buffers));
 
-        if (!buffers) 
-        {
-                fprintf(stderr, "Out of memory\n");
-                exit(EXIT_FAILURE);
-        }
+    if (!buffers) 
+    {
+        fprintf(stderr, "Out of memory\n");
+        exit(EXIT_FAILURE);
+    }
 
-        buffers[0].length = buffer_size;
-        buffers[0].start = malloc(buffer_size);
+    buffers[0].length = buffer_size;
+    buffers[0].start = malloc(buffer_size);
 
-        if (!buffers[0].start) 
-        {
-                fprintf(stderr, "Out of memory\n");
-                exit(EXIT_FAILURE);
-        }
+    if (!buffers[0].start) 
+    {
+        fprintf(stderr, "Out of memory\n");
+        exit(EXIT_FAILURE);
+    }
 }
 
 static void init_mmap(void)
 {
-        struct v4l2_requestbuffers req;
+    struct v4l2_requestbuffers req;
 
-        CLEAR(req);
+    CLEAR(req);
 
-        req.count = 6;
-        req.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
-        req.memory = V4L2_MEMORY_MMAP;
+    req.count = 6;
+    req.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
+    req.memory = V4L2_MEMORY_MMAP;
 
-        if (-1 == xioctl(fd, VIDIOC_REQBUFS, &req)) 
+    if (-1 == xioctl(fd, VIDIOC_REQBUFS, &req)) 
+    {
+        if (EINVAL == errno) 
         {
-                if (EINVAL == errno) 
-                {
-                        fprintf(stderr, "%s does not support "
-                                 "memory mapping\n", dev_name);
-                        exit(EXIT_FAILURE);
-                } else 
-                {
-                        errno_exit("VIDIOC_REQBUFS");
-                }
-        }
-
-        if (req.count < 2) 
+            fprintf(stderr, "%s does not support "
+                    "memory mapping\n", dev_name);
+                    exit(EXIT_FAILURE);
+        } else 
         {
-                fprintf(stderr, "Insufficient buffer memory on %s\n", dev_name);
-                exit(EXIT_FAILURE);
+            errno_exit("VIDIOC_REQBUFS");
         }
+    }
 
-        buffers = calloc(req.count, sizeof(*buffers));
+    if (req.count < 2) 
+    {
+        fprintf(stderr, "Insufficient buffer memory on %s\n", dev_name);
+        exit(EXIT_FAILURE);
+    }
 
-        if (!buffers) 
-        {
-                fprintf(stderr, "Out of memory\n");
-                exit(EXIT_FAILURE);
-        }
+    buffers = calloc(req.count, sizeof(*buffers));
 
-        for (n_buffers = 0; n_buffers < req.count; ++n_buffers) {
-                struct v4l2_buffer buf;
+    if (!buffers) 
+    {
+        fprintf(stderr, "Out of memory\n");
+        exit(EXIT_FAILURE);
+    }
 
-                CLEAR(buf);
+    for (n_buffers = 0; n_buffers < req.count; ++n_buffers) {
+        struct v4l2_buffer buf;
 
-                buf.type        = V4L2_BUF_TYPE_VIDEO_CAPTURE;
-                buf.memory      = V4L2_MEMORY_MMAP;
-                buf.index       = n_buffers;
+        CLEAR(buf);
 
-                if (-1 == xioctl(fd, VIDIOC_QUERYBUF, &buf))
-                        errno_exit("VIDIOC_QUERYBUF");
+        buf.type        = V4L2_BUF_TYPE_VIDEO_CAPTURE;
+        buf.memory      = V4L2_MEMORY_MMAP;
+        buf.index       = n_buffers;
 
-                buffers[n_buffers].length = buf.length;
-                buffers[n_buffers].start =
-                        mmap(NULL /* start anywhere */,
-                              buf.length,
-                              PROT_READ | PROT_WRITE /* required */,
-                              MAP_SHARED /* recommended */,
-                              fd, buf.m.offset);
+        if (-1 == xioctl(fd, VIDIOC_QUERYBUF, &buf))
+            errno_exit("VIDIOC_QUERYBUF");
 
-                if (MAP_FAILED == buffers[n_buffers].start)
-                        errno_exit("mmap");
+        buffers[n_buffers].length = buf.length;
+        buffers[n_buffers].start =
+        mmap(NULL /* start anywhere */,
+            buf.length,
+            PROT_READ | PROT_WRITE /* required */,
+            MAP_SHARED /* recommended */,
+            fd, buf.m.offset);
+
+            if (MAP_FAILED == buffers[n_buffers].start)
+                errno_exit("mmap");
         }
 }
 
@@ -930,20 +780,8 @@ static void init_device(void)
     if (fmt.fmt.pix.sizeimage < min)
             fmt.fmt.pix.sizeimage = min;
 
-    switch (io)
-    {
-        case IO_METHOD_READ:
-            init_read(fmt.fmt.pix.sizeimage);
-            break;
 
-        case IO_METHOD_MMAP:
-            init_mmap();
-            break;
-
-        case IO_METHOD_USERPTR:
-            init_userp(fmt.fmt.pix.sizeimage);
-            break;
-    }
+    init_mmap();
 }
 
 
@@ -1092,10 +930,10 @@ int main(int argc, char **argv)
     double average_transformation_fps = trans_total /(CAPTURE_FRAMES-LAST_FRAMES) ;
     double average_writeback_fps = write_back_total /(CAPTURE_FRAMES-LAST_FRAMES) ;
 
-    syslog(LOG_INFO, "Transformation -- Total transformation time=%lf seconds, for %d frames, %lf lowest FPS, Average FPS is %lf", 
-       trans_total, CAPTURE_FRAMES + 1, transform.worst_frame_rate, average_transformation_fps);
-    syslog(LOG_INFO, "Write back -- Total Writeback time=%lf seconds, for %d frames, %lf lowest FPS, Average FPS is %lf", 
-       write_back_total, CAPTURE_FRAMES + 1, write_back.worst_frame_rate, average_writeback_fps);
+    syslog(LOG_INFO, "Transformation -- %d frames, %lf lowest FPS, Average FPS is %lf", 
+         CAPTURE_FRAMES + 1, transform.worst_frame_rate, average_transformation_fps);
+    syslog(LOG_INFO, "Write back --%d total frames, %lf lowest FPS, Average FPS is %lf", 
+    CAPTURE_FRAMES + 1, write_back.worst_frame_rate, average_writeback_fps);
 
     uninit_device();
     close_device();
