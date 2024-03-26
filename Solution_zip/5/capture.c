@@ -47,7 +47,7 @@
 
 #define START_UP_FRAMES (8)
 #define LAST_FRAMES (1)
-#define CAPTURE_FRAMES (100+LAST_FRAMES)
+#define CAPTURE_FRAMES (1800+LAST_FRAMES)
 #define FRAMES_TO_ACQUIRE (CAPTURE_FRAMES + START_UP_FRAMES + LAST_FRAMES)
 // always ignore first 8 frames
 int framecnt=-8;
@@ -278,7 +278,7 @@ void process_and_transform_image(const void *p, int size, unsigned char *transfo
 
 void process_image(const void *p, int size) {
     struct timespec frame_time;
-    unsigned char transformed_data[(1280*960)*3]; // Adjust size accordingly
+    unsigned char transformed_data[(1280*960)*3]; 
 
     // record when process was called
     clock_gettime(CLOCK_REALTIME, &frame_time);    
@@ -376,7 +376,7 @@ static void mainloop(void)
     // 1 sec for 1 fps
     //
     read_delay.tv_sec=0;
-    read_delay.tv_nsec=33333333;
+    read_delay.tv_nsec=10000000; //changed according to assignment requirements
 
     count = frame_count;
 
